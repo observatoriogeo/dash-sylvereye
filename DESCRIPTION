@@ -1,0 +1,13 @@
+Package: dashSylvereye
+Title: Dash Sylvereye component.
+Version: 0.0.1
+Description: Dash Sylvereye component.
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+License: BSD + file LICENSE
+URL: 
+BugReports: 
+Encoding: UTF-8
+LazyData: true
+KeepSource: true

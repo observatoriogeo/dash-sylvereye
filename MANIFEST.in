@@ -1,0 +1,11 @@
+include dash_sylvereye/dash_sylvereye.min.js
+include dash_sylvereye/dash_sylvereye.min.js.map
+include dash_sylvereye/async-*.js
+include dash_sylvereye/async-*.js.map
+include dash_sylvereye/*-shared.js
+include dash_sylvereye/*-shared.js.map
+include dash_sylvereye/metadata.json
+include dash_sylvereye/package-info.json
+include README.md
+include LICENSE
+include package.json

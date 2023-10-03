@@ -1,0 +1,293 @@
+{
+  "src/lib/components/SylvereyeRoadNetwork.react.js": {
+    "description": "",
+    "displayName": "SylvereyeRoadNetwork",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks"
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The children of this component"
+      },
+      "pane": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The leaflet pane of the component"
+      },
+      "edges_data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Edges data",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "nodes_data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Nodes data",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "node_options": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Node options",
+        "defaultValue": {
+          "value": "{\n    color_method: NodeColorMethod.DEFAULT,\n    size_method: NodeSizeMethod.DEFAULT,\n    alpha_method: NodeAlphaMethod.DEFAULT,\n    visibility_method: NodeVisibilityMethod.ALWAYS,\n    color_default: 0xa10000,\n    size_default: 0.005,\n    alpha_default: 1.0\n}",
+          "computed": false
+        }
+      },
+      "edge_options": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Edge options",
+        "defaultValue": {
+          "value": "{\n    color_method: EdgeColorMethod.DEFAULT,\n    width_method: EdgeWidthMethod.DEFAULT,\n    alpha_method: EdgeAlphaMethod.DEFAULT,\n    visibility_method: EdgeVisibilityMethod.ALWAYS,\n    color_default: 0x06696,\n    width_default: 0.25,\n    alpha_default: 1.0,\n    alpha_min: 0.0,\n    show_edge_hit_polygons: false\n}",
+          "computed": false
+        }
+      },
+      "marker_options": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Marker options",
+        "defaultValue": {
+          "value": "{\n    color_method: MarkerColorMethod.DEFAULT,\n    icon_method: MarkerIconMethod.DEFAULT,\n    size_method: MarkerSizeMethod.DEFAULT,\n    alpha_method: MarkerAlphaMethod.DEFAULT,\n    visibility_method: MarkerVisibilityMethod.ALWAYS,\n    color_default: 0x066cc,\n    size_default: 0.25,\n    size_default_scale_min: 0.25,\n    size_default_scale_max: 0.5,\n    alpha_default: 1.0,\n    enable_tooltips: false,\n    enable_zoom_scaling: false\n}",
+          "computed": false
+        }
+      },
+      "markers_data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Markers data",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "show_arrows": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Show/hide arrows",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "show_edges": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Show/hide edges",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "show_nodes": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Show/hide nodes",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "show_markers": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Show/hide markers"
+      },
+      "debug_options": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Debug options",
+        "defaultValue": {
+          "value": "{\n\n}",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": ""
+      },
+      "clicked_node": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Clicked node",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "clicked_edge": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Clicked edge",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "clicked_marker": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Clicked marker",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "current_state": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Current state"
+      },
+      "map_center": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Map center",
+        "defaultValue": {
+          "value": "[38.64, -90.24]",
+          "computed": false
+        }
+      },
+      "map_zoom": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Map zoom",
+        "defaultValue": {
+          "value": "3",
+          "computed": false
+        }
+      },
+      "map_min_zoom": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Map min zoom",
+        "defaultValue": {
+          "value": "3",
+          "computed": false
+        }
+      },
+      "map_max_zoom": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Map max zoom",
+        "defaultValue": {
+          "value": "20",
+          "computed": false
+        }
+      },
+      "map_style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Map style",
+        "defaultValue": {
+          "value": "{'width': '100%', 'height': '98vh'}",
+          "computed": false
+        }
+      },
+      "tile_layer_url": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Tile layer URL",
+        "defaultValue": {
+          "value": "\"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\"",
+          "computed": false
+        }
+      },
+      "tile_layer_attribution": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Tile layer attribution",
+        "defaultValue": {
+          "value": "'&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors'",
+          "computed": false
+        }
+      },
+      "tile_layer_subdomains": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Tile layer subdomains",
+        "defaultValue": {
+          "value": "\"abc\"",
+          "computed": false
+        }
+      },
+      "tile_layer_opacity": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Tile layer opacity",
+        "defaultValue": {
+          "value": "1.0",
+          "computed": false
+        }
+      }
+    }
+  }
+}
