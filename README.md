@@ -33,7 +33,7 @@ Nodes, edges, and markers are interactive. Dash Sylvereye supports for various c
 
 ## Documentation
 
-Coming soon.
+Dash Sylvereye's homepage and full documentation [can be found here](http://visualizacion.observatoriogeo.mx/sylvereye_docs/web/sylvereye_docs/).
 
 ## Running the examples
 
@@ -87,4 +87,4 @@ npm run build
 
 If you use Dash Sylvereye in your work, please cite the following article:
 
-Garcia-Robledo, A., & Zangiabady, M. (2023). Dash Sylvereye: A WebGL-powered Library for Dashboard-driven Visualization of Large Street Networks. arXiv preprint arXiv:2105.14362v2. https://doi.org/10.48550/arXiv.2105.14362
+Garcia-Robledo, A., & Zangiabady, M. (2021). Dash Sylvereye: A WebGL-powered Library for Dashboard-driven Visualization of Large Street Networks. arXiv preprint arXiv:2105.14362v2. https://doi.org/10.48550/arXiv.2105.14362
