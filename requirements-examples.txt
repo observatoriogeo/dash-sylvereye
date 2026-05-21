@@ -1,3 +1,0 @@
-dash-sylvereye
-osmnx>=2.0
-numpy

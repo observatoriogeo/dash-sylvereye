@@ -37,51 +37,43 @@ Dash Sylvereye's homepage and full documentation [can be found here](http://visu
 
 ## Running the examples
 
-Start by cloning this repository:
+The Python environment is managed with [uv](https://docs.astral.sh/uv/). Install uv first if you don't have it:
 
 ````
-git clone https://github.com/observatoriogeo/dash-sylvereye.git
-cd dash-sylvereye/examples
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ````
 
-Next, create a virtual environment and install the Python dependencies:
-
-````
-python -m venv venv && . venv/bin/activate
-pip install -r requirements-examples.txt
-````
-
-Finally, try to run an example:
-
-````
-cd examples
-python 01_BasicVisualization.py
-````
-
-If you visit http://127.0.0.1:8050/ in your browser, you should see a Dash Sylvereye visualization.
-
-## Build instructions
-
-Start by cloning this repository:
+Then clone, sync the `examples` extras, and run an example:
 
 ````
 git clone https://github.com/observatoriogeo/dash-sylvereye.git
 cd dash-sylvereye
+uv sync --extra examples
+uv run python examples/01_BasicVisualization.py
 ````
 
-Next, create a virtual environment and install the Python dependencies:
+Visit http://127.0.0.1:8050/ in your browser to see the visualization. The first example run downloads the road network for Kamppi (Helsinki) from OpenStreetMap and caches it to `examples/cache/kamppi.graphml`; subsequent runs are offline.
+
+## Build instructions
+
+Building the JS bundle and regenerating the Python/R/Julia wrappers requires both Node and the `dev` Python extras:
 
 ````
-python -m venv venv && . venv/bin/activate
-pip install -r requirements-dev.txt
+git clone https://github.com/observatoriogeo/dash-sylvereye.git
+cd dash-sylvereye
+uv sync --extra dev          # provides dash-generate-components
+npm install
+uv run -- npm run build      # webpack bundle + dash-generate-components
 ````
 
-Finally, install packages via npm (ignore errors) and run the build script,
+## Running the integration tests
 
 ````
-npm i --ignore-scripts 
-npm run build
+uv sync --extra test
+uv run pytest tests/test_examples.py
 ````
+
+The suite drives headless Chrome via Selenium (Selenium Manager auto-fetches a matching ChromeDriver), so Chrome must be installed.
 
 ## Citation
 

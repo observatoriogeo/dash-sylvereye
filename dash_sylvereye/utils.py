@@ -2,7 +2,6 @@
 # Author: Alberto Garcia-Robledo
 
 import sys
-from memoization import cached
 from .defaults import DEFAULT_NODE_OPTIONS, DEFAULT_EDGE_OPTIONS, DEFAULT_MARKER_OPTIONS
 
 def get_edge_middle_coords(edge):
@@ -209,7 +208,8 @@ def load_from_sumo_network(filen, sumolib_path="/usr/share/sumo/tools"):
 
     sys.path.append(sumolib_path)
     import sumolib
-    
+    from memoization import cached
+
     import time
     #print("loading roadnet ...")
     start = time.time()

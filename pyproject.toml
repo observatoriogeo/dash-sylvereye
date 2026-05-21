@@ -1,0 +1,55 @@
+# Keep `version` in sync with package.json; both must match because the JS
+# build (dash-generate-components) writes the npm version into the bundled
+# package-info.json, which dash_sylvereye/__init__.py exposes as
+# dash_sylvereye.__version__.
+[project]
+name = "dash_sylvereye"
+version = "0.3.0"
+description = "Dash Sylvereye is a Plotly Dash component library for producing interactive web-based visualizations of large primal road networks in Python."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+authors = [
+    { name = "Alberto Garcia-Robledo", email = "alberto.garob@gmail.com" },
+]
+classifiers = [
+    "Framework :: Dash",
+]
+dependencies = [
+    "dash>=4.0.0",
+]
+
+[project.optional-dependencies]
+# Pulls dash-generate-components, used by `npm run build:backends`.
+dev = [
+    "dash[dev]>=4.0.0",
+]
+# Runtime deps for the scripts under examples/ and usage.py.
+examples = [
+    "osmnx>=2.0",
+    "numpy",
+]
+# Integration test deps. Selenium is intentionally past dash[testing]'s
+# <=4.2 ceiling because we drive Chrome directly (not via dash_duo), and
+# selenium >=4.6 ships Selenium Manager which auto-fetches ChromeDriver.
+test = [
+    "osmnx>=2.0",
+    "numpy",
+    "pytest>=7.0",
+    "selenium>=4.20",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["dash_sylvereye*"]
+
+[tool.uv]
+# Treat this project as a uv-managed library: uv sync installs `.` itself
+# (in editable mode by default) alongside its extras.
+package = true
