@@ -1,6 +1,5 @@
 import osmnx as ox
-from dash import Dash
-from dash_html_components import Div
+from dash import Dash, html
 from dash_sylvereye import SylvereyeRoadNetwork
 from dash_sylvereye.utils import load_from_osmnx_graph
 
@@ -19,7 +18,7 @@ nodes_data, edges_data = load_from_osmnx_graph(road_network)
 
 # dashboard setup
 app = Dash()
-app.layout = Div([
+app.layout = html.Div([
     SylvereyeRoadNetwork(
                          id='sylvereye-roadnet',
                          tile_layer_url=TILE_LAYER_URL,
@@ -35,4 +34,4 @@ app.layout = Div([
 ])
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run()

@@ -1,7 +1,6 @@
 import osmnx as ox
 import numpy as np
-from dash import Dash
-from dash_html_components import Div
+from dash import Dash, html
 from dash_sylvereye import SylvereyeRoadNetwork
 from dash_sylvereye.utils import load_from_osmnx_graph 
 from dash_sylvereye.enums import NodeSizeMethod, EdgeColorMethod, EdgeWidthMethod
@@ -41,7 +40,7 @@ edge_options["color_scale_right"] = 0x06696
 
 # dashboard setup
 app = Dash()
-app.layout = Div([
+app.layout = html.Div([
     SylvereyeRoadNetwork(
                          id='sylvereye-roadnet',
                          tile_layer_url=TILE_LAYER_URL,
@@ -59,4 +58,4 @@ app.layout = Div([
 ])
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run()

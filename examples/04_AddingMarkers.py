@@ -1,8 +1,6 @@
 import osmnx as ox
-from dash import Dash
+from dash import Dash, html
 from dash.dependencies import Input, Output
-from dash_html_components import Div
-from dash_html_components import H2, H3
 from dash_sylvereye import SylvereyeRoadNetwork
 from dash_sylvereye.utils import load_from_osmnx_graph, generate_markers_from_coords
 from dash_sylvereye.defaults import get_default_marker_options
@@ -30,7 +28,7 @@ marker_options["enable_zoom_scaling"] = True
 
 # setup dashboard
 app = Dash()
-app.layout = Div([
+app.layout = html.Div([
     SylvereyeRoadNetwork(
                          id='sylvereye-roadnet',
                          tile_layer_url=TILE_LAYER_URL,
@@ -45,8 +43,8 @@ app.layout = Div([
                          marker_options=marker_options,
                          tile_layer_opacity=TILE_LAYER_OPACITY
                         ),
-    H2("Clicked elements:"),
-    H3(id='h3-clicked-marker-coords')
+    html.H2("Clicked elements:"),
+    html.H3(id='h3-clicked-marker-coords')
 ])
 
 @app.callback(
@@ -58,4 +56,4 @@ def update_marker_data(clicked_marker):
         return f'Clicked marker coords: {[ marker["lat"], marker["lon"] ]}'
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run()

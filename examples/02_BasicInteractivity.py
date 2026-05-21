@@ -1,8 +1,6 @@
 import osmnx as ox
-from dash import Dash
+from dash import Dash, html
 from dash.dependencies import Input, Output
-from dash_html_components import Div
-from dash_html_components import H2, H3
 from dash_sylvereye import SylvereyeRoadNetwork
 from dash_sylvereye.utils import load_from_osmnx_graph
 
@@ -21,7 +19,7 @@ nodes_data, edges_data = load_from_osmnx_graph(road_network)
 
 # dashboard setup
 app = Dash()
-app.layout = Div([
+app.layout = html.Div([
     SylvereyeRoadNetwork(
                          id='sylvereye-roadnet',
                          tile_layer_url=TILE_LAYER_URL,
@@ -34,9 +32,9 @@ app.layout = Div([
                          edges_data=edges_data,
                          tile_layer_opacity=TILE_LAYER_OPACITY
                         ),
-    H2("Clicked elements:"),
-    H3(id='h3-clicked-node-coords'),
-    H3(id='h3-clicked-edge-coords')    
+    html.H2("Clicked elements:"),
+    html.H3(id='h3-clicked-node-coords'),
+    html.H3(id='h3-clicked-edge-coords')
 ])
 
 @app.callback(
@@ -55,4 +53,4 @@ def update_edge_data(clicked_edge):
         return f'Clicked edge coords: {clicked_edge["data"]["coords"]}'
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run()

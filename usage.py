@@ -1,6 +1,5 @@
 # import osmnx as ox
-from dash import Dash
-from dash_html_components import Div
+from dash import Dash, html
 from dash.dependencies import Input, Output
 from dash_sylvereye import SylvereyeRoadNetwork
 # from dash_sylvereye.utils import load_from_osmnx_graph
@@ -20,7 +19,7 @@ MAP_STYLE = {'width': '100%', 'height': '98vh'}
 nodes_data, edges_data, _ = load_from_osmnx_graphml("data/Queretaro.graphml")
 
 app = Dash()
-app.layout = Div([
+app.layout = html.Div([
     SylvereyeRoadNetwork(id='sylvereye-roadnet',
                             tile_layer_url=TILE_LAYER_URL,
                             tile_layer_subdomains=TILE_LAYER_SUBDOMAINS,
@@ -35,4 +34,4 @@ app.layout = Div([
 
 
 if __name__ == '__main__':
-    app.run_server(port=8084)
+    app.run(port=8084)
