@@ -16,12 +16,9 @@
   },
   "author": "Alberto Garcia-Robledo <alberto.garob@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "ramda": "^0.26.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.22.1",
-    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "@babel/preset-env": "^7.22.2",
     "@babel/preset-react": "^7.22.3",
     "@plotly/dash-component-plugins": "^1.2.3",
@@ -39,22 +36,21 @@
     "react-docgen": "^5.4.3",
     "react-dom": "^16.8.6",
     "style-loader": "^3.3.3",
-    "styled-jsx": "^3.2.1",
     "webpack": "^5.84.1",
     "webpack-cli": "^5.1.1",
     "webpack-dev-server": "^4.15.0",
-    
+
+    "leaflet": "^1.9.4",
     "pixi.js": "^5.3.3",
     "rbush": "^3.0.1",
     "react-leaflet": "^2.6.3",
     "chroma-js": "^2.1.0",
     "leaflet-pixi-overlay": "^1.8.1",
     "use-leaflet": "^1.6.1",
-    "jsts": "^2.5.1",
-    "random-string": "^0.2.0"
+    "jsts": "^2.5.1"
   },
   "engines": {
-    "node": ">=8.11.0",
-    "npm": ">=6.1.0"
+    "node": ">=18.18.0",
+    "npm": ">=10.0.0"
   }
 }

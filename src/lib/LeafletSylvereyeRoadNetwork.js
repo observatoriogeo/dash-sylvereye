@@ -11,7 +11,6 @@ import BufferParameters from 'jsts/org/locationtech/jts/operation/buffer/BufferP
 
 import RBush from 'rbush';
 import chroma from 'chroma-js';
-import randomString from 'random-string';
 
 
 ////////////////////////////////////////////////////////////
@@ -159,7 +158,7 @@ const LeafletSylvereyeRoadNetwork = ({
 
 	const PIXILoader = PIXI.Loader.shared;
 	const map = useLeafletMap(); // map 	 
-	const pass_id = randomString(); // for debugging 
+	const pass_id = crypto.randomUUID().slice(0, 8); // for debugging
 
 	console.log(`[${pass_id}] Starting pass ============================`);
 
