@@ -1,3 +1,4 @@
+import os
 import osmnx as ox
 from dash import Dash, html
 from dash_sylvereye import SylvereyeRoadNetwork
@@ -10,10 +11,17 @@ TILE_LAYER_ATTRIBUTION = 'Map tiles by <a href="http://stamen.com">Stamen Design
 MAP_CENTER = [60.1663, 24.9313]
 MAP_ZOOM = 15
 MAP_STYLE = {'width': '100%', 'height': '98vh'}
-TILE_LAYER_OPACITY = '20%'
+TILE_LAYER_OPACITY = 0.2
 
-# retrieve the road network topology and data from OSM
-road_network = ox.graph_from_place(OSMNX_QUERY, network_type='drive') 
+# Load the road network: use the committed graphml fixture if present,
+# otherwise download from OSM and cache it for next time.
+CACHE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cache', 'kamppi.graphml')
+if os.path.exists(CACHE_FILE):
+    road_network = ox.load_graphml(CACHE_FILE)
+else:
+    road_network = ox.graph_from_place(OSMNX_QUERY, network_type='drive')
+    os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
+    ox.save_graphml(road_network, CACHE_FILE)
 nodes_data, edges_data = load_from_osmnx_graph(road_network)
 
 # dashboard setup
