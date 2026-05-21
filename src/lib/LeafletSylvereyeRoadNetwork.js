@@ -944,8 +944,10 @@ const LeafletSylvereyeRoadNetwork = ({
 				nodeSprite.alpha = node_options.alpha_default;
 			}
 
-			// interactivity
-			nodeSprite.interactive = true;
+			// interactivity (PIXI 7.2+: eventMode replaces interactive,
+			// cursor replaces buttonMode/defaultCursor)
+			nodeSprite.eventMode = 'static';
+			nodeSprite.cursor = 'pointer';
 			node._i = i;
 			nodeSprite.on('click', () => {
 				console.log("clicked on node ", node._i);
@@ -961,8 +963,6 @@ const LeafletSylvereyeRoadNetwork = ({
 			nodeSprite.on('mouseout', () => {
 				setIgnoreEdgeClick(false);
 			});
-			nodeSprite.defaultCursor = 'pointer';
-			nodeSprite.buttonMode = true;
 
 			// add sprite to the nodes container
 			container2.addChild(nodeSprite);
@@ -1225,11 +1225,10 @@ const LeafletSylvereyeRoadNetwork = ({
 			markerSprite.base_size = marker_size;
 			markerSprite.alpha = markerAlpha;
 
-			// interactivity code 
-
-			markerSprite.interactive = true;
-			markerSprite.defaultCursor = 'pointer';
-			markerSprite.buttonMode = true;
+			// interactivity (PIXI 7.2+: eventMode replaces interactive,
+			// cursor replaces buttonMode/defaultCursor)
+			markerSprite.eventMode = 'static';
+			markerSprite.cursor = 'pointer';
 
 			// click handler
 			marker._i = i;
