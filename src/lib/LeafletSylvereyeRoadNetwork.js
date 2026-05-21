@@ -322,8 +322,7 @@ const LeafletSylvereyeRoadNetwork = ({
 			triggerWithTimer(500);
 
 		}
-	}, [arrowsContainer, edges_data, arrowheadLoaded, edge_options]);
-	// }, [arrowsContainer, edges_data, arrowheadLoaded, edge_options], ["arrowsContainer", "edges_data", "arrowheadLoaded", "edge_options"], "useEffect: draw arrowheads");
+	}, [mainOverlay, arrowsContainer, edges_data, arrowheadLoaded, edge_options]);
 
 	// draw arrows for the first time
 	useEffect(() => {
@@ -521,7 +520,7 @@ const LeafletSylvereyeRoadNetwork = ({
 			triggerWithTimer(500);
 
 		}
-	}, [edgesContainer, edges_data, edge_options, arrowheadLoaded]);
+	}, [mainOverlay, edgesContainer, edges_data, edge_options, arrowheadLoaded]);
 	//NOTE: arrowheadLoaded is needed here to trigger the drawing of edges at startup, given the hack in the condition of the main if-block in the function.
 	// }, [edgesContainer, edges_data, edge_options, arrowheadLoaded], ["edgesContainer", "edges_data", "edge_options", "arrowheadLoaded"], `useEffect (${pass_id}): trigger draw edges`);
 
@@ -828,8 +827,7 @@ const LeafletSylvereyeRoadNetwork = ({
 			triggerWithTimer(500);
 		}
 
-	}, [nodesContainer, nodes_data, nodeIconLoaded, node_options]);
-	// }, [nodesContainer, nodes_data, nodeIconLoaded, node_options], ["nodesContainer", "nodes_data", "nodeIconLoaded", "node_options"], "useEffect: trigger draw nodes");
+	}, [mainOverlay, nodesContainer, nodes_data, nodeIconLoaded, node_options]);
 
 	// draw nodes
 	useEffect(() => {
@@ -1070,8 +1068,7 @@ const LeafletSylvereyeRoadNetwork = ({
 			triggerWithTimer(500);
 		}
 
-	}, [markersContainer, markers_data, markersLoaded, marker_options]);
-	// }, [markersContainer, markers_data, markersLoaded, marker_options], ["markersContainer", "markers_data", "markersLoaded", "marker_options"], `useEffect (${pass_id}): trigger draw markers`);
+	}, [mainOverlay, markersContainer, markers_data, markersLoaded, marker_options]);
 
 	// draw markers
 	useEffect(() => {
@@ -1319,8 +1316,7 @@ const LeafletSylvereyeRoadNetwork = ({
 			}
 		}
 
-	}, [currentZoom, marker_options, markersResized]);
-	// }, [currentZoom, marker_options, markersResized], ["currentZoom", "marker_options", "markersResized"], "zoom re-scaling of markers");
+	}, [currentZoom, marker_options, markersResized, markersContainer, mainOverlay]);
 
 	return null;
 
