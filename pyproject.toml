@@ -4,7 +4,7 @@
 # dash_sylvereye.__version__.
 [project]
 name = "dash_sylvereye"
-version = "0.3.0"
+version = "0.4.0"
 description = "Dash Sylvereye is a Plotly Dash component library for producing interactive web-based visualizations of large primal road networks in Python."
 readme = "README.md"
 license = { file = "LICENSE" }

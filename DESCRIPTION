@@ -1,6 +1,6 @@
 Package: dashSylvereye
 Title: Dash Sylvereye is a Plotly Dash component library for producing interactive web-based visualizations of large primal road networks in Python.
-Version: 0.3.0
+Version: 0.4.0
 Description: Dash Sylvereye is a Plotly Dash component library for producing interactive web-based visualizations of large primal road networks in Python.
 Depends: R (>= 3.0.2)
 Imports: 

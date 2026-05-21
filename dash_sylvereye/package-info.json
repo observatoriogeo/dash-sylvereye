@@ -1,6 +1,6 @@
 {
   "name": "dash_sylvereye",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Dash Sylvereye is a Plotly Dash component library for producing interactive web-based visualizations of large primal road networks in Python.",
 
   "main": "build/index.js",
@@ -10,9 +10,7 @@
     "prepublishOnly": "npm run validate-init",
     "build:js": "webpack --mode production",
     "build:backends": "dash-generate-components ./src/lib/components dash_sylvereye -p package-info.json --r-prefix '' --jl-prefix '' --ignore \\.test\\.",
-    "build:backends-activated": "(. venv/bin/activate || venv\\scripts\\activate && npm run build:py_and_r)",
-    "build": "npm run build:js && npm run build:backends",
-    "build:activated": "npm run build:js && npm run build:backends-activated"
+    "build": "npm run build:js && npm run build:backends"
   },
   "author": "Alberto Garcia-Robledo <alberto.garob@gmail.com>",
   "license": "MIT",
