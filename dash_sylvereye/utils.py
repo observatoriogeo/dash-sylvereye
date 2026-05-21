@@ -198,6 +198,12 @@ def load_from_osmnx_graphml(filen):
 def load_from_sumo_network(filen, sumolib_path="/usr/share/sumo/tools"):
     """
     Load a Sylvereye road network from a SUMO road network file.
+
+    Requires sumolib. Install it either via `pip install dash-sylvereye[sumolib]`
+    (pulls sumolib from PyPI) or via a system-wide SUMO install (apt install
+    sumo) — in the latter case keep the default sumolib_path so the system
+    package is found on sys.path.
+
     args:
         - filen: file name of the SUMO road network file.
         - sumolib_path: path of the SUMO sumolib library, usually the "tools" folder of the SUMO path.
@@ -205,7 +211,7 @@ def load_from_sumo_network(filen, sumolib_path="/usr/share/sumo/tools"):
         - The Sylvereye nodes data list.
         - The Sylvereye edges data list.
         - The SUMO road network graph.
-    """ 
+    """
 
     sys.path.append(sumolib_path)
     import sumolib

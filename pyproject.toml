@@ -30,6 +30,12 @@ examples = [
     "osmnx>=2.0",
     "numpy",
 ]
+# Pulls in sumolib so dash_sylvereye.utils.load_from_sumo_network works
+# out of the box. Users with a system-wide SUMO install (apt install sumo)
+# can keep using the function's sumolib_path argument instead.
+sumolib = [
+    "sumolib>=1.0",
+]
 # Integration test deps. Selenium is intentionally past dash[testing]'s
 # <=4.2 ceiling because we drive Chrome directly (not via dash_duo), and
 # selenium >=4.6 ships Selenium Manager which auto-fetches ChromeDriver.
