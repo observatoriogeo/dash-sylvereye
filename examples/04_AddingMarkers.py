@@ -7,13 +7,13 @@ from dash_sylvereye.utils import load_from_osmnx_graph, generate_markers_from_co
 from dash_sylvereye.defaults import get_default_marker_options
 
 OSMNX_QUERY = 'Kamppi, Helsinki, Finland'
-TILE_LAYER_URL = '//stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png'
-TILE_LAYER_SUBDOMAINS = 'abcd'
-TILE_LAYER_ATTRIBUTION = 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
+TILE_LAYER_URL = 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png'
+TILE_LAYER_SUBDOMAINS = 'abcde'
+TILE_LAYER_ATTRIBUTION = '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>'
 MAP_CENTER = [60.1663, 24.9313]
 MAP_ZOOM = 15
 MAP_STYLE = {'width': '100%', 'height': '80vh'}
-TILE_LAYER_OPACITY = 0.2
+TILE_LAYER_OPACITY = 0.9
 
 CACHE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cache', 'kamppi.graphml')
 if os.path.exists(CACHE_FILE):

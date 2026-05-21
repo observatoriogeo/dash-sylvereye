@@ -96,7 +96,7 @@ def test_example_renders(driver, script):
         # Filter out tile-server 4xx/5xx — those are external infra noise.
         severe = [
             l for l in severe
-            if "stamen-tiles" not in l.get("message", "")
+            if "basemaps.cartocdn.com" not in l.get("message", "")
             and "tile.openstreetmap.org" not in l.get("message", "")
         ]
         assert not severe, f"{script}: JS console errors: {severe}"
