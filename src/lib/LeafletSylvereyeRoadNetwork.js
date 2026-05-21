@@ -1,4 +1,4 @@
-import { useEffect, useState} from 'react';
+import { useEffect, useRef, useState } from 'react';
 import L from 'leaflet';
 import * as PIXI from 'pixi.js';
 import 'leaflet-pixi-overlay';
@@ -734,30 +734,41 @@ const LeafletSylvereyeRoadNetwork = ({
 	}, [edgeDrawCounter], ["edgeDrawCounter"]);
 	// }, [edgeDrawCounter], ["edgeDrawCounter"], `useEffect (${pass_id}): draw edges`);
 
+	// Keep refs to the latest edges_data and onEdgeClick so the bound click
+	// handler reads fresh values without rebinding on every parent render
+	// (the wrapper recreates onEdgeClick inline each render).
+	const edgesDataRef = useRef(edges_data);
+	useEffect(() => { edgesDataRef.current = edges_data; }, [edges_data]);
+	const onEdgeClickRef = useRef(onEdgeClick);
+	useEffect(() => { onEdgeClickRef.current = onEdgeClick; }, [onEdgeClick]);
+
 	useEffect(() => {
-
+		if (!mainOverlay || !edgesQtree) {
+			return undefined;
+		}
+		// When a node or marker is hovered, ignoreEdgeClick is true; in that
+		// state we don't bind an edge click handler at all, so the click
+		// reaches the node/marker sprite handlers instead.
+		if (ignoreEdgeClick === true) {
+			return undefined;
+		}
+		const map = mainOverlay.utils.getMap();
 		function handleClick(e) {
-			var feat = findClickedEdge(e.latlng, edgesQtree);
+			const feat = findClickedEdge(e.latlng, edgesQtree);
 			if (feat) {
-				console.log("clicked on edge ", feat._i)
-				var edge_obj = {
+				console.log("clicked on edge ", feat._i);
+				onEdgeClickRef.current({
 					index: feat._i,
-					data: edges_data[feat._i] //TODO: double check this still works after updating edges_data
-				}
-				onEdgeClick(edge_obj); // Dash callback
+					data: edgesDataRef.current[feat._i],
+				});
 			}
 		}
-
-		if (mainOverlay && edgesQtree) {
-			const utils = mainOverlay.utils;
-			if (ignoreEdgeClick === true) {
-				utils.getMap().off('click');
-			} else {
-				utils.getMap().on('click', handleClick);
-			}
-		}
+		map.on('click', handleClick);
+		// Cleanup removes only OUR handler, leaving other map click
+		// handlers intact. The prior code called .off('click') with no
+		// second arg, which wiped every handler on the map.
+		return () => { map.off('click', handleClick); };
 	}, [ignoreEdgeClick, mainOverlay, edgesQtree]);
-	// }, [ignoreEdgeClick, mainOverlay, edgesQtree], ["ignoreEdgeClick", "mainOverlay", "edgesQtree"], "useEffect: ignore edge click?");
 
 	// show/hide edges
 	useEffect(() => {
