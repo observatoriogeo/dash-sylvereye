@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
 # Author: Alberto Garcia-Robledo
 
-import shapely.wkt
-import networkx as nx
-import json
 import sys
 from memoization import cached
 from .defaults import DEFAULT_NODE_OPTIONS, DEFAULT_EDGE_OPTIONS, DEFAULT_MARKER_OPTIONS
@@ -134,26 +131,30 @@ def load_from_osmnx_graphml(filen):
         - The NetworkX road network graph
     """
 
+    # osmnx 2: ox.load_graphml restores native Python types (osmid as int/list,
+    # geometry as shapely LineString, etc.) — no need for json.loads anymore.
+    import osmnx as ox
+
+    g = ox.load_graphml(filen)
+
     def get_coords_list(edge):
         if "geometry" in edge[2].keys():
-            return [list(reversed(coords)) for coords in shapely.wkt.loads(edge[2]["geometry"]).coords]
+            return [list(reversed(coords)) for coords in edge[2]["geometry"].coords]
         else:
             return [[float(g.nodes(data=True)[edge[0]]["y"]), float(g.nodes(data=True)[edge[0]]["x"])], [float(g.nodes(data=True)[edge[1]]["y"]), float(g.nodes(data=True)[edge[1]]["x"])]]
-
-    g = nx.read_graphml(filen)
 
     # nodes data
     nodes_data = [
         {
             "lon": float(node[1]["x"]),
-            "lat": float(node[1]["y"]),            
+            "lat": float(node[1]["y"]),
             "visible": True,
             "alpha": 1.0,
             "size": DEFAULT_NODE_OPTIONS["size_default"],
             "color": DEFAULT_NODE_OPTIONS["color_default"],
             "data": {
-                "osmid": json.loads(node[1]["osmid"]) if "osmid" in node[1].keys() else None,
-                "highway": node[1]["highway"] if "highway" in node[1].keys() else None,
+                "osmid": node[1].get("osmid"),
+                "highway": node[1].get("highway"),
                 "x": float(node[1]["x"]),
                 "y": float(node[1]["y"])
             }
@@ -164,7 +165,7 @@ def load_from_osmnx_graphml(filen):
     # edges data
     edges_data = [
         {
-            "coords": get_coords_list(edge),            
+            "coords": get_coords_list(edge),
             "visible": True,
             "alpha": 1.0,
             "width": DEFAULT_EDGE_OPTIONS["width_default"],
@@ -172,20 +173,20 @@ def load_from_osmnx_graphml(filen):
             "data": {
                 "source_osmid": edge[0],
                 "target_osmid": edge[1],
-                "access": edge[2]["access"] if "access" in edge[2].keys() else None,
-                "bridge": edge[2]["bridge"] if "bridge" in edge[2].keys() else None,
-                "geometry": edge[2]["geometry"] if "geometry" in edge[2].keys() else None,
-                "highway": edge[2]["highway"] if "highway" in edge[2].keys() else None,
-                "id": edge[2]["id"] if "id" in edge[2].keys() else None,
-                "junction": edge[2]["junction"] if "junction" in edge[2].keys() else None,
-                "lanes": edge[2]["lanes"] if "lanes" in edge[2].keys() else None,
-                "length": edge[2]["length"] if "length" in edge[2].keys() else None,
-                "maxspeed": edge[2]["maxspeed"] if "maxspeed" in edge[2].keys() else None,
-                "name": edge[2]["name"] if "name" in edge[2].keys() else None,
-                "oneway": edge[2]["oneway"] if "oneway" in edge[2].keys() else None,
-                "osmid": json.loads(edge[2]["osmid"]) if "osmid" in edge[2].keys() else None,
-                "ref": edge[2]["ref"] if "ref" in edge[2].keys() else None,
-                "service": edge[2]["service"] if "service" in edge[2].keys() else None
+                "access": edge[2].get("access"),
+                "bridge": edge[2].get("bridge"),
+                "geometry": str(edge[2]["geometry"]) if "geometry" in edge[2] else None,
+                "highway": edge[2].get("highway"),
+                "id": edge[2].get("id"),
+                "junction": edge[2].get("junction"),
+                "lanes": edge[2].get("lanes"),
+                "length": edge[2].get("length"),
+                "maxspeed": edge[2].get("maxspeed"),
+                "name": edge[2].get("name"),
+                "oneway": edge[2].get("oneway"),
+                "osmid": edge[2].get("osmid"),
+                "ref": edge[2].get("ref"),
+                "service": edge[2].get("service")
             }
         }
         for edge in g.edges(data=True)

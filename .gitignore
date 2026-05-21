@@ -263,3 +263,8 @@ JuliaManifest.toml
 *.userprefs
 
 cache/
+# Allow committed OSMnx graphml fixtures under examples/cache/, but
+# keep OSMnx's HTTP cache (json) out of git.
+!examples/cache/
+examples/cache/*
+!examples/cache/*.graphml
