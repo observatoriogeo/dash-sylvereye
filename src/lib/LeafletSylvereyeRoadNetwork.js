@@ -2,7 +2,7 @@ import { useEffect, useState} from 'react';
 import L from 'leaflet';
 import * as PIXI from 'pixi.js';
 import 'leaflet-pixi-overlay';
-import { useLeafletMap } from 'use-leaflet';
+import { useMap } from 'react-leaflet';
 
 import Coordinate from 'jsts/org/locationtech/jts/geom/Coordinate.js';
 import GeometryFactory from 'jsts/org/locationtech/jts/geom/GeometryFactory.js';
@@ -11,7 +11,6 @@ import BufferParameters from 'jsts/org/locationtech/jts/operation/buffer/BufferP
 
 import RBush from 'rbush';
 import chroma from 'chroma-js';
-import randomString from 'random-string';
 
 
 ////////////////////////////////////////////////////////////
@@ -157,9 +156,8 @@ const LeafletSylvereyeRoadNetwork = ({
 	const [nodeDrawCounter, setNodeDrawCounter] = useState(0); // for triggering node drawing
 	const [markerDrawCounter, setMarkerDrawCounter] = useState(0); // for triggering marker drawing
 
-	const PIXILoader = PIXI.Loader.shared;
-	const map = useLeafletMap(); // map 	 
-	const pass_id = randomString(); // for debugging 
+	const map = useMap();
+	const pass_id = crypto.randomUUID().slice(0, 8); // for debugging
 
 	console.log(`[${pass_id}] Starting pass ============================`);
 
@@ -283,19 +281,11 @@ const LeafletSylvereyeRoadNetwork = ({
 	// load arrowhead sprite	
 	useEffect(() => {
 
-		// console.log("[useEffect  ** load arrow sprite **")
-
-		var loadingAny = false;
-
 		// skip if already cached
-		if (!PIXILoader.resources["arrow_head"]) {
-			PIXILoader.add("arrow_head", getSVGIcon("arrow_head"));
-			loadingAny = true;
-		}
-
-		if (loadingAny) {
+		if (!PIXI.Assets.cache.has("arrow_head")) {
 			setArrowheadLoaded(false);
-			PIXILoader.load(() => setArrowheadLoaded(true));
+			PIXI.Assets.load({ alias: "arrow_head", src: getSVGIcon("arrow_head") })
+				.then(() => setArrowheadLoaded(true));
 		}
 
 	}, [edges_data]);
@@ -307,7 +297,9 @@ const LeafletSylvereyeRoadNetwork = ({
 		// console.log("[useEffect] ** load particle container for arrow heads **")
 
 		if (mainContainer && edges_data) {
-			var pixiContainer = new PIXI.ParticleContainer(edges_data.length, { vertices: true });
+			// PIXI 7 ParticleContainer: vertices flag is gone; default options
+			// (scale, position, uvs, tint enabled) cover all our per-sprite needs.
+			var pixiContainer = new PIXI.ParticleContainer(edges_data.length);
 			mainContainer.addChild(pixiContainer);
 			setArrowsContainer(pixiContainer)
 		}
@@ -353,12 +345,11 @@ const LeafletSylvereyeRoadNetwork = ({
 		var container2 = arrowsContainer;
 		container2.removeChildren();
 
-		if (!PIXILoader.resources["arrow_head"] || !PIXILoader.resources["arrow_head"].texture) {
+		const arrow_head_texture = PIXI.Assets.get("arrow_head");
+		if (!arrow_head_texture) {
 			//TODO: issue warning
-			// console.log("[useEffect] arrow_head resource not loaded!")
 			return;
 		}
-		const arrow_head_texture = PIXILoader.resources["arrow_head"].texture;
 
 		// color
 		var scale = null;
@@ -795,19 +786,11 @@ const LeafletSylvereyeRoadNetwork = ({
 
 		if (arrowheadLoaded) {
 
-			// console.log("[useEffect] ** load node sprite **")
-
-			var loadingAny = false;
-
 			// skip if already cached
-			if (!PIXILoader.resources["node"]) {
-				PIXILoader.add("node", getSVGIcon("node"));
-				loadingAny = true;
-			}
-
-			if (loadingAny) {
+			if (!PIXI.Assets.cache.has("node")) {
 				setNodeIconLoaded(false);
-				PIXILoader.load(() => setNodeIconLoaded(true));
+				PIXI.Assets.load({ alias: "node", src: getSVGIcon("node") })
+					.then(() => setNodeIconLoaded(true));
 			}
 
 		}
@@ -898,12 +881,11 @@ const LeafletSylvereyeRoadNetwork = ({
 				return; // don't draw node
 			}
 
-			if (!PIXILoader.resources[`node`] || !PIXILoader.resources[`node`].texture) {
+			const nodeTexture = PIXI.Assets.get("node");
+			if (!nodeTexture) {
 				//TODO: issue warning
 				return;
 			}
-
-			const nodeTexture = PIXILoader.resources[`node`].texture;
 
 			nodeTexture.anchor = { x: 0.5, y: 0.5 };
 
@@ -962,8 +944,10 @@ const LeafletSylvereyeRoadNetwork = ({
 				nodeSprite.alpha = node_options.alpha_default;
 			}
 
-			// interactivity
-			nodeSprite.interactive = true;
+			// interactivity (PIXI 7.2+: eventMode replaces interactive,
+			// cursor replaces buttonMode/defaultCursor)
+			nodeSprite.eventMode = 'static';
+			nodeSprite.cursor = 'pointer';
 			node._i = i;
 			nodeSprite.on('click', () => {
 				console.log("clicked on node ", node._i);
@@ -979,8 +963,6 @@ const LeafletSylvereyeRoadNetwork = ({
 			nodeSprite.on('mouseout', () => {
 				setIgnoreEdgeClick(false);
 			});
-			nodeSprite.defaultCursor = 'pointer';
-			nodeSprite.buttonMode = true;
 
 			// add sprite to the nodes container
 			container2.addChild(nodeSprite);
@@ -1024,29 +1006,26 @@ const LeafletSylvereyeRoadNetwork = ({
 		// otherwise we will get an error
 		if (nodeIconLoaded && marker_options) {
 
-			var loadingAny = false;
+			const assetsToLoad = [];
 
 			if (marker_options.icon_method === MarkerIconMethod.DEFAULT) {
-				if (!PIXILoader.resources["marker_default"]) {
-					console.log(`DEBUG loading resource marker_default`)
+				if (!PIXI.Assets.cache.has("marker_default")) {
 					// "white" since sprite icons will be colored by PIXI
-					PIXILoader.add('marker_default', getSVGIcon('marker_default'));
-					loadingAny = true;
+					assetsToLoad.push({ alias: "marker_default", src: getSVGIcon("marker_default") });
 				}
 			} else {
 				for (let marker of markers_data) {
-					if (!PIXILoader.resources[`marker_${marker.icon_id}`]) {
-						console.log(`DEBUG loading resource marker_${marker.icon_id}`)
-						PIXILoader.add(`marker_${marker.icon_id}`, getSVGIcon("custom", marker.icon_image));
-						loadingAny = true;
+					const alias = `marker_${marker.icon_id}`;
+					if (!PIXI.Assets.cache.has(alias)) {
+						assetsToLoad.push({ alias, src: getSVGIcon("custom", marker.icon_image) });
 					}
 				}
 			}
 
-			if (loadingAny) {
-				setMarkersLoaded(false)
+			if (assetsToLoad.length > 0) {
+				setMarkersLoaded(false);
 				loading_markers = true;
-				PIXILoader.load(() => setMarkersLoaded(true));
+				PIXI.Assets.load(assetsToLoad).then(() => setMarkersLoaded(true));
 			}
 
 		}
@@ -1151,28 +1130,13 @@ const LeafletSylvereyeRoadNetwork = ({
 
 			// load texture
 			if (marker_options.icon_method == MarkerIconMethod.DEFAULT) {
-				if (PIXILoader.resources["marker_default"]) {
-					markerTexture = PIXILoader.resources["marker_default"].texture;
-					console.log("USING TEXTURE marker_default")
-					if (!markerTexture) {
-						console.log(`(${pass_id}) WARNING: Could not get a texture from resource marker_default. Skipping marker.`)
-						return;
-					}
-				} else {
-					//TODO: issue awarning, icon resource wasn't ready (bug?)
+				markerTexture = PIXI.Assets.get("marker_default");
+				if (!markerTexture) {
 					return;
 				}
 			} else {
-				if (PIXILoader.resources[`marker_${marker.icon_id}`]) {
-					markerTexture = PIXILoader.resources[`marker_${marker.icon_id}`].texture;
-					console.log(`USING TEXTURE marker_${marker.icon_id}`)
-					if (!markerTexture) {
-						console.log(`(${pass_id}) WARNING: Could not get a texture from resource marker_${marker.icon_id}. Skipping marker.`)
-						return;
-					}
-				} else {
-					//TODO: issue awarning, icon resource wasn't ready (bug?)
-					console.log(`WARINING: Resource marker_${marker.icon_id} has not been loaded. Skipping marker.`)
+				markerTexture = PIXI.Assets.get(`marker_${marker.icon_id}`);
+				if (!markerTexture) {
 					return;
 				}
 			}
@@ -1261,11 +1225,10 @@ const LeafletSylvereyeRoadNetwork = ({
 			markerSprite.base_size = marker_size;
 			markerSprite.alpha = markerAlpha;
 
-			// interactivity code 
-
-			markerSprite.interactive = true;
-			markerSprite.defaultCursor = 'pointer';
-			markerSprite.buttonMode = true;
+			// interactivity (PIXI 7.2+: eventMode replaces interactive,
+			// cursor replaces buttonMode/defaultCursor)
+			markerSprite.eventMode = 'static';
+			markerSprite.cursor = 'pointer';
 
 			// click handler
 			marker._i = i;

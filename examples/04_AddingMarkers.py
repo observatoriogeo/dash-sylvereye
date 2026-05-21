@@ -1,23 +1,27 @@
+import os
 import osmnx as ox
-from dash import Dash
+from dash import Dash, html
 from dash.dependencies import Input, Output
-from dash_html_components import Div
-from dash_html_components import H2, H3
 from dash_sylvereye import SylvereyeRoadNetwork
 from dash_sylvereye.utils import load_from_osmnx_graph, generate_markers_from_coords
 from dash_sylvereye.defaults import get_default_marker_options
 
 OSMNX_QUERY = 'Kamppi, Helsinki, Finland'
-TILE_LAYER_URL = '//stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png'
-TILE_LAYER_SUBDOMAINS = 'abcd'
-TILE_LAYER_ATTRIBUTION = 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
+TILE_LAYER_URL = 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png'
+TILE_LAYER_SUBDOMAINS = 'abcde'
+TILE_LAYER_ATTRIBUTION = '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>'
 MAP_CENTER = [60.1663, 24.9313]
 MAP_ZOOM = 15
 MAP_STYLE = {'width': '100%', 'height': '80vh'}
-TILE_LAYER_OPACITY = '20%'
+TILE_LAYER_OPACITY = 0.9
 
-# retrieve the road network topology and data from OSM
-road_network = ox.graph_from_place(OSMNX_QUERY, network_type='drive') 
+CACHE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cache', 'kamppi.graphml')
+if os.path.exists(CACHE_FILE):
+    road_network = ox.load_graphml(CACHE_FILE)
+else:
+    road_network = ox.graph_from_place(OSMNX_QUERY, network_type='drive')
+    os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
+    ox.save_graphml(road_network, CACHE_FILE)
 nodes_data, edges_data = load_from_osmnx_graph(road_network)
 
 # make 1k markers out of the coordinates of 1k randomly selected nodes
@@ -30,7 +34,7 @@ marker_options["enable_zoom_scaling"] = True
 
 # setup dashboard
 app = Dash()
-app.layout = Div([
+app.layout = html.Div([
     SylvereyeRoadNetwork(
                          id='sylvereye-roadnet',
                          tile_layer_url=TILE_LAYER_URL,
@@ -45,8 +49,8 @@ app.layout = Div([
                          marker_options=marker_options,
                          tile_layer_opacity=TILE_LAYER_OPACITY
                         ),
-    H2("Clicked elements:"),
-    H3(id='h3-clicked-marker-coords')
+    html.H2("Clicked elements:"),
+    html.H3(id='h3-clicked-marker-coords')
 ])
 
 @app.callback(
@@ -58,4 +62,4 @@ def update_marker_data(clicked_marker):
         return f'Clicked marker coords: {[ marker["lat"], marker["lon"] ]}'
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run()

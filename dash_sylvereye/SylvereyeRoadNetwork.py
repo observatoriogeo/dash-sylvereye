@@ -1,6 +1,18 @@
 # AUTO GENERATED FILE - DO NOT EDIT
 
+import typing  # noqa: F401
+from typing_extensions import TypedDict, NotRequired, Literal # noqa: F401
 from dash.development.base_component import Component, _explicitize_args
+
+ComponentSingleType = typing.Union[str, int, float, Component, None]
+ComponentType = typing.Union[
+    ComponentSingleType,
+    typing.Sequence[ComponentSingleType],
+]
+
+NumberType = typing.Union[
+    typing.SupportsFloat, typing.SupportsInt, typing.SupportsComplex
+]
 
 
 class SylvereyeRoadNetwork(Component):
@@ -89,12 +101,43 @@ Keyword arguments:
 
 - tile_layer_url (string; default "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"):
     Tile layer URL."""
-    _children_props = []
+    _children_props: typing.List[str] = []
     _base_nodes = ['children']
     _namespace = 'dash_sylvereye'
     _type = 'SylvereyeRoadNetwork'
-    @_explicitize_args
-    def __init__(self, children=None, id=Component.UNDEFINED, pane=Component.UNDEFINED, edges_data=Component.UNDEFINED, nodes_data=Component.UNDEFINED, node_options=Component.UNDEFINED, edge_options=Component.UNDEFINED, marker_options=Component.UNDEFINED, markers_data=Component.UNDEFINED, show_arrows=Component.UNDEFINED, show_edges=Component.UNDEFINED, show_nodes=Component.UNDEFINED, show_markers=Component.UNDEFINED, debug_options=Component.UNDEFINED, clicked_node=Component.UNDEFINED, clicked_edge=Component.UNDEFINED, clicked_marker=Component.UNDEFINED, current_state=Component.UNDEFINED, map_center=Component.UNDEFINED, map_zoom=Component.UNDEFINED, map_min_zoom=Component.UNDEFINED, map_max_zoom=Component.UNDEFINED, map_style=Component.UNDEFINED, tile_layer_url=Component.UNDEFINED, tile_layer_attribution=Component.UNDEFINED, tile_layer_subdomains=Component.UNDEFINED, tile_layer_opacity=Component.UNDEFINED, **kwargs):
+
+
+    def __init__(
+        self,
+        children: typing.Optional[ComponentType] = None,
+        id: typing.Optional[typing.Union[str, dict]] = None,
+        pane: typing.Optional[str] = None,
+        edges_data: typing.Optional[typing.Sequence] = None,
+        nodes_data: typing.Optional[typing.Sequence] = None,
+        node_options: typing.Optional[dict] = None,
+        edge_options: typing.Optional[dict] = None,
+        marker_options: typing.Optional[dict] = None,
+        markers_data: typing.Optional[typing.Sequence] = None,
+        show_arrows: typing.Optional[bool] = None,
+        show_edges: typing.Optional[bool] = None,
+        show_nodes: typing.Optional[bool] = None,
+        show_markers: typing.Optional[bool] = None,
+        debug_options: typing.Optional[dict] = None,
+        clicked_node: typing.Optional[dict] = None,
+        clicked_edge: typing.Optional[dict] = None,
+        clicked_marker: typing.Optional[dict] = None,
+        current_state: typing.Optional[dict] = None,
+        map_center: typing.Optional[typing.Sequence] = None,
+        map_zoom: typing.Optional[NumberType] = None,
+        map_min_zoom: typing.Optional[NumberType] = None,
+        map_max_zoom: typing.Optional[NumberType] = None,
+        map_style: typing.Optional[dict] = None,
+        tile_layer_url: typing.Optional[str] = None,
+        tile_layer_attribution: typing.Optional[str] = None,
+        tile_layer_subdomains: typing.Optional[str] = None,
+        tile_layer_opacity: typing.Optional[NumberType] = None,
+        **kwargs
+    ):
         self._prop_names = ['children', 'id', 'clicked_edge', 'clicked_marker', 'clicked_node', 'current_state', 'debug_options', 'edge_options', 'edges_data', 'map_center', 'map_max_zoom', 'map_min_zoom', 'map_style', 'map_zoom', 'marker_options', 'markers_data', 'node_options', 'nodes_data', 'pane', 'show_arrows', 'show_edges', 'show_markers', 'show_nodes', 'tile_layer_attribution', 'tile_layer_opacity', 'tile_layer_subdomains', 'tile_layer_url']
         self._valid_wildcard_attributes =            []
         self.available_properties = ['children', 'id', 'clicked_edge', 'clicked_marker', 'clicked_node', 'current_state', 'debug_options', 'edge_options', 'edges_data', 'map_center', 'map_max_zoom', 'map_min_zoom', 'map_style', 'map_zoom', 'marker_options', 'markers_data', 'node_options', 'nodes_data', 'pane', 'show_arrows', 'show_edges', 'show_markers', 'show_nodes', 'tile_layer_attribution', 'tile_layer_opacity', 'tile_layer_subdomains', 'tile_layer_url']
@@ -105,3 +148,5 @@ Keyword arguments:
         args = {k: _locals[k] for k in _explicit_args if k != 'children'}
 
         super(SylvereyeRoadNetwork, self).__init__(children=children, **args)
+
+setattr(SylvereyeRoadNetwork, "__init__", _explicitize_args(SylvereyeRoadNetwork.__init__))

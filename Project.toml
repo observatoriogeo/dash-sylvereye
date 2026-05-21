@@ -1,8 +1,8 @@
 
 name = "DashSylvereye"
-uuid = "1b08a953-4be3-4667-9a23-771fa116b20c"
+uuid = "1b08a953-4be3-4667-9a23-954282f481e7"
 authors = ["Alberto Garcia-Robledo <alberto.garob@gmail.com>"]
-version = "0.0.1"
+version = "0.3.0"
 
 [deps]
 Dash = "1b08a953-4be3-4667-9a23-3db579824955"

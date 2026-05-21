@@ -1,26 +1,20 @@
-# import osmnx as ox
-from dash import Dash
-from dash_html_components import Div
-from dash.dependencies import Input, Output
+import os
+from dash import Dash, html
 from dash_sylvereye import SylvereyeRoadNetwork
-# from dash_sylvereye.utils import load_from_osmnx_graph
-from dash_sylvereye.utils import load_from_osmnx_graphml  # debug
+from dash_sylvereye.utils import load_from_osmnx_graphml
 
-OSMNX_QUERY = "Santiago de Queretaro, Queretaro, Mexico"
-TILE_LAYER_URL = '//stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png'
-TILE_LAYER_SUBDOMAINS = 'abcd'
-TILE_LAYER_ATTRIBUTION = 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
-MAP_CENTER = [20.5858171, -100.3888608]
-MAP_ZOOM = 14
+TILE_LAYER_URL = 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png'
+TILE_LAYER_SUBDOMAINS = 'abcde'
+TILE_LAYER_ATTRIBUTION = '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>'
+MAP_CENTER = [60.1663, 24.9313]
+MAP_ZOOM = 15
 MAP_STYLE = {'width': '100%', 'height': '98vh'}
 
-# road_network = ox.graph_from_place(OSMNX_QUERY, network_type='drive')
-# nodes_data, edges_data = load_from_osmnx_graph(road_network)
-
-nodes_data, edges_data, _ = load_from_osmnx_graphml("data/Queretaro.graphml")
+GRAPHML_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'examples', 'cache', 'kamppi.graphml')
+nodes_data, edges_data, _ = load_from_osmnx_graphml(GRAPHML_FILE)
 
 app = Dash()
-app.layout = Div([
+app.layout = html.Div([
     SylvereyeRoadNetwork(id='sylvereye-roadnet',
                             tile_layer_url=TILE_LAYER_URL,
                             tile_layer_subdomains=TILE_LAYER_SUBDOMAINS,
@@ -35,4 +29,4 @@ app.layout = Div([
 
 
 if __name__ == '__main__':
-    app.run_server(port=8084)
+    app.run(port=8084)

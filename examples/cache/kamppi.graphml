@@ -1,0 +1,3262 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d21" for="edge" attr.name="bridge" attr.type="string" />
+  <key id="d20" for="edge" attr.name="access" attr.type="string" />
+  <key id="d19" for="edge" attr.name="width" attr.type="string" />
+  <key id="d18" for="edge" attr.name="junction" attr.type="string" />
+  <key id="d17" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="d16" for="edge" attr.name="length" attr.type="string" />
+  <key id="d15" for="edge" attr.name="reversed" attr.type="string" />
+  <key id="d14" for="edge" attr.name="oneway" attr.type="string" />
+  <key id="d13" for="edge" attr.name="name" attr.type="string" />
+  <key id="d12" for="edge" attr.name="maxspeed" attr.type="string" />
+  <key id="d11" for="edge" attr.name="lanes" attr.type="string" />
+  <key id="d10" for="edge" attr.name="highway" attr.type="string" />
+  <key id="d9" for="edge" attr.name="osmid" attr.type="string" />
+  <key id="d8" for="node" attr.name="highway" attr.type="string" />
+  <key id="d7" for="node" attr.name="railway" attr.type="string" />
+  <key id="d6" for="node" attr.name="street_count" attr.type="string" />
+  <key id="d5" for="node" attr.name="x" attr.type="string" />
+  <key id="d4" for="node" attr.name="y" attr.type="string" />
+  <key id="d3" for="graph" attr.name="simplified" attr.type="string" />
+  <key id="d2" for="graph" attr.name="crs" attr.type="string" />
+  <key id="d1" for="graph" attr.name="created_with" attr.type="string" />
+  <key id="d0" for="graph" attr.name="created_date" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="25216594">
+      <data key="d4">60.1647939</data>
+      <data key="d5">24.9210566</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="25238874">
+      <data key="d4">60.1636627</data>
+      <data key="d5">24.9210286</data>
+      <data key="d7">tram_level_crossing</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="25238944">
+      <data key="d4">60.164631</data>
+      <data key="d5">24.9212859</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="25291537">
+      <data key="d4">60.1643255</data>
+      <data key="d5">24.9370233</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="25291564">
+      <data key="d4">60.1659479</data>
+      <data key="d5">24.9416738</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="25291565">
+      <data key="d4">60.1651348</data>
+      <data key="d5">24.939344</data>
+      <data key="d8">traffic_signals</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="25291591">
+      <data key="d4">60.1653512</data>
+      <data key="d5">24.935584</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="25292473">
+      <data key="d4">60.1634458</data>
+      <data key="d5">24.9345002</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="56113314">
+      <data key="d4">60.1664916</data>
+      <data key="d5">24.9306919</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="56115897">
+      <data key="d4">60.1669427</data>
+      <data key="d5">24.9272265</data>
+      <data key="d8">traffic_signals</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="56116937">
+      <data key="d4">60.1641708</data>
+      <data key="d5">24.9266982</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="57743854">
+      <data key="d4">60.1657346</data>
+      <data key="d5">24.9261818</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="60004721">
+      <data key="d4">60.1636339</data>
+      <data key="d5">24.9274293</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="60070287">
+      <data key="d4">60.1658801</data>
+      <data key="d5">24.9250889</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="60132449">
+      <data key="d4">60.1694324</data>
+      <data key="d5">24.9372396</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="60170470">
+      <data key="d4">60.1677303</data>
+      <data key="d5">24.9392085</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="60170471">
+      <data key="d4">60.1661175</data>
+      <data key="d5">24.9345148</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="103062861">
+      <data key="d4">60.1625041</data>
+      <data key="d5">24.9234431</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="149030035">
+      <data key="d4">60.1648792</data>
+      <data key="d5">24.9247721</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="149030036">
+      <data key="d4">60.1646621</data>
+      <data key="d5">24.9248108</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="149030037">
+      <data key="d4">60.16478</data>
+      <data key="d5">24.9251534</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="149143065">
+      <data key="d4">60.1629011</data>
+      <data key="d5">24.9254294</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="150983569">
+      <data key="d4">60.1678219</data>
+      <data key="d5">24.933579</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="159619609">
+      <data key="d4">60.1615608</data>
+      <data key="d5">24.9240756</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="175832743">
+      <data key="d4">60.1617282</data>
+      <data key="d5">24.9244926</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="232165213">
+      <data key="d4">60.1618224</data>
+      <data key="d5">24.9254303</data>
+      <data key="d8">turning_circle</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="258188404">
+      <data key="d4">60.1620949</data>
+      <data key="d5">24.9228604</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="258189020">
+      <data key="d4">60.162278</data>
+      <data key="d5">24.9229039</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="266159806">
+      <data key="d4">60.161492</data>
+      <data key="d5">24.9273636</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="266159814">
+      <data key="d4">60.161943</data>
+      <data key="d5">24.9286737</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="266159899">
+      <data key="d4">60.1613907</data>
+      <data key="d5">24.9275035</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="267117317">
+      <data key="d4">60.166409</data>
+      <data key="d5">24.930393</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="267117319">
+      <data key="d4">60.1665952</data>
+      <data key="d5">24.9298052</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="268177652">
+      <data key="d4">60.1631392</data>
+      <data key="d5">24.9259947</data>
+      <data key="d8">crossing</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="295056712">
+      <data key="d4">60.1689592</data>
+      <data key="d5">24.9359958</data>
+      <data key="d8">crossing</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="295322365">
+      <data key="d4">60.1658417</data>
+      <data key="d5">24.9266523</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="301360197">
+      <data key="d4">60.1662116</data>
+      <data key="d5">24.9306172</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="303089524">
+      <data key="d4">60.1670139</data>
+      <data key="d5">24.9271148</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="313937382">
+      <data key="d4">60.1636241</data>
+      <data key="d5">24.9213964</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="313962116">
+      <data key="d4">60.1694636</data>
+      <data key="d5">24.937189</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="313962118">
+      <data key="d4">60.1693994</data>
+      <data key="d5">24.9372886</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="313963185">
+      <data key="d4">60.1685078</data>
+      <data key="d5">24.9346652</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="314929251">
+      <data key="d4">60.1653342</data>
+      <data key="d5">24.9263165</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="315285583">
+      <data key="d4">60.1684708</data>
+      <data key="d5">24.9347141</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="315387775">
+      <data key="d4">60.1641915</data>
+      <data key="d5">24.9292479</data>
+      <data key="d8">crossing</data>
+      <data key="d6">2</data>
+    </node>
+    <node id="319604907">
+      <data key="d4">60.1690486</data>
+      <data key="d5">24.9360372</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="319885318">
+      <data key="d4">60.1650619</data>
+      <data key="d5">24.9255011</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="319896278">
+      <data key="d4">60.1667939</data>
+      <data key="d5">24.9211781</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="337264937">
+      <data key="d4">60.1655074</data>
+      <data key="d5">24.9273117</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="434558043">
+      <data key="d4">60.1646249</data>
+      <data key="d5">24.9230831</data>
+      <data key="d8">turning_circle</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="529507770">
+      <data key="d4">60.1622994</data>
+      <data key="d5">24.9228714</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="529507771">
+      <data key="d4">60.1622295</data>
+      <data key="d5">24.9226654</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="568147264">
+      <data key="d4">60.1635887</data>
+      <data key="d5">24.9214018</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="659998487">
+      <data key="d4">60.1693835</data>
+      <data key="d5">24.9361738</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="659998488">
+      <data key="d4">60.1689887</data>
+      <data key="d5">24.9361539</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="724233128">
+      <data key="d4">60.1664345</data>
+      <data key="d5">24.9300219</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="724233143">
+      <data key="d4">60.1664705</data>
+      <data key="d5">24.9299256</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="724233172">
+      <data key="d4">60.1664826</data>
+      <data key="d5">24.9300408</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="846597945">
+      <data key="d4">60.166384</data>
+      <data key="d5">24.9304414</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="846597947">
+      <data key="d4">60.1663865</data>
+      <data key="d5">24.9306415</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="846597954">
+      <data key="d4">60.1665391</data>
+      <data key="d5">24.9305367</data>
+      <data key="d7">tram_level_crossing</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="846597959">
+      <data key="d4">60.1665278</data>
+      <data key="d5">24.9304513</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="949775435">
+      <data key="d4">60.1675818</data>
+      <data key="d5">24.9306594</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="949775444">
+      <data key="d4">60.1678047</data>
+      <data key="d5">24.9302443</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="979855770">
+      <data key="d4">60.1674823</data>
+      <data key="d5">24.9312712</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="979855795">
+      <data key="d4">60.1673947</data>
+      <data key="d5">24.9312147</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="979855850">
+      <data key="d4">60.1673855</data>
+      <data key="d5">24.9311889</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1007980689">
+      <data key="d4">60.1624279</data>
+      <data key="d5">24.9240293</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1008183915">
+      <data key="d4">60.164882</data>
+      <data key="d5">24.9248128</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1011525940">
+      <data key="d4">60.1644681</data>
+      <data key="d5">24.9212805</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1371748756">
+      <data key="d4">60.1681888</data>
+      <data key="d5">24.9315415</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1371750094">
+      <data key="d4">60.1674849</data>
+      <data key="d5">24.9325536</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1371750095">
+      <data key="d4">60.1674713</data>
+      <data key="d5">24.9360786</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1371750097">
+      <data key="d4">60.1679832</data>
+      <data key="d5">24.9375573</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1371750099">
+      <data key="d4">60.1682996</data>
+      <data key="d5">24.9349361</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1371750101">
+      <data key="d4">60.1690084</data>
+      <data key="d5">24.936127</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1371751501">
+      <data key="d4">60.1674015</data>
+      <data key="d5">24.9315603</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1371751505">
+      <data key="d4">60.1674078</data>
+      <data key="d5">24.9309593</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1371751507">
+      <data key="d4">60.1674304</data>
+      <data key="d5">24.9309341</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1371751514">
+      <data key="d4">60.1675286</data>
+      <data key="d5">24.9309855</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1371751516">
+      <data key="d4">60.1675426</data>
+      <data key="d5">24.9310317</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1371751521">
+      <data key="d4">60.1676312</data>
+      <data key="d5">24.9305579</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1372233731">
+      <data key="d4">60.1622904</data>
+      <data key="d5">24.9292737</data>
+      <data key="d8">crossing</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1372233754">
+      <data key="d4">60.1634462</data>
+      <data key="d5">24.9301786</data>
+      <data key="d8">traffic_signals</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1372318826">
+      <data key="d4">60.1611196</data>
+      <data key="d5">24.9253976</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1372318829">
+      <data key="d4">60.1614965</data>
+      <data key="d5">24.9239221</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1372318831">
+      <data key="d4">60.1621512</data>
+      <data key="d5">24.9264657</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1372318837">
+      <data key="d4">60.1628526</data>
+      <data key="d5">24.9284873</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1372376935">
+      <data key="d4">60.1642447</data>
+      <data key="d5">24.9235976</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1372376937">
+      <data key="d4">60.1642401</data>
+      <data key="d5">24.9291845</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1372376956">
+      <data key="d4">60.1647864</data>
+      <data key="d5">24.9284256</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1372376963">
+      <data key="d4">60.1653721</data>
+      <data key="d5">24.9264324</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1372425705">
+      <data key="d4">60.1623139</data>
+      <data key="d5">24.9236911</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1372425713">
+      <data key="d4">60.1635162</data>
+      <data key="d5">24.9210628</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1372425714">
+      <data key="d4">60.1644322</data>
+      <data key="d5">24.9209507</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1372425724">
+      <data key="d4">60.1649479</data>
+      <data key="d5">24.9256618</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1372441170">
+      <data key="d4">60.1652347</data>
+      <data key="d5">24.9319989</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1372441183">
+      <data key="d4">60.1657772</data>
+      <data key="d5">24.9312273</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1372441189">
+      <data key="d4">60.166218</data>
+      <data key="d5">24.932452</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1372441203">
+      <data key="d4">60.1671351</data>
+      <data key="d5">24.9257477</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1372459287">
+      <data key="d4">60.1678418</data>
+      <data key="d5">24.9277803</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1372461709">
+      <data key="d4">60.1673004</data>
+      <data key="d5">24.924482</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1377208998">
+      <data key="d4">60.166412</data>
+      <data key="d5">24.9386405</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1377209035">
+      <data key="d4">60.1667185</data>
+      <data key="d5">24.9395251</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1377211666">
+      <data key="d4">60.1661604</data>
+      <data key="d5">24.9379056</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1377211667">
+      <data key="d4">60.1666759</data>
+      <data key="d5">24.9337346</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1377211668">
+      <data key="d4">60.1669175</data>
+      <data key="d5">24.9368431</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1377211669">
+      <data key="d4">60.1669677</data>
+      <data key="d5">24.9402481</data>
+      <data key="d8">traffic_signals</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1377610493">
+      <data key="d4">60.1644721</data>
+      <data key="d5">24.9330734</data>
+      <data key="d8">traffic_signals</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1378064355">
+      <data key="d4">60.1678697</data>
+      <data key="d5">24.9275758</data>
+      <data key="d8">crossing</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1382320455">
+      <data key="d4">60.1668202</data>
+      <data key="d5">24.9209659</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1547012339">
+      <data key="d4">60.1664333</data>
+      <data key="d5">24.9310507</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1861896796">
+      <data key="d4">60.1650119</data>
+      <data key="d5">24.9255718</data>
+      <data key="d6">4</data>
+    </node>
+    <node id="1861896877">
+      <data key="d4">60.1655195</data>
+      <data key="d5">24.9273905</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1861896879">
+      <data key="d4">60.1655723</data>
+      <data key="d5">24.9274576</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1861896883">
+      <data key="d4">60.1656193</data>
+      <data key="d5">24.9271774</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="1861896890">
+      <data key="d4">60.1656572</data>
+      <data key="d5">24.9273103</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="2037356632">
+      <data key="d4">60.1664286</data>
+      <data key="d5">24.9307012</data>
+      <data key="d6">3</data>
+    </node>
+    <node id="3206878787">
+      <data key="d4">60.1635937</data>
+      <data key="d5">24.9300861</data>
+      <data key="d6">2</data>
+    </node>
+    <node id="3216400385">
+      <data key="d4">60.1675525</data>
+      <data key="d5">24.9340047</data>
+      <data key="d8">turning_circle</data>
+      <data key="d6">1</data>
+    </node>
+    <node id="13337833155">
+      <data key="d4">60.1682406</data>
+      <data key="d5">24.928551</data>
+      <data key="d6">1</data>
+    </node>
+    <edge source="25216594" target="1372425714" id="0">
+      <data key="d9">23856784</data>
+      <data key="d10">primary</data>
+      <data key="d11">2</data>
+      <data key="d12">40</data>
+      <data key="d13">Mechelininkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">40.88516330211006</data>
+      <data key="d17">LINESTRING (24.9210566 60.1647939, 24.9209527 60.1645634, 24.9209466 60.1645432, 24.9209462 60.1645009, 24.9209507 60.1644322)</data>
+    </edge>
+    <edge source="25238874" target="1372425713" id="0">
+      <data key="d9">[29977177, 30470347]</data>
+      <data key="d10">primary</data>
+      <data key="d11">3</data>
+      <data key="d12">40</data>
+      <data key="d13">Mechelininkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">16.39958903267738</data>
+      <data key="d17">LINESTRING (24.9210286 60.1636627, 24.9210413 60.1636082, 24.9210489 60.1635759, 24.9210628 60.1635162)</data>
+    </edge>
+    <edge source="25238944" target="25216594" id="0">
+      <data key="d9">[372440330, 8135861]</data>
+      <data key="d10">primary</data>
+      <data key="d18">yes</data>
+      <data key="d11">2</data>
+      <data key="d12">40</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">25.189951960572987</data>
+      <data key="d17">LINESTRING (24.9212859 60.164631, 24.9212736 60.1647036, 24.9212607 60.1647282, 24.9212336 60.1647518, 24.9211914 60.1647728, 24.9211586 60.1647828, 24.9211206 60.1647897, 24.9210859 60.1647922, 24.9210566 60.1647939)</data>
+    </edge>
+    <edge source="25238944" target="319896278" id="0">
+      <data key="d9">[25514547, 677423564, 30288797, 30288799]</data>
+      <data key="d10">primary</data>
+      <data key="d11">2</data>
+      <data key="d12">40</data>
+      <data key="d13">Mechelininkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">242.47507014559017</data>
+      <data key="d17">LINESTRING (24.9212859 60.164631, 24.9213617 60.1647243, 24.9213793 60.1647598, 24.9213864 60.1648186, 24.9213631 60.1649411, 24.9213385 60.1650648, 24.9213067 60.1652661, 24.9212793 60.1654697, 24.9211047 60.1664568, 24.9210998 60.1665165, 24.92112 60.1666394, 24.9211431 60.1667107, 24.9211781 60.1667939)</data>
+    </edge>
+    <edge source="25291537" target="25291591" id="0">
+      <data key="d9">[30568275, 36729015, 316590744, 316590745, 316590746]</data>
+      <data key="d10">tertiary</data>
+      <data key="d12">30</data>
+      <data key="d13">Fredrikinkatu</data>
+      <data key="d14">True</data>
+      <data key="d19">8.9</data>
+      <data key="d15">False</data>
+      <data key="d16">139.1056351927465</data>
+      <data key="d17">LINESTRING (24.9370233 60.1643255, 24.9370046 60.1643374, 24.9369326 60.1643843, 24.9360871 60.1649908, 24.9358301 60.1651753, 24.9357393 60.1652405, 24.935716 60.1652572, 24.9356933 60.1652735, 24.9356653 60.1652929, 24.935584 60.1653512)</data>
+    </edge>
+    <edge source="25291537" target="25291565" id="0">
+      <data key="d9">[42919371, 42919372, 42919373, 42919374, 42919375, 42919376, 126902357, 126902358, 30903129]</data>
+      <data key="d10">tertiary</data>
+      <data key="d12">30</data>
+      <data key="d13">Bulevardi</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">156.7835358718412</data>
+      <data key="d17">LINESTRING (24.9370233 60.1643255, 24.9371678 60.1643747, 24.9371893 60.164382, 24.9372274 60.1643949, 24.9374116 60.1644598, 24.937652 60.164545, 24.9376777 60.1645538, 24.9377809 60.1645886, 24.9377986 60.1645948, 24.9381021 60.1647015, 24.9381541 60.1647198, 24.9382979 60.1647703, 24.9384756 60.1648322, 24.9385954 60.1648739, 24.9386239 60.1648839, 24.938891 60.164977, 24.9391806 60.1650778, 24.9392552 60.1651038, 24.939344 60.1651348)</data>
+    </edge>
+    <edge source="25291537" target="25292473" id="0">
+      <data key="d9">[333061568, 333061571, 333061573, 572656872, 81527785, 333061564, 333061565, 333061566, 333061567]</data>
+      <data key="d10">tertiary</data>
+      <data key="d12">30</data>
+      <data key="d13">Bulevardi</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">170.4471967033213</data>
+      <data key="d11">2</data>
+      <data key="d17">LINESTRING (24.9370233 60.1643255, 24.9368796 60.1642762, 24.9368305 60.1642587, 24.9366588 60.1641992, 24.936348 60.164091, 24.9362131 60.164044, 24.9359186 60.1639403, 24.9356674 60.1638522, 24.9352513 60.163707, 24.9352424 60.1637039, 24.9350989 60.1636543, 24.9349084 60.1635869, 24.9346867 60.1635107, 24.9346401 60.1634945, 24.9345002 60.1634458)</data>
+    </edge>
+    <edge source="25291564" target="25291565" id="0">
+      <data key="d9">[76334538, 217644146, 76334539, 42919373]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">['2', '3']</data>
+      <data key="d12">30</data>
+      <data key="d13">Bulevardi</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">157.43316086104645</data>
+      <data key="d17">LINESTRING (24.9416738 60.1659479, 24.9415363 60.1659001, 24.9411769 60.1657742, 24.9409864 60.1657084, 24.9407682 60.1656322, 24.9404777 60.1655307, 24.939548 60.165206, 24.9394949 60.1651875, 24.939344 60.1651348)</data>
+    </edge>
+    <edge source="25291564" target="1377211669" id="0">
+      <data key="d9">[62212960, 76333545, 76333547, 36726223, 36726224, 233999572, 234000028]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Yrjönkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">138.1357530024388</data>
+      <data key="d17">LINESTRING (24.9416738 60.1659479, 24.941659 60.1659591, 24.9415885 60.1660123, 24.9415594 60.1660343, 24.9414259 60.1661298, 24.9413016 60.166216, 24.9407399 60.1666125, 24.9404574 60.1668119, 24.9403107 60.1669211, 24.9402481 60.1669677)</data>
+    </edge>
+    <edge source="25291565" target="1377211666" id="0">
+      <data key="d9">[21081120, 332402667, 316713564, 36729011]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Annankatu</data>
+      <data key="d19">['10', '8.9']</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">139.05768037144958</data>
+      <data key="d17">LINESTRING (24.939344 60.1651348, 24.9393282 60.165146, 24.9392584 60.1651958, 24.938112 60.1660127, 24.9380186 60.1660792, 24.9379729 60.1661118, 24.9379056 60.1661604)</data>
+    </edge>
+    <edge source="25291565" target="25291564" id="0">
+      <data key="d9">[76334538, 76334539, 42919373, 217644146]</data>
+      <data key="d10">tertiary</data>
+      <data key="d12">30</data>
+      <data key="d13">Bulevardi</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">157.43316086104645</data>
+      <data key="d11">['2', '3']</data>
+      <data key="d17">LINESTRING (24.939344 60.1651348, 24.9394949 60.1651875, 24.939548 60.165206, 24.9404777 60.1655307, 24.9407682 60.1656322, 24.9409864 60.1657084, 24.9411769 60.1657742, 24.9415363 60.1659001, 24.9416738 60.1659479)</data>
+    </edge>
+    <edge source="25291565" target="25291537" id="0">
+      <data key="d9">[42919371, 42919372, 42919373, 42919374, 42919375, 42919376, 126902357, 126902358, 30903129]</data>
+      <data key="d10">tertiary</data>
+      <data key="d12">30</data>
+      <data key="d13">Bulevardi</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">156.7835358718412</data>
+      <data key="d17">LINESTRING (24.939344 60.1651348, 24.9392552 60.1651038, 24.9391806 60.1650778, 24.938891 60.164977, 24.9386239 60.1648839, 24.9385954 60.1648739, 24.9384756 60.1648322, 24.9382979 60.1647703, 24.9381541 60.1647198, 24.9381021 60.1647015, 24.9377986 60.1645948, 24.9377809 60.1645886, 24.9376777 60.1645538, 24.937652 60.164545, 24.9374116 60.1644598, 24.9372274 60.1643949, 24.9371893 60.164382, 24.9371678 60.1643747, 24.9370233 60.1643255)</data>
+    </edge>
+    <edge source="25291591" target="60170471" id="0">
+      <data key="d9">[234072360, 234072361, 234072362, 234100809, 234100501, 36729015]</data>
+      <data key="d10">tertiary</data>
+      <data key="d12">30</data>
+      <data key="d13">Fredrikinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">103.74115229962112</data>
+      <data key="d17">LINESTRING (24.935584 60.1653512, 24.9355091 60.1654034, 24.9354831 60.1654219, 24.9354214 60.1654658, 24.9352044 60.1656191, 24.9348936 60.1658386, 24.9348702 60.1658551, 24.9347437 60.165948, 24.9347331 60.1659554, 24.9346546 60.1660107, 24.9346308 60.1660275, 24.9345727 60.1660697, 24.9345148 60.1661175)</data>
+    </edge>
+    <edge source="25291591" target="1377610493" id="0">
+      <data key="d9">[81522820, 332399559, 332399560, 332399561, 332402668, 234002842]</data>
+      <data key="d10">primary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Lönnrotinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">169.8384592477682</data>
+      <data key="d17">LINESTRING (24.935584 60.1653512, 24.9354868 60.1653174, 24.9354422 60.1653018, 24.9347069 60.1650454, 24.9345987 60.1650077, 24.934545 60.164989, 24.934481 60.1649667, 24.9340214 60.1648064, 24.9340039 60.1648002, 24.9337354 60.1647056, 24.9336262 60.1646671, 24.9335409 60.164637, 24.9332687 60.164541, 24.9331658 60.1645047, 24.9330734 60.1644721)</data>
+    </edge>
+    <edge source="25292473" target="25291537" id="0">
+      <data key="d9">[333061568, 333061571, 333061573, 572656872, 81527785, 333061564, 333061565, 333061566, 333061567]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Bulevardi</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">170.4471967033213</data>
+      <data key="d17">LINESTRING (24.9345002 60.1634458, 24.9346401 60.1634945, 24.9346867 60.1635107, 24.9349084 60.1635869, 24.9350989 60.1636543, 24.9352424 60.1637039, 24.9352513 60.163707, 24.9356674 60.1638522, 24.9359186 60.1639403, 24.9362131 60.164044, 24.936348 60.164091, 24.9366588 60.1641992, 24.9368305 60.1642587, 24.9368796 60.1642762, 24.9370233 60.1643255)</data>
+    </edge>
+    <edge source="56113314" target="979855850" id="0">
+      <data key="d9">[240836953, 240836954, 58015517]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Malminrinne</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">103.1797686139029</data>
+      <data key="d17">LINESTRING (24.9306919 60.1664916, 24.9307513 60.1665712, 24.9307616 60.166588, 24.9308338 60.166718, 24.9308715 60.166786, 24.9308742 60.1667913, 24.9311284 60.1672831, 24.9311458 60.1673173, 24.9311889 60.1673855)</data>
+    </edge>
+    <edge source="56113314" target="846597954" id="0">
+      <data key="d9">119613502</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">10.632116663097737</data>
+      <data key="d17">LINESTRING (24.9306919 60.1664916, 24.9306705 60.1665083, 24.9306419 60.166522, 24.930622 60.1665279, 24.9306077 60.1665322, 24.9305737 60.1665376, 24.9305367 60.1665391)</data>
+    </edge>
+    <edge source="56115897" target="295322365" id="0">
+      <data key="d9">[101155234, 28655615]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinrinne</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">126.48558480670424</data>
+      <data key="d11">2</data>
+      <data key="d17">LINESTRING (24.9272265 60.1669427, 24.9271953 60.1668744, 24.9269248 60.1663525, 24.9268495 60.1662052, 24.9266716 60.1658795, 24.9266523 60.1658417)</data>
+    </edge>
+    <edge source="56115897" target="1372441203" id="0">
+      <data key="d9">[101156265, 124116435, 124116437]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">84.55508679093975</data>
+      <data key="d17">LINESTRING (24.9272265 60.1669427, 24.9270832 60.1669615, 24.9269684 60.1669767, 24.9265937 60.1670262, 24.9265741 60.1670288, 24.9264859 60.1670404, 24.9264707 60.1670424, 24.9258713 60.1671182, 24.9257477 60.1671351)</data>
+    </edge>
+    <edge source="56115897" target="267117319" id="0">
+      <data key="d9">[124066018, 124066019, 124066021, 370623945, 37135577, 37135578]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">147.79645458913836</data>
+      <data key="d17">LINESTRING (24.9272265 60.1669427, 24.9273637 60.1669251, 24.9276531 60.1668862, 24.9279081 60.1668516, 24.9283994 60.1667904, 24.9284619 60.1667821, 24.9285161 60.1667748, 24.9285403 60.1667714, 24.929068 60.1666973, 24.9295301 60.1666323, 24.9296351 60.1666176, 24.9298052 60.1665952)</data>
+    </edge>
+    <edge source="56116937" target="1372376956" id="0">
+      <data key="d9">[126894680, 126894676, 126894678, 126894679]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Eerikinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">117.5483696739855</data>
+      <data key="d17">LINESTRING (24.9266982 60.1641708, 24.9268497 60.1642246, 24.9268939 60.1642404, 24.9269401 60.1642569, 24.9272015 60.1643501, 24.92741 60.1644244, 24.9277717 60.1645535, 24.9280802 60.1646636, 24.9281151 60.164676, 24.928332 60.1647534, 24.9284256 60.1647864)</data>
+    </edge>
+    <edge source="56116937" target="1372376935" id="0">
+      <data key="d9">[126897921, 42331490, 7715843, 42331491, 126897925, 126897926, 126897923, 126894676, 126894677, 122957398]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">['Eerikinkatu', 'Köydenpunojankatu']</data>
+      <data key="d14">False</data>
+      <data key="d15">[False, True]</data>
+      <data key="d16">243.68209394287732</data>
+      <data key="d11">2</data>
+      <data key="d17">LINESTRING (24.9266982 60.1641708, 24.9265946 60.1641338, 24.9265664 60.164124, 24.9262569 60.1640163, 24.9257333 60.1638347, 24.9248068 60.1635052, 24.9247721 60.1634928, 24.9246627 60.1634549, 24.9246048 60.1635029, 24.9242081 60.1638033, 24.9241489 60.1638448, 24.9241104 60.1638718, 24.9239782 60.1639644, 24.9237126 60.1641619, 24.9236909 60.1641774, 24.9236137 60.1642331, 24.9235976 60.1642447)</data>
+    </edge>
+    <edge source="56116937" target="60004721" id="0">
+      <data key="d9">126894682</data>
+      <data key="d10">secondary</data>
+      <data key="d12">30</data>
+      <data key="d13">Hietalahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">72.23142751594489</data>
+      <data key="d17">LINESTRING (24.9266982 60.1641708, 24.9267412 60.1641209, 24.9269061 60.1640026, 24.9270392 60.1639071, 24.9272915 60.1637308, 24.9273703 60.1636758, 24.9274293 60.1636339)</data>
+    </edge>
+    <edge source="56116937" target="1372425724" id="0">
+      <data key="d9">[234469702, 42332678, 30529623, 126894681, 126894682]</data>
+      <data key="d10">secondary</data>
+      <data key="d12">30</data>
+      <data key="d13">Hietalahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">103.82323914738912</data>
+      <data key="d11">2</data>
+      <data key="d17">LINESTRING (24.9266982 60.1641708, 24.9266484 60.1642285, 24.9266083 60.1642576, 24.9262612 60.1645095, 24.9262425 60.1645231, 24.9261573 60.1645841, 24.9261099 60.1646188, 24.92581 60.1648381, 24.9257637 60.1648719, 24.9257271 60.1648987, 24.9256618 60.1649479)</data>
+    </edge>
+    <edge source="57743854" target="60070287" id="0">
+      <data key="d9">14623465</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Lastenkodinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">62.58570115331571</data>
+      <data key="d17">LINESTRING (24.9261818 60.1657346, 24.9259318 60.1657679, 24.9254252 60.1658363, 24.9251749 60.1658686, 24.9250889 60.1658801)</data>
+    </edge>
+    <edge source="60004721" target="1372376937" id="0">
+      <data key="d9">[132423236, 132423237, 114554759, 15090664, 150018108, 150018111]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">118.20441515221363</data>
+      <data key="d17">LINESTRING (24.9274293 60.1636339, 24.9275659 60.1636805, 24.9276121 60.1636965, 24.9276771 60.163719, 24.9277821 60.1637553, 24.927846 60.1637774, 24.9280038 60.163832, 24.9282399 60.1639137, 24.9286387 60.1640518, 24.9289426 60.164157, 24.9290562 60.1641963, 24.9290968 60.1642103, 24.9291845 60.1642401)</data>
+    </edge>
+    <edge source="60004721" target="1372318837" id="0">
+      <data key="d9">[314403237, 15101958]</data>
+      <data key="d10">secondary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Hietalahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">104.75630253635833</data>
+      <data key="d17">LINESTRING (24.9274293 60.1636339, 24.9274986 60.1635827, 24.9280865 60.163149, 24.9282901 60.1629963, 24.9284264 60.1628983, 24.9284873 60.1628526)</data>
+    </edge>
+    <edge source="60004721" target="268177652" id="0">
+      <data key="d9">[24673382, 37282870, 37282871]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">96.56623330443226</data>
+      <data key="d17">LINESTRING (24.9274293 60.1636339, 24.9273262 60.1635987, 24.9272835 60.1635841, 24.9266734 60.1633749, 24.9266249 60.1633582, 24.9264187 60.1632875, 24.9262059 60.1632131, 24.9260649 60.1631638, 24.9259947 60.1631392)</data>
+    </edge>
+    <edge source="60004721" target="56116937" id="0">
+      <data key="d9">126894682</data>
+      <data key="d10">secondary</data>
+      <data key="d12">30</data>
+      <data key="d13">Hietalahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">72.23142751594489</data>
+      <data key="d17">LINESTRING (24.9274293 60.1636339, 24.9273703 60.1636758, 24.9272915 60.1637308, 24.9270392 60.1639071, 24.9269061 60.1640026, 24.9267412 60.1641209, 24.9266982 60.1641708)</data>
+    </edge>
+    <edge source="60070287" target="1372441203" id="0">
+      <data key="d9">7849131</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Lastenkodinkuja</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">144.23679274548337</data>
+      <data key="d17">LINESTRING (24.9250889 60.1658801, 24.9251145 60.1659304, 24.9252767 60.1662501, 24.9253476 60.1663963, 24.9253928 60.1664791, 24.925717 60.1670791, 24.9257477 60.1671351)</data>
+    </edge>
+    <edge source="60070287" target="57743854" id="0">
+      <data key="d9">14623465</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Lastenkodinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">62.58570115331571</data>
+      <data key="d17">LINESTRING (24.9250889 60.1658801, 24.9251749 60.1658686, 24.9254252 60.1658363, 24.9259318 60.1657679, 24.9261818 60.1657346)</data>
+    </edge>
+    <edge source="60132449" target="313962116" id="0">
+      <data key="d9">8042608</data>
+      <data key="d10">unclassified</data>
+      <data key="d12">30</data>
+      <data key="d13">Simonkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">4.457513288054835</data>
+      <data key="d17">LINESTRING (24.9372396 60.1694324, 24.9372218 60.1694433, 24.937189 60.1694636)</data>
+    </edge>
+    <edge source="60132449" target="1371750101" id="0">
+      <data key="d9">[8061216, 316509067]</data>
+      <data key="d20">no</data>
+      <data key="d10">unclassified</data>
+      <data key="d11">2</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">77.53834907111543</data>
+      <data key="d17">LINESTRING (24.9372396 60.1694324, 24.9363539 60.1691009, 24.9362599 60.169061, 24.936127 60.1690084)</data>
+    </edge>
+    <edge source="60132449" target="313962118" id="0">
+      <data key="d9">866357683</data>
+      <data key="d10">unclassified</data>
+      <data key="d12">30</data>
+      <data key="d13">Simonkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">4.561861812228734</data>
+      <data key="d17">LINESTRING (24.9372396 60.1694324, 24.9372543 60.1694225, 24.9372886 60.1693994)</data>
+    </edge>
+    <edge source="60170470" target="1377211668" id="0">
+      <data key="d9">[81796384, 80727847, 80727851, 80727852, 1122952687]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">159.02438661944174</data>
+      <data key="d17">LINESTRING (24.9392085 60.1677303, 24.9391226 60.1677008, 24.9390383 60.1676718, 24.9386959 60.1675542, 24.9379451 60.1672962, 24.9377216 60.1672194, 24.9376074 60.1671801, 24.9369482 60.1669536, 24.9368431 60.1669175)</data>
+    </edge>
+    <edge source="60170470" target="1377211669" id="0">
+      <data key="d9">[62201410, 36726223, 310792148, 62213050, 62213052]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Yrjönkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">102.46036116867924</data>
+      <data key="d11">2</data>
+      <data key="d17">LINESTRING (24.9392085 60.1677303, 24.9392639 60.1676904, 24.9393392 60.1676328, 24.9395436 60.1674838, 24.9398553 60.1672566, 24.9400433 60.1671197, 24.940103 60.1670762, 24.9401836 60.1670157, 24.9402481 60.1669677)</data>
+    </edge>
+    <edge source="60170471" target="1377211668" id="0">
+      <data key="d9">[37293912, 29186154, 948969467]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">156.53001180637952</data>
+      <data key="d17">LINESTRING (24.9345148 60.1661175, 24.9346018 60.1661474, 24.9346433 60.1661616, 24.9350234 60.1662929, 24.9350793 60.1663115, 24.9352471 60.1663691, 24.9357624 60.1665461, 24.9359203 60.1666004, 24.9361937 60.1666944, 24.9365018 60.1668002, 24.9367535 60.1668867, 24.9368431 60.1669175)</data>
+    </edge>
+    <edge source="60170471" target="1372441170" id="0">
+      <data key="d9">[37293912, 37293913, 114554802]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">170.31225256051005</data>
+      <data key="d11">2</data>
+      <data key="d17">LINESTRING (24.9345148 60.1661175, 24.9344249 60.1660866, 24.9343725 60.1660682, 24.9340603 60.1659586, 24.9336949 60.1658303, 24.9334294 60.1657371, 24.933329 60.1657019, 24.9333066 60.165694, 24.9332802 60.1656847, 24.9332197 60.1656635, 24.9330048 60.165588, 24.9327267 60.1654902, 24.9321501 60.1652875, 24.9320932 60.1652675, 24.9319989 60.1652347)</data>
+    </edge>
+    <edge source="60170471" target="1377211667" id="0">
+      <data key="d9">[81523597, 81523598, 234101647, 234100501, 315443480]</data>
+      <data key="d10">tertiary</data>
+      <data key="d12">30</data>
+      <data key="d13">Fredrikinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">75.61871840082652</data>
+      <data key="d11">1</data>
+      <data key="d17">LINESTRING (24.9345148 60.1661175, 24.9344435 60.1661693, 24.9339864 60.1664947, 24.9339804 60.166499, 24.9338873 60.1665653, 24.9338552 60.1665881, 24.9338029 60.1666254, 24.9337346 60.1666759)</data>
+    </edge>
+    <edge source="103062861" target="529507770" id="0">
+      <data key="d9">[42412490, 370070636]</data>
+      <data key="d10">unclassified</data>
+      <data key="d11">2</data>
+      <data key="d12">['40', '30']</data>
+      <data key="d13">Jätkäsaarenlaituri</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">38.97553998581095</data>
+      <data key="d17">LINESTRING (24.9234431 60.1625041, 24.9234108 60.1624928, 24.9233342 60.1624662, 24.9230366 60.1623625, 24.9228714 60.1622994)</data>
+    </edge>
+    <edge source="103062861" target="1372425705" id="0">
+      <data key="d9">44960714</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenranta</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">25.21000626358223</data>
+      <data key="d17">LINESTRING (24.9234431 60.1625041, 24.9234908 60.1624677, 24.9236224 60.1623667, 24.9236911 60.1623139)</data>
+    </edge>
+    <edge source="103062861" target="1372376935" id="0">
+      <data key="d9">[125602434, 699860165, 125895847, 234469704, 234469705, 234469706, 217644150, 125602428]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">['Ruoholahdenranta', 'Ruoholahdenkatu']</data>
+      <data key="d14">False</data>
+      <data key="d15">[False, True]</data>
+      <data key="d16">235.80294394569702</data>
+      <data key="d17">LINESTRING (24.9234431 60.1625041, 24.9234036 60.1625354, 24.923299 60.1626184, 24.9228993 60.1629059, 24.9227324 60.1630259, 24.9226873 60.1630643, 24.9226487 60.1631107, 24.9226274 60.163164, 24.9225982 60.1632863, 24.9225921 60.1633116, 24.9225847 60.1633424, 24.922577 60.1633748, 24.9225326 60.163549, 24.9225112 60.1636329, 24.9225052 60.1636829, 24.9225104 60.1637367, 24.9225253 60.1637741, 24.922545 60.1638035, 24.9225695 60.1638381, 24.922603 60.1638706, 24.9226431 60.1638978, 24.9226898 60.1639211, 24.9227389 60.1639421, 24.9227979 60.1639641, 24.922975 60.1640286, 24.9234394 60.1641887, 24.9234695 60.164199, 24.9235976 60.1642447)</data>
+    </edge>
+    <edge source="149030035" target="1008183915" id="0">
+      <data key="d9">89649053</data>
+      <data key="d10">secondary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">2.272956785654135</data>
+    </edge>
+    <edge source="149030035" target="149030036" id="0">
+      <data key="d9">7848746</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">24.255423708572952</data>
+      <data key="d17">LINESTRING (24.9247721 60.1648792, 24.9247908 60.1648042, 24.9247944 60.1647832, 24.9248058 60.1646752, 24.9248108 60.1646621)</data>
+    </edge>
+    <edge source="149030036" target="149030037" id="0">
+      <data key="d9">15093418</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">23.045124618096224</data>
+    </edge>
+    <edge source="149030036" target="149030035" id="0">
+      <data key="d9">7848746</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">24.255423708572952</data>
+      <data key="d17">LINESTRING (24.9248108 60.1646621, 24.9248058 60.1646752, 24.9247944 60.1647832, 24.9247908 60.1648042, 24.9247721 60.1648792)</data>
+    </edge>
+    <edge source="149030036" target="1372376935" id="0">
+      <data key="d9">[234469704, 42331492, 234469703]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">81.60589402838694</data>
+      <data key="d11">2</data>
+      <data key="d17">LINESTRING (24.9248108 60.1646621, 24.9247051 60.1646243, 24.9244237 60.1645271, 24.9237144 60.1642821, 24.9235976 60.1642447)</data>
+    </edge>
+    <edge source="149030037" target="149030036" id="0">
+      <data key="d9">15093418</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">23.045124618096224</data>
+    </edge>
+    <edge source="149143065" target="1372318831" id="0">
+      <data key="d9">37282869</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Köydenpunojankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">101.2004121682998</data>
+      <data key="d17">LINESTRING (24.9254294 60.1629011, 24.9254685 60.1628759, 24.9259569 60.1625223, 24.9263765 60.1622185, 24.9264657 60.1621512)</data>
+    </edge>
+    <edge source="149143065" target="268177652" id="0">
+      <data key="d9">126895736</data>
+      <data key="d10">residential</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">41.61766515043025</data>
+      <data key="d17">LINESTRING (24.9254294 60.1629011, 24.9259458 60.1630884, 24.9259947 60.1631392)</data>
+    </edge>
+    <edge source="150983569" target="3216400385" id="0">
+      <data key="d9">15240373</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Kansakoulukuja</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">38.73804025736224</data>
+      <data key="d17">LINESTRING (24.933579 60.1678219, 24.933632 60.1677846, 24.9336611 60.1677641, 24.9338253 60.1676456, 24.9338426 60.1676331, 24.9339332 60.1675668, 24.9340047 60.1675525)</data>
+    </edge>
+    <edge source="150983569" target="1371750099" id="0">
+      <data key="d9">[129300241, 129300244, 129300233, 129300238]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Kansakoulukatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">91.96029900739967</data>
+      <data key="d17">LINESTRING (24.933579 60.1678219, 24.9337276 60.1678741, 24.9337601 60.1678855, 24.9338714 60.1679247, 24.9341697 60.1680296, 24.93424 60.1680543, 24.9348303 60.168262, 24.9349361 60.1682996)</data>
+    </edge>
+    <edge source="150983569" target="1371750094" id="0">
+      <data key="d9">[129300241, 122886922]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Kansakoulukatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">68.00146839722792</data>
+      <data key="d17">LINESTRING (24.933579 60.1678219, 24.9333568 60.1677477, 24.9329852 60.1676232, 24.93279 60.1675579, 24.9327312 60.1675382, 24.9326652 60.1675161, 24.9325536 60.1674849)</data>
+    </edge>
+    <edge source="159619609" target="1372318829" id="0">
+      <data key="d9">30956219</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenranta</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">11.101490787832775</data>
+    </edge>
+    <edge source="159619609" target="175832743" id="0">
+      <data key="d9">[196972961, 30956219]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenranta</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">29.648700398214284</data>
+      <data key="d17">LINESTRING (24.9240756 60.1615608, 24.9241982 60.1616122, 24.9243491 60.161673, 24.9244579 60.1617142, 24.9244926 60.1617282)</data>
+    </edge>
+    <edge source="159619609" target="258189020" id="0">
+      <data key="d9">[746490375, 60710546, 42107700, 739515975]</data>
+      <data key="d10">primary</data>
+      <data key="d11">['2', '3', '4']</data>
+      <data key="d12">['40', '30']</data>
+      <data key="d13">Hietalahdenranta</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">102.92101247488407</data>
+      <data key="d17">LINESTRING (24.9240756 60.1615608, 24.9237554 60.1617359, 24.9236789 60.1617759, 24.9235523 60.1618432, 24.9233593 60.1619744, 24.9232693 60.1620356, 24.9231895 60.1620911, 24.9229759 60.1622288, 24.9229456 60.1622496, 24.9229039 60.162278)</data>
+    </edge>
+    <edge source="175832743" target="1372425705" id="0">
+      <data key="d9">[28546082, 126895740]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenranta</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">78.81754304749089</data>
+      <data key="d17">LINESTRING (24.9244926 60.1617282, 24.9238711 60.1621681, 24.9237744 60.1622468, 24.9237567 60.1622614, 24.9236911 60.1623139)</data>
+    </edge>
+    <edge source="175832743" target="159619609" id="0">
+      <data key="d9">[196972961, 30956219]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenranta</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">29.648700398214284</data>
+      <data key="d17">LINESTRING (24.9244926 60.1617282, 24.9244579 60.1617142, 24.9243491 60.161673, 24.9241982 60.1616122, 24.9240756 60.1615608)</data>
+    </edge>
+    <edge source="232165213" target="1372318831" id="0">
+      <data key="d9">21564980</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Lönnrotinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">67.95668164982264</data>
+      <data key="d17">LINESTRING (24.9254303 60.1618224, 24.9256593 60.1618951, 24.9258116 60.1619435, 24.9263246 60.1621064, 24.9263674 60.16212, 24.9264657 60.1621512)</data>
+    </edge>
+    <edge source="258188404" target="1372318829" id="0">
+      <data key="d9">[30263579, 61059606]</data>
+      <data key="d10">primary</data>
+      <data key="d11">['2', '3']</data>
+      <data key="d12">['30', '40']</data>
+      <data key="d13">Hietalahdenranta</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">88.98884102501826</data>
+      <data key="d17">LINESTRING (24.9228604 60.1620949, 24.9229655 60.1620153, 24.9231122 60.1619162, 24.9232722 60.1618258, 24.9239221 60.1614965)</data>
+    </edge>
+    <edge source="258188404" target="258189020" id="0">
+      <data key="d9">84235073</data>
+      <data key="d10">secondary</data>
+      <data key="d11">3</data>
+      <data key="d12">40</data>
+      <data key="d13">Jätkäsaarenlaituri</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">21.073764149346644</data>
+      <data key="d17">LINESTRING (24.9228604 60.1620949, 24.9228839 60.1621174, 24.9228994 60.162141, 24.9229111 60.1621626, 24.9229179 60.1621834, 24.9229213 60.1622098, 24.922922 60.1622255, 24.9229208 60.162241, 24.9229178 60.1622579, 24.9229039 60.162278)</data>
+    </edge>
+    <edge source="258189020" target="529507770" id="0">
+      <data key="d9">60710546</data>
+      <data key="d10">primary</data>
+      <data key="d11">4</data>
+      <data key="d12">40</data>
+      <data key="d13">Hietalahdenranta</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">2.9825078952059685</data>
+    </edge>
+    <edge source="266159806" target="1372318826" id="0">
+      <data key="d9">[80702168, 42331489, 80702174, 80702167]</data>
+      <data key="d10">primary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Hietalahdenranta</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">124.51321959378544</data>
+      <data key="d17">LINESTRING (24.9273636 60.161492, 24.9272223 60.1614436, 24.9271624 60.1614231, 24.9262479 60.1611026, 24.9261209 60.1610693, 24.9260061 60.1610543, 24.9259057 60.1610549, 24.9257622 60.1610676, 24.9253976 60.1611196)</data>
+    </edge>
+    <edge source="266159806" target="1372318831" id="0">
+      <data key="d9">[80702170, 122957396, 37282869]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Köydenpunojankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">88.54781227690737</data>
+      <data key="d17">LINESTRING (24.9273636 60.161492, 24.9272827 60.1615507, 24.9272567 60.1615695, 24.9270884 60.1616931, 24.9265351 60.1620992, 24.9264657 60.1621512)</data>
+    </edge>
+    <edge source="266159806" target="266159899" id="0">
+      <data key="d9">80702170</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Köydenpunojankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">13.667052440233586</data>
+      <data key="d17">LINESTRING (24.9273636 60.161492, 24.9274216 60.16145, 24.9275035 60.1613907)</data>
+    </edge>
+    <edge source="266159814" target="266159806" id="0">
+      <data key="d9">[42331488, 210000435, 80702168]</data>
+      <data key="d10">primary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Hietalahdenranta</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">88.1553778657287</data>
+      <data key="d17">LINESTRING (24.9286737 60.161943, 24.928581 60.1619156, 24.9276181 60.1615791, 24.9275835 60.1615673, 24.9273636 60.161492)</data>
+    </edge>
+    <edge source="266159899" target="266159806" id="0">
+      <data key="d9">80702170</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Köydenpunojankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">13.667052440233586</data>
+      <data key="d17">LINESTRING (24.9275035 60.1613907, 24.9274216 60.16145, 24.9273636 60.161492)</data>
+    </edge>
+    <edge source="267117317" target="846597945" id="0">
+      <data key="d9">71082025</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">3.879427483224707</data>
+      <data key="d17">LINESTRING (24.930393 60.166409, 24.9304146 60.1663953, 24.9304414 60.166384)</data>
+    </edge>
+    <edge source="267117319" target="724233143" id="0">
+      <data key="d9">24568161</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">15.933810038335345</data>
+      <data key="d17">LINESTRING (24.9298052 60.1665952, 24.929812 60.1665526, 24.9298335 60.1665265, 24.9299256 60.1664705)</data>
+    </edge>
+    <edge source="267117319" target="56115897" id="0">
+      <data key="d9">[124066018, 124066019, 124066021, 370623945, 37135577, 37135578]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">147.79645458913836</data>
+      <data key="d17">LINESTRING (24.9298052 60.1665952, 24.9296351 60.1666176, 24.9295301 60.1666323, 24.929068 60.1666973, 24.9285403 60.1667714, 24.9285161 60.1667748, 24.9284619 60.1667821, 24.9283994 60.1667904, 24.9279081 60.1668516, 24.9276531 60.1668862, 24.9273637 60.1669251, 24.9272265 60.1669427)</data>
+    </edge>
+    <edge source="268177652" target="1007980689" id="0">
+      <data key="d9">24673380</data>
+      <data key="d10">residential</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">135.03972737637397</data>
+      <data key="d17">LINESTRING (24.9259947 60.1631392, 24.9259039 60.1631236, 24.9254167 60.1629519, 24.924155 60.1625037, 24.9240293 60.1624279)</data>
+    </edge>
+    <edge source="268177652" target="60004721" id="0">
+      <data key="d9">[37282870, 24673382, 37282871]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">96.56623330443227</data>
+      <data key="d17">LINESTRING (24.9259947 60.1631392, 24.9260649 60.1631638, 24.9262059 60.1632131, 24.9264187 60.1632875, 24.9266249 60.1633582, 24.9266734 60.1633749, 24.9272835 60.1635841, 24.9273262 60.1635987, 24.9274293 60.1636339)</data>
+    </edge>
+    <edge source="295056712" target="1371750101" id="0">
+      <data key="d9">51707748</data>
+      <data key="d20">no</data>
+      <data key="d10">unclassified</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">9.088189041019119</data>
+    </edge>
+    <edge source="295056712" target="659998488" id="0">
+      <data key="d9">29049210</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Simonkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">9.34000444879962</data>
+      <data key="d17">LINESTRING (24.9359958 60.1689592, 24.9361067 60.1689799, 24.9361539 60.1689887)</data>
+    </edge>
+    <edge source="295322365" target="56115897" id="0">
+      <data key="d9">[101155234, 28655615]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinrinne</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">126.48558480670424</data>
+      <data key="d17">LINESTRING (24.9266523 60.1658417, 24.9266716 60.1658795, 24.9268495 60.1662052, 24.9269248 60.1663525, 24.9271953 60.1668744, 24.9272265 60.1669427)</data>
+    </edge>
+    <edge source="295322365" target="314929251" id="0">
+      <data key="d9">[30141505, 372220270]</data>
+      <data key="d10">residential</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinrinne</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">60.03039418510705</data>
+      <data key="d17">LINESTRING (24.9266523 60.1658417, 24.9265329 60.1657575, 24.926519 60.1657319, 24.9264424 60.1655752, 24.9264134 60.1655163, 24.9263981 60.1654833, 24.9263705 60.1654317, 24.9263165 60.1653342)</data>
+    </edge>
+    <edge source="301360197" target="1372441183" id="0">
+      <data key="d9">[315526579, 315526580, 205434518]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Albertinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">58.927672860712484</data>
+      <data key="d17">LINESTRING (24.9306172 60.1662116, 24.9310376 60.1659104, 24.9310889 60.1658737, 24.9311226 60.1658496, 24.9311614 60.1658218, 24.9312273 60.1657772)</data>
+    </edge>
+    <edge source="301360197" target="846597947" id="0">
+      <data key="d9">205434519</data>
+      <data key="d10">tertiary</data>
+      <data key="d12">30</data>
+      <data key="d13">Albertinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">19.529669382744537</data>
+      <data key="d17">LINESTRING (24.9306172 60.1662116, 24.9306204 60.1663105, 24.9306415 60.1663865)</data>
+    </edge>
+    <edge source="303089524" target="1378064355" id="0">
+      <data key="d9">[311975524, 314308165, 886664914, 122963284, 26998140]</data>
+      <data key="d10">living_street</data>
+      <data key="d13">Lapinrinne</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">98.52300637538121</data>
+      <data key="d17">LINESTRING (24.9271148 60.1670139, 24.9271246 60.1670316, 24.9271395 60.1670587, 24.9271652 60.1671052, 24.9271777 60.167128, 24.9272435 60.1672473, 24.9272698 60.1672949, 24.927304 60.1673559, 24.9273503 60.1674383, 24.9275381 60.1678025, 24.9275454 60.1678166, 24.9275758 60.1678697)</data>
+    </edge>
+    <edge source="313937382" target="25238874" id="0">
+      <data key="d9">44810326</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">40</data>
+      <data key="d13">Itämerenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">20.795301688332504</data>
+      <data key="d17">LINESTRING (24.9213964 60.1636241, 24.9211274 60.1636523, 24.9210286 60.1636627)</data>
+    </edge>
+    <edge source="313937382" target="1011525940" id="0">
+      <data key="d9">[607816337, 61059612, 29977175]</data>
+      <data key="d10">primary</data>
+      <data key="d11">['3', '4']</data>
+      <data key="d12">40</data>
+      <data key="d13">Mechelininkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">94.10457026569016</data>
+      <data key="d17">LINESTRING (24.9213964 60.1636241, 24.9213742 60.163732, 24.9213642 60.1637873, 24.9213572 60.1639437, 24.9212842 60.1643973, 24.9212805 60.1644681)</data>
+    </edge>
+    <edge source="313962116" target="60132449" id="0">
+      <data key="d9">8042608</data>
+      <data key="d10">unclassified</data>
+      <data key="d12">30</data>
+      <data key="d13">Simonkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">4.457513288054835</data>
+      <data key="d17">LINESTRING (24.937189 60.1694636, 24.9372218 60.1694433, 24.9372396 60.1694324)</data>
+    </edge>
+    <edge source="313962116" target="659998487" id="0">
+      <data key="d9">[28584320, 216650212, 317360902, 317360906, 317360908]</data>
+      <data key="d10">unclassified</data>
+      <data key="d11">3</data>
+      <data key="d12">['10', '30']</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">67.66991566202199</data>
+      <data key="d17">LINESTRING (24.937189 60.1694636, 24.9370852 60.1695007, 24.9370446 60.1695201, 24.9368759 60.1695816, 24.9368066 60.1695849, 24.9367205 60.1695792, 24.9365901 60.1695356, 24.9364813 60.1694972, 24.9361738 60.1693835)</data>
+    </edge>
+    <edge source="313962116" target="319604907" id="0">
+      <data key="d9">30287785</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Simonkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">78.67180944850408</data>
+      <data key="d17">LINESTRING (24.937189 60.1694636, 24.9362866 60.169135, 24.9361978 60.1691028, 24.9360372 60.1690486)</data>
+    </edge>
+    <edge source="313962118" target="60132449" id="0">
+      <data key="d9">866357683</data>
+      <data key="d10">unclassified</data>
+      <data key="d12">30</data>
+      <data key="d13">Simonkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">4.561861812228734</data>
+      <data key="d17">LINESTRING (24.9372886 60.1693994, 24.9372543 60.1694225, 24.9372396 60.1694324)</data>
+    </edge>
+    <edge source="313963185" target="315285583" id="0">
+      <data key="d9">25361336</data>
+      <data key="d10">tertiary</data>
+      <data key="d12">30</data>
+      <data key="d13">Annankatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">4.9237242646280786</data>
+    </edge>
+    <edge source="313963185" target="1371748756" id="0">
+      <data key="d9">[51707744, 25361340, 193116150, 193116151]</data>
+      <data key="d10">unclassified</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">['Urho Kekkosen katu', 'Annankatu']</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">226.28230645184553</data>
+      <data key="d17">LINESTRING (24.9346652 60.1685078, 24.9345832 60.1685664, 24.9345394 60.1686019, 24.9341714 60.1689007, 24.9340995 60.1689364, 24.9340302 60.1689554, 24.9339741 60.1689667, 24.9339022 60.1689699, 24.9337959 60.1689574, 24.9336827 60.1689333, 24.9335562 60.1688925, 24.9333759 60.1688284, 24.9331664 60.1687567, 24.9323458 60.1684759, 24.9316933 60.1682526, 24.9315415 60.1681888)</data>
+    </edge>
+    <edge source="314929251" target="319885318" id="0">
+      <data key="d9">29081163</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">54.4006521063054</data>
+      <data key="d17">LINESTRING (24.9263165 60.1653342, 24.9258344 60.1651592, 24.9256869 60.165113, 24.9255924 60.1650872, 24.9255011 60.1650619)</data>
+    </edge>
+    <edge source="315285583" target="1371750099" id="0">
+      <data key="d9">122886921</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Annankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">22.678511666891453</data>
+      <data key="d17">LINESTRING (24.9347141 60.1684708, 24.9347606 60.1684274, 24.9348038 60.168396, 24.9349361 60.1682996)</data>
+    </edge>
+    <edge source="315285583" target="295056712" id="0">
+      <data key="d9">[316509065, 122886923, 316509063]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Simonkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">89.32624656393025</data>
+      <data key="d17">LINESTRING (24.9347141 60.1684708, 24.9349122 60.1685485, 24.9349398 60.1685599, 24.9351093 60.1686299, 24.9351308 60.1686386, 24.9357023 60.168849, 24.9358208 60.1688938, 24.9359685 60.1689498, 24.9359958 60.1689592)</data>
+    </edge>
+    <edge source="315387775" target="1372376937" id="0">
+      <data key="d9">114554779</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Abrahaminkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">6.442495308023612</data>
+    </edge>
+    <edge source="315387775" target="3206878787" id="0">
+      <data key="d9">314642992</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Abrahaminkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">81.04833331083952</data>
+      <data key="d17">LINESTRING (24.9292479 60.1641915, 24.9296648 60.1638942, 24.9298007 60.1637972, 24.9300861 60.1635937)</data>
+    </edge>
+    <edge source="319604907" target="313963185" id="0">
+      <data key="d9">[80727848, 30287785, 80727849]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Simonkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">97.1154914935268</data>
+      <data key="d19">6</data>
+      <data key="d17">LINESTRING (24.9360372 60.1690486, 24.9359242 60.1690094, 24.9353692 60.1688009, 24.9350616 60.16869, 24.9350379 60.1686809, 24.9348589 60.1686133, 24.9348305 60.1686026, 24.9347426 60.1685522, 24.9346652 60.1685078)</data>
+    </edge>
+    <edge source="319896278" target="1382320455" id="0">
+      <data key="d9">963740349</data>
+      <data key="d10">unclassified</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdentie</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">12.097073724359966</data>
+      <data key="d17">LINESTRING (24.9211781 60.1667939, 24.921098 60.1668038, 24.9210412 60.1668109, 24.9209659 60.1668202)</data>
+    </edge>
+    <edge source="337264937" target="1861896877" id="0">
+      <data key="d9">175625218</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">4.606112198976586</data>
+      <data key="d17">LINESTRING (24.9273117 60.1655074, 24.9273546 60.165511, 24.9273905 60.1655195)</data>
+    </edge>
+    <edge source="434558043" target="1372376935" id="0">
+      <data key="d9">126897923</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Köydenpunojankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">50.96504951717856</data>
+      <data key="d17">LINESTRING (24.9230831 60.1646249, 24.9231697 60.16456, 24.9235205 60.1643017, 24.9235814 60.1642567, 24.9235976 60.1642447)</data>
+    </edge>
+    <edge source="529507770" target="529507771" id="0">
+      <data key="d9">61059622</data>
+      <data key="d10">secondary</data>
+      <data key="d11">1</data>
+      <data key="d12">40</data>
+      <data key="d13">Jätkäsaarenlaituri</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">13.794959553202025</data>
+    </edge>
+    <edge source="529507770" target="568147264" id="0">
+      <data key="d9">[58077048, 58077051, 61059623]</data>
+      <data key="d10">primary</data>
+      <data key="d11">['3', '4']</data>
+      <data key="d12">40</data>
+      <data key="d13">Mechelininkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">166.7188329392453</data>
+      <data key="d21">yes</data>
+      <data key="d17">LINESTRING (24.9228714 60.1622994, 24.9222747 60.1627262, 24.9219701 60.1629536, 24.9216285 60.1632194, 24.9215151 60.1633245, 24.9214699 60.1633801, 24.9214411 60.1634517, 24.9214018 60.1635887)</data>
+    </edge>
+    <edge source="529507771" target="258188404" id="0">
+      <data key="d9">60710548</data>
+      <data key="d10">primary</data>
+      <data key="d11">2</data>
+      <data key="d12">40</data>
+      <data key="d13">Hietalahdenranta</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">18.44981593736035</data>
+      <data key="d17">LINESTRING (24.9226654 60.1622295, 24.9227401 60.1621781, 24.9227706 60.1621571, 24.9228604 60.1620949)</data>
+    </edge>
+    <edge source="568147264" target="313937382" id="0">
+      <data key="d9">304447537</data>
+      <data key="d10">primary</data>
+      <data key="d11">4</data>
+      <data key="d12">40</data>
+      <data key="d13">Mechelininkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">3.9476259462409775</data>
+    </edge>
+    <edge source="659998487" target="313962116" id="0">
+      <data key="d9">[28584320, 216650212, 317360902, 317360906, 317360908]</data>
+      <data key="d10">unclassified</data>
+      <data key="d12">['10', '30']</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">67.669915662022</data>
+      <data key="d11">3</data>
+      <data key="d17">LINESTRING (24.9361738 60.1693835, 24.9364813 60.1694972, 24.9365901 60.1695356, 24.9367205 60.1695792, 24.9368066 60.1695849, 24.9368759 60.1695816, 24.9370446 60.1695201, 24.9370852 60.1695007, 24.937189 60.1694636)</data>
+    </edge>
+    <edge source="659998488" target="313962118" id="0">
+      <data key="d9">51707741</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Simonkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">77.69717669287476</data>
+      <data key="d17">LINESTRING (24.9361539 60.1689887, 24.9363049 60.1690307, 24.9371276 60.1693386, 24.9372886 60.1693994)</data>
+    </edge>
+    <edge source="659998488" target="1371750101" id="0">
+      <data key="d9">51707742</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Yrjönkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">2.648095720382154</data>
+      <data key="d17">LINESTRING (24.9361539 60.1689887, 24.936145 60.1689952, 24.936127 60.1690084)</data>
+    </edge>
+    <edge source="724233128" target="724233172" id="0">
+      <data key="d9">122962416</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">5.5113472159971355</data>
+      <data key="d17">LINESTRING (24.9300219 60.1664345, 24.9300424 60.1664699, 24.9300408 60.1664826)</data>
+    </edge>
+    <edge source="724233128" target="267117317" id="0">
+      <data key="d9">[217847705, 217847706]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">21.012668130535637</data>
+      <data key="d17">LINESTRING (24.9300219 60.1664345, 24.9300947 60.1664393, 24.9301536 60.1664397, 24.9301762 60.1664381, 24.9301859 60.1664374, 24.9302348 60.1664318, 24.930393 60.166409)</data>
+    </edge>
+    <edge source="724233143" target="724233128" id="0">
+      <data key="d9">24568161</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">6.66462729280166</data>
+      <data key="d17">LINESTRING (24.9299256 60.1664705, 24.9299472 60.166463, 24.9300219 60.1664345)</data>
+    </edge>
+    <edge source="724233143" target="1861896890" id="0">
+      <data key="d9">[231182441, 314555412, 29690382]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">171.66434897124793</data>
+      <data key="d17">LINESTRING (24.9299256 60.1664705, 24.9298782 60.1664623, 24.9298005 60.1664382, 24.9297548 60.1664256, 24.9297013 60.1664076, 24.9290367 60.1661748, 24.9288186 60.1660977, 24.9285851 60.1660379, 24.9285435 60.1660288, 24.9284675 60.1660136, 24.9283959 60.1659904, 24.9275147 60.165685, 24.9274718 60.1656717, 24.9273868 60.1656619, 24.9273103 60.1656572)</data>
+    </edge>
+    <edge source="724233172" target="724233143" id="0">
+      <data key="d9">29690382</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">6.5145501509247055</data>
+      <data key="d17">LINESTRING (24.9300408 60.1664826, 24.9299833 60.1664772, 24.9299256 60.1664705)</data>
+    </edge>
+    <edge source="724233172" target="267117319" id="0">
+      <data key="d9">122962416</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">19.69824651031718</data>
+      <data key="d17">LINESTRING (24.9300408 60.1664826, 24.9299617 60.1665668, 24.9298859 60.1665885, 24.9298052 60.1665952)</data>
+    </edge>
+    <edge source="846597945" target="301360197" id="0">
+      <data key="d9">24568160</data>
+      <data key="d10">tertiary</data>
+      <data key="d12">30</data>
+      <data key="d13">Albertinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">21.74320886794278</data>
+      <data key="d17">LINESTRING (24.9304414 60.166384, 24.9304862 60.1663099, 24.9305241 60.1662753, 24.9306172 60.1662116)</data>
+    </edge>
+    <edge source="846597945" target="846597947" id="0">
+      <data key="d9">119613505</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">11.795066408169843</data>
+      <data key="d17">LINESTRING (24.9304414 60.166384, 24.9304793 60.1663743, 24.9305209 60.1663696, 24.9305635 60.1663701, 24.9306046 60.1663759, 24.9306415 60.1663865)</data>
+    </edge>
+    <edge source="846597947" target="2037356632" id="0">
+      <data key="d9">119613505</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">5.810663395940469</data>
+      <data key="d17">LINESTRING (24.9306415 60.1663865, 24.9306671 60.1663984, 24.9306873 60.1664126, 24.9307012 60.1664286)</data>
+    </edge>
+    <edge source="846597954" target="846597959" id="0">
+      <data key="d9">119613503</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">4.935903201902509</data>
+      <data key="d17">LINESTRING (24.9305367 60.1665391, 24.9304893 60.166536, 24.9304513 60.1665278)</data>
+    </edge>
+    <edge source="846597959" target="724233172" id="0">
+      <data key="d9">8014831</data>
+      <data key="d10">tertiary</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">23.386244622914877</data>
+      <data key="d17">LINESTRING (24.9304513 60.1665278, 24.930379 60.1665119, 24.9302765 60.1665004, 24.9302048 60.1664925, 24.930095 60.1664859, 24.9300408 60.1664826)</data>
+    </edge>
+    <edge source="846597959" target="267117317" id="0">
+      <data key="d9">119613504</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">15.117216217136274</data>
+      <data key="d17">LINESTRING (24.9304513 60.1665278, 24.9304155 60.1665139, 24.9303995 60.1665032, 24.9303883 60.1664957, 24.9303729 60.1664782, 24.9303677 60.166456, 24.9303741 60.1664297, 24.930393 60.166409)</data>
+    </edge>
+    <edge source="949775435" target="1371751521" id="0">
+      <data key="d9">81512296</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Runeberginkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">7.855646071434281</data>
+      <data key="d17">LINESTRING (24.9306594 60.1675818, 24.9306209 60.1675998, 24.9305579 60.1676312)</data>
+    </edge>
+    <edge source="949775435" target="1371751507" id="0">
+      <data key="d9">[81512298, 1144348556]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Runeberginkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">22.940839878117888</data>
+      <data key="d17">LINESTRING (24.9306594 60.1675818, 24.9306992 60.1675435, 24.9307041 60.1675387, 24.9307319 60.1675245, 24.9307397 60.16752, 24.930776 60.1674991, 24.9309341 60.1674304)</data>
+    </edge>
+    <edge source="949775444" target="1371751521" id="0">
+      <data key="d9">81512297</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Runeberginkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">25.94691965464456</data>
+      <data key="d17">LINESTRING (24.9302443 60.1678047, 24.9304602 60.167683, 24.9305579 60.1676312)</data>
+    </edge>
+    <edge source="979855770" target="1371751516" id="0">
+      <data key="d9">[34328930, 1041486965]</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">16.740740771372938</data>
+      <data key="d17">LINESTRING (24.9312712 60.1674823, 24.9312369 60.1675167, 24.9312121 60.1675277, 24.9311948 60.1675354, 24.9311546 60.1675441, 24.9310867 60.1675491, 24.9310317 60.1675426)</data>
+    </edge>
+    <edge source="979855795" target="979855770" id="0">
+      <data key="d9">84235079</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">10.73032679358117</data>
+      <data key="d17">LINESTRING (24.9312147 60.1673947, 24.9312468 60.1674128, 24.9312678 60.1674345, 24.9312761 60.1674583, 24.9312712 60.1674823)</data>
+    </edge>
+    <edge source="979855795" target="1371751501" id="0">
+      <data key="d9">122887002</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Malminkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">19.29280306391938</data>
+      <data key="d17">LINESTRING (24.9312147 60.1673947, 24.9313568 60.1673865, 24.9315603 60.1674015)</data>
+    </edge>
+    <edge source="979855850" target="979855795" id="0">
+      <data key="d9">84235077</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">1.7559274548271488</data>
+    </edge>
+    <edge source="1007980689" target="1372425705" id="0">
+      <data key="d9">15101963</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">22.602200205834393</data>
+      <data key="d17">LINESTRING (24.9240293 60.1624279, 24.9237893 60.1623456, 24.9236911 60.1623139)</data>
+    </edge>
+    <edge source="1007980689" target="149143065" id="0">
+      <data key="d9">24479833</data>
+      <data key="d10">residential</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">93.76946255121484</data>
+      <data key="d17">LINESTRING (24.9240293 60.1624279, 24.9242052 60.1624703, 24.9254294 60.1629011)</data>
+    </edge>
+    <edge source="1008183915" target="1861896796" id="0">
+      <data key="d9">15218737</data>
+      <data key="d20">no</data>
+      <data key="d10">unclassified</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">44.458664794360075</data>
+      <data key="d17">LINESTRING (24.9248128 60.164882, 24.9249608 60.164913, 24.9251491 60.1649407, 24.9253352 60.1649669, 24.9254728 60.1649924, 24.9255718 60.1650119)</data>
+    </edge>
+    <edge source="1008183915" target="1372425724" id="0">
+      <data key="d9">28655614</data>
+      <data key="d10">secondary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">48.213650071477666</data>
+      <data key="d17">LINESTRING (24.9248128 60.164882, 24.9249842 60.1648737, 24.9250939 60.1648785, 24.9252037 60.1648863, 24.9253096 60.1648937, 24.9253531 60.1648973, 24.9254018 60.1649014, 24.9254221 60.1649037, 24.9254954 60.164912, 24.9255662 60.1649237, 24.9256618 60.1649479)</data>
+    </edge>
+    <edge source="1011525940" target="25238944" id="0">
+      <data key="d9">122961574</data>
+      <data key="d10">primary</data>
+      <data key="d11">4</data>
+      <data key="d12">40</data>
+      <data key="d13">Mechelininkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">18.11614232598192</data>
+    </edge>
+    <edge source="1371748756" target="1371751516" id="0">
+      <data key="d9">[53353530, 122886797, 52299038]</data>
+      <data key="d10">unclassified</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Malminrinne</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">79.2242625965806</data>
+      <data key="d17">LINESTRING (24.9315415 60.1681888, 24.9315063 60.1681766, 24.9313984 60.1681391, 24.9313428 60.1680872, 24.931296 60.1679995, 24.9311597 60.1677284, 24.9311028 60.1676398, 24.9310921 60.167617, 24.9310317 60.1675426)</data>
+    </edge>
+    <edge source="1371748756" target="313963185" id="0">
+      <data key="d9">[51707744, 25361340, 193116150, 193116151]</data>
+      <data key="d10">unclassified</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">['Urho Kekkosen katu', 'Annankatu']</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">226.28230645184556</data>
+      <data key="d17">LINESTRING (24.9315415 60.1681888, 24.9316933 60.1682526, 24.9323458 60.1684759, 24.9331664 60.1687567, 24.9333759 60.1688284, 24.9335562 60.1688925, 24.9336827 60.1689333, 24.9337959 60.1689574, 24.9339022 60.1689699, 24.9339741 60.1689667, 24.9340302 60.1689554, 24.9340995 60.1689364, 24.9341714 60.1689007, 24.9345394 60.1686019, 24.9345832 60.1685664, 24.9346652 60.1685078)</data>
+    </edge>
+    <edge source="1371750094" target="1371748756" id="0">
+      <data key="d9">[82408453, 82408452, 30436421]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Fredrikinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">96.23921331736153</data>
+      <data key="d17">LINESTRING (24.9325536 60.1674849, 24.9324494 60.1675546, 24.932412 60.1675805, 24.9322175 60.1677224, 24.9317837 60.1680224, 24.9316963 60.1680838, 24.9315702 60.1681693, 24.9315415 60.1681888)</data>
+    </edge>
+    <edge source="1371750094" target="1371751501" id="0">
+      <data key="d9">[183090994, 52656372, 233567804]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Malminkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">56.851313897606836</data>
+      <data key="d17">LINESTRING (24.9325536 60.1674849, 24.9324464 60.1674537, 24.9323347 60.1674301, 24.9322907 60.1674236, 24.9321244 60.1674056, 24.9319998 60.1673974, 24.9318715 60.1673939, 24.9317774 60.167393, 24.9316729 60.167396, 24.9315603 60.1674015)</data>
+    </edge>
+    <edge source="1371750094" target="150983569" id="0">
+      <data key="d9">[129300241, 122886922]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Kansakoulukatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">68.00146839722792</data>
+      <data key="d17">LINESTRING (24.9325536 60.1674849, 24.9326652 60.1675161, 24.9327312 60.1675382, 24.93279 60.1675579, 24.9329852 60.1676232, 24.9333568 60.1677477, 24.933579 60.1678219)</data>
+    </edge>
+    <edge source="1371750095" target="1371750097" id="0">
+      <data key="d9">[324204704, 324204705, 29400781, 324204703]</data>
+      <data key="d10">residential</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Eerikinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">99.87884120573548</data>
+      <data key="d19">['6', '4.5']</data>
+      <data key="d17">LINESTRING (24.9360786 60.1674713, 24.9361992 60.1675123, 24.936498 60.1676157, 24.9367885 60.1677161, 24.936841 60.1677418, 24.9373815 60.1679296, 24.9374349 60.1679387, 24.9374901 60.1679539, 24.9375573 60.1679832)</data>
+    </edge>
+    <edge source="1371750095" target="1377211668" id="0">
+      <data key="d9">[36729010, 36726220]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Annankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">74.70479580340658</data>
+      <data key="d17">LINESTRING (24.9360786 60.1674713, 24.9361468 60.1674204, 24.9367678 60.1669742, 24.9368431 60.1669175)</data>
+    </edge>
+    <edge source="1371750095" target="1377211667" id="0">
+      <data key="d9">[36729016, 36726221]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Eerikinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">156.9676587661606</data>
+      <data key="d17">LINESTRING (24.9360786 60.1674713, 24.9359705 60.1674381, 24.9355111 60.1672822, 24.9352734 60.1672015, 24.9350795 60.1671356, 24.9346535 60.166991, 24.9338868 60.1667307, 24.9338304 60.1667115, 24.9337346 60.1666759)</data>
+    </edge>
+    <edge source="1371750095" target="1371750099" id="0">
+      <data key="d9">[80727850, 80727853, 1122952686]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Annankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">111.70890526881087</data>
+      <data key="d17">LINESTRING (24.9360786 60.1674713, 24.9360022 60.1675242, 24.9359583 60.1675557, 24.9354289 60.1679444, 24.9350619 60.1682139, 24.9350331 60.1682343, 24.9349361 60.1682996)</data>
+    </edge>
+    <edge source="1371750097" target="60170470" id="0">
+      <data key="d9">[28408345, 324204711]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Yrjönkatu</data>
+      <data key="d14">True</data>
+      <data key="d19">5</data>
+      <data key="d15">False</data>
+      <data key="d16">127.28138513850634</data>
+      <data key="d17">LINESTRING (24.9375573 60.1679832, 24.9376228 60.1679477, 24.9378338 60.1678016, 24.9378555 60.1677903, 24.9378839 60.1677822, 24.9379148 60.1677782, 24.9379456 60.1677797, 24.937975 60.1677843, 24.9386505 60.1680199, 24.9386824 60.1680267, 24.9387137 60.1680287, 24.9387416 60.1680272, 24.9387734 60.1680216, 24.9388018 60.1680116, 24.9388261 60.1679985, 24.9390545 60.1678366, 24.9391326 60.1677816, 24.9392085 60.1677303)</data>
+    </edge>
+    <edge source="1371750097" target="659998488" id="0">
+      <data key="d9">[324204706, 324204707, 324204708, 324204709, 324204710, 122886924, 36726222]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Yrjönkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">136.1184286258803</data>
+      <data key="d17">LINESTRING (24.9375573 60.1679832, 24.9374895 60.1680304, 24.9374726 60.1680426, 24.9372587 60.1681968, 24.9370833 60.1683232, 24.9370218 60.1683676, 24.9368287 60.1685068, 24.9367359 60.1685737, 24.9367045 60.1685963, 24.9364136 60.168806, 24.9362695 60.1689099, 24.9362408 60.1689305, 24.9361539 60.1689887)</data>
+    </edge>
+    <edge source="1371750099" target="1371750095" id="0">
+      <data key="d9">[80727850, 80727853, 1122952686]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Annankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">111.70890526881087</data>
+      <data key="d17">LINESTRING (24.9349361 60.1682996, 24.9350331 60.1682343, 24.9350619 60.1682139, 24.9354289 60.1679444, 24.9359583 60.1675557, 24.9360022 60.1675242, 24.9360786 60.1674713)</data>
+    </edge>
+    <edge source="1371750099" target="315285583" id="0">
+      <data key="d9">122886921</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Annankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">22.678511666891453</data>
+      <data key="d17">LINESTRING (24.9349361 60.1682996, 24.9348038 60.168396, 24.9347606 60.1684274, 24.9347141 60.1684708)</data>
+    </edge>
+    <edge source="1371750099" target="150983569" id="0">
+      <data key="d9">[129300233, 129300241, 129300244, 129300238]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Kansakoulukatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">91.96029900739968</data>
+      <data key="d17">LINESTRING (24.9349361 60.1682996, 24.9348303 60.168262, 24.93424 60.1680543, 24.9341697 60.1680296, 24.9338714 60.1679247, 24.9337601 60.1678855, 24.9337276 60.1678741, 24.933579 60.1678219)</data>
+    </edge>
+    <edge source="1371750101" target="295056712" id="0">
+      <data key="d9">51707748</data>
+      <data key="d20">no</data>
+      <data key="d10">unclassified</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">9.088189041019119</data>
+    </edge>
+    <edge source="1371750101" target="60132449" id="0">
+      <data key="d9">[8061216, 316509067]</data>
+      <data key="d20">no</data>
+      <data key="d10">unclassified</data>
+      <data key="d11">2</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">77.53834907111542</data>
+      <data key="d17">LINESTRING (24.936127 60.1690084, 24.9362599 60.169061, 24.9363539 60.1691009, 24.9372396 60.1694324)</data>
+    </edge>
+    <edge source="1371750101" target="319604907" id="0">
+      <data key="d9">51707742</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Yrjönkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">6.751663982910069</data>
+      <data key="d17">LINESTRING (24.936127 60.1690084, 24.9361101 60.169021, 24.9360372 60.1690486)</data>
+    </edge>
+    <edge source="1371751501" target="979855770" id="0">
+      <data key="d9">[183090993, 233567803]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Malminkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">18.36192554501147</data>
+      <data key="d17">LINESTRING (24.9315603 60.1674015, 24.9314519 60.167436, 24.9313938 60.1674509, 24.9312712 60.1674823)</data>
+    </edge>
+    <edge source="1371751501" target="1371750094" id="0">
+      <data key="d9">[183090994, 52656372, 233567804]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Malminkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">56.85131389760684</data>
+      <data key="d17">LINESTRING (24.9315603 60.1674015, 24.9316729 60.167396, 24.9317774 60.167393, 24.9318715 60.1673939, 24.9319998 60.1673974, 24.9321244 60.1674056, 24.9322907 60.1674236, 24.9323347 60.1674301, 24.9324464 60.1674537, 24.9325536 60.1674849)</data>
+    </edge>
+    <edge source="1371751505" target="846597954" id="0">
+      <data key="d9">[314555410, 217644149, 44948199]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Malminrinne</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">100.61465426542063</data>
+      <data key="d17">LINESTRING (24.9309593 60.1674078, 24.9309832 60.1673304, 24.9309762 60.1673033, 24.9306978 60.1667343, 24.9306681 60.166673, 24.9306321 60.166619, 24.9306238 60.1666065, 24.9306089 60.1665891, 24.9305735 60.1665634, 24.9305367 60.1665391)</data>
+    </edge>
+    <edge source="1371751505" target="979855850" id="0">
+      <data key="d9">122887004</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">14.069687774454692</data>
+      <data key="d17">LINESTRING (24.9309593 60.1674078, 24.9309959 60.1673902, 24.931041 60.1673784, 24.9310751 60.1673751, 24.931091 60.1673736, 24.9311346 60.1673757, 24.9311889 60.1673855)</data>
+    </edge>
+    <edge source="1371751507" target="1371751505" id="0">
+      <data key="d9">58015527</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">2.873733039325377</data>
+    </edge>
+    <edge source="1371751514" target="1371751507" id="0">
+      <data key="d9">34328929</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">11.980026384323672</data>
+      <data key="d17">LINESTRING (24.9309855 60.1675286, 24.9309499 60.1675083, 24.9309285 60.1674835, 24.930923 60.1674568, 24.9309341 60.1674304)</data>
+    </edge>
+    <edge source="1371751514" target="949775435" id="0">
+      <data key="d9">183090995</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Runeberginkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">19.386121378687594</data>
+      <data key="d17">LINESTRING (24.9309855 60.1675286, 24.9308751 60.1675528, 24.9307659 60.1675813, 24.9306594 60.1675818)</data>
+    </edge>
+    <edge source="1371751516" target="1371751514" id="0">
+      <data key="d9">1240345175</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">2.9923960882646763</data>
+    </edge>
+    <edge source="1371751521" target="949775435" id="0">
+      <data key="d9">81512296</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Runeberginkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">7.855646071434281</data>
+      <data key="d17">LINESTRING (24.9305579 60.1676312, 24.9306209 60.1675998, 24.9306594 60.1675818)</data>
+    </edge>
+    <edge source="1371751521" target="949775444" id="0">
+      <data key="d9">81512297</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Runeberginkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">25.94691965464456</data>
+      <data key="d17">LINESTRING (24.9305579 60.1676312, 24.9304602 60.167683, 24.9302443 60.1678047)</data>
+    </edge>
+    <edge source="1371751521" target="1372459287" id="0">
+      <data key="d9">[1312868099, 1312868100]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Malminkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">[False, True]</data>
+      <data key="d16">164.19355016307023</data>
+      <data key="d17">LINESTRING (24.9305579 60.1676312, 24.9304725 60.1675846, 24.9304623 60.167579, 24.930411 60.167551, 24.9303389 60.1675117, 24.9300575 60.167548, 24.9298176 60.167579, 24.9292209 60.1676559, 24.9289336 60.167693, 24.9286367 60.1677313, 24.9283166 60.1677726, 24.9279569 60.167819, 24.9278649 60.1678309, 24.9277803 60.1678418)</data>
+    </edge>
+    <edge source="1372233731" target="266159814" id="0">
+      <data key="d9">15103120</data>
+      <data key="d10">primary_link</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">55.62535946012743</data>
+      <data key="d17">LINESTRING (24.9292737 60.1622904, 24.9292977 60.1622421, 24.9293013 60.162221, 24.9292979 60.162203, 24.9292874 60.1621836, 24.9292684 60.1621655, 24.9292363 60.1621475, 24.9290194 60.1620689, 24.9289907 60.1620587, 24.9286737 60.161943)</data>
+    </edge>
+    <edge source="1372233754" target="1372318837" id="0">
+      <data key="d9">[127104869, 81527189]</data>
+      <data key="d10">primary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Lönnrotinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">114.50673096934585</data>
+      <data key="d17">LINESTRING (24.9301786 60.1634462, 24.9300143 60.1633881, 24.9299493 60.1633655, 24.9298357 60.1633257, 24.9287088 60.1629303, 24.9286516 60.16291, 24.9286033 60.1628933, 24.9285385 60.1628709, 24.9284873 60.1628526)</data>
+    </edge>
+    <edge source="1372233754" target="3206878787" id="0">
+      <data key="d9">[314642995, 81527190]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Abrahaminkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">17.657505735962506</data>
+      <data key="d17">LINESTRING (24.9301786 60.1634462, 24.9301731 60.1634894, 24.9301618 60.163532, 24.9301404 60.163555, 24.9300861 60.1635937)</data>
+    </edge>
+    <edge source="1372318826" target="175832743" id="0">
+      <data key="d9">22486710</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenranta</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">84.41378394837342</data>
+      <data key="d17">LINESTRING (24.9253976 60.1611196, 24.9252989 60.1611808, 24.9252554 60.1612121, 24.925023 60.1613794, 24.9246004 60.1616819, 24.9244926 60.1617282)</data>
+    </edge>
+    <edge source="1372318826" target="159619609" id="0">
+      <data key="d9">[24479683, 42107700]</data>
+      <data key="d10">primary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Hietalahdenranta</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">90.14382976505584</data>
+      <data key="d17">LINESTRING (24.9253976 60.1611196, 24.9252894 60.1611356, 24.9250697 60.1611681, 24.9248761 60.1612089, 24.9247124 60.1612559, 24.9245823 60.1613009, 24.9243905 60.161382, 24.9242324 60.1614737, 24.9240756 60.1615608)</data>
+    </edge>
+    <edge source="1372318829" target="159619609" id="0">
+      <data key="d9">30956219</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenranta</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">11.101490787832775</data>
+    </edge>
+    <edge source="1372318829" target="266159899" id="0">
+      <data key="d9">[125602432, 24479682, 1182860872, 33887120, 125602425, 62201341, 125602430, 125602431]</data>
+      <data key="d10">primary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Hietalahdenranta</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">232.1339170294053</data>
+      <data key="d17">LINESTRING (24.9239221 60.1614965, 24.9240924 60.1614083, 24.9241655 60.1613729, 24.9243138 60.1613006, 24.9245126 60.1612172, 24.9246728 60.1611657, 24.9248796 60.1611138, 24.9251747 60.1610517, 24.9254626 60.1609974, 24.9256835 60.1609582, 24.9257724 60.1609457, 24.9258473 60.1609396, 24.9259212 60.1609379, 24.9259922 60.1609403, 24.9260852 60.1609469, 24.9261788 60.1609567, 24.9262355 60.1609645, 24.9262992 60.1609769, 24.9263709 60.1609943, 24.9265322 60.1610474, 24.9267399 60.1611158, 24.9273628 60.1613423, 24.9275035 60.1613907)</data>
+    </edge>
+    <edge source="1372318831" target="1372318837" id="0">
+      <data key="d9">[310596740, 101154826, 101154827, 21564980]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Lönnrotinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">136.3579846854493</data>
+      <data key="d17">LINESTRING (24.9264657 60.1621512, 24.9265577 60.1621804, 24.9268361 60.1622753, 24.9269349 60.1623099, 24.9272133 60.1624072, 24.9273329 60.162449, 24.9277104 60.162581, 24.9283374 60.1628002, 24.9283954 60.1628205, 24.9284873 60.1628526)</data>
+    </edge>
+    <edge source="1372318831" target="232165213" id="0">
+      <data key="d9">21564980</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Lönnrotinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">67.95668164982266</data>
+      <data key="d17">LINESTRING (24.9264657 60.1621512, 24.9263674 60.16212, 24.9263246 60.1621064, 24.9258116 60.1619435, 24.9256593 60.1618951, 24.9254303 60.1618224)</data>
+    </edge>
+    <edge source="1372318831" target="149143065" id="0">
+      <data key="d9">37282869</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Köydenpunojankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">101.20041216829979</data>
+      <data key="d17">LINESTRING (24.9264657 60.1621512, 24.9263765 60.1622185, 24.9259569 60.1625223, 24.9254685 60.1628759, 24.9254294 60.1629011)</data>
+    </edge>
+    <edge source="1372318831" target="266159806" id="0">
+      <data key="d9">[80702170, 122957396, 37282869]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Köydenpunojankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">88.54781227690737</data>
+      <data key="d17">LINESTRING (24.9264657 60.1621512, 24.9265351 60.1620992, 24.9270884 60.1616931, 24.9272567 60.1615695, 24.9272827 60.1615507, 24.9273636 60.161492)</data>
+    </edge>
+    <edge source="1372318837" target="1372233731" id="0">
+      <data key="d9">[86533504, 23025219]</data>
+      <data key="d10">primary</data>
+      <data key="d11">['2', '3']</data>
+      <data key="d12">30</data>
+      <data key="d13">Hietalahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">76.17043200881818</data>
+      <data key="d17">LINESTRING (24.9284873 60.1628526, 24.9285725 60.1627948, 24.9286838 60.1627192, 24.9292737 60.1622904)</data>
+    </edge>
+    <edge source="1372318837" target="1372318831" id="0">
+      <data key="d9">[101154826, 101154827, 310596740, 21564980]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Lönnrotinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">136.35798468544934</data>
+      <data key="d17">LINESTRING (24.9284873 60.1628526, 24.9283954 60.1628205, 24.9283374 60.1628002, 24.9277104 60.162581, 24.9273329 60.162449, 24.9272133 60.1624072, 24.9269349 60.1623099, 24.9268361 60.1622753, 24.9265577 60.1621804, 24.9264657 60.1621512)</data>
+    </edge>
+    <edge source="1372318837" target="60004721" id="0">
+      <data key="d9">[314403237, 15101958]</data>
+      <data key="d10">secondary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Hietalahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">104.75630253635836</data>
+      <data key="d17">LINESTRING (24.9284873 60.1628526, 24.9284264 60.1628983, 24.9282901 60.1629963, 24.9280865 60.163149, 24.9274986 60.1635827, 24.9274293 60.1636339)</data>
+    </edge>
+    <edge source="1372376935" target="434558043" id="0">
+      <data key="d9">126897923</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Köydenpunojankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">50.96504951717856</data>
+      <data key="d17">LINESTRING (24.9235976 60.1642447, 24.9235814 60.1642567, 24.9235205 60.1643017, 24.9231697 60.16456, 24.9230831 60.1646249)</data>
+    </edge>
+    <edge source="1372376935" target="56116937" id="0">
+      <data key="d9">[126897921, 42331490, 42331491, 126897923, 7715843, 126897926, 126897925, 126894676, 126894677, 122957398]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">['Eerikinkatu', 'Köydenpunojankatu']</data>
+      <data key="d14">False</data>
+      <data key="d15">[False, True]</data>
+      <data key="d16">243.6820939428773</data>
+      <data key="d17">LINESTRING (24.9235976 60.1642447, 24.9236137 60.1642331, 24.9236909 60.1641774, 24.9237126 60.1641619, 24.9239782 60.1639644, 24.9241104 60.1638718, 24.9241489 60.1638448, 24.9242081 60.1638033, 24.9246048 60.1635029, 24.9246627 60.1634549, 24.9247721 60.1634928, 24.9248068 60.1635052, 24.9257333 60.1638347, 24.9262569 60.1640163, 24.9265664 60.164124, 24.9265946 60.1641338, 24.9266982 60.1641708)</data>
+    </edge>
+    <edge source="1372376935" target="103062861" id="0">
+      <data key="d9">[125602434, 699860165, 125895847, 234469704, 234469705, 234469706, 217644150, 125602428]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">['Ruoholahdenranta', 'Ruoholahdenkatu']</data>
+      <data key="d14">False</data>
+      <data key="d15">[False, True]</data>
+      <data key="d16">235.80294394569705</data>
+      <data key="d17">LINESTRING (24.9235976 60.1642447, 24.9234695 60.164199, 24.9234394 60.1641887, 24.922975 60.1640286, 24.9227979 60.1639641, 24.9227389 60.1639421, 24.9226898 60.1639211, 24.9226431 60.1638978, 24.922603 60.1638706, 24.9225695 60.1638381, 24.922545 60.1638035, 24.9225253 60.1637741, 24.9225104 60.1637367, 24.9225052 60.1636829, 24.9225112 60.1636329, 24.9225326 60.163549, 24.922577 60.1633748, 24.9225847 60.1633424, 24.9225921 60.1633116, 24.9225982 60.1632863, 24.9226274 60.163164, 24.9226487 60.1631107, 24.9226873 60.1630643, 24.9227324 60.1630259, 24.9228993 60.1629059, 24.923299 60.1626184, 24.9234036 60.1625354, 24.9234431 60.1625041)</data>
+    </edge>
+    <edge source="1372376935" target="149030036" id="0">
+      <data key="d9">[234469704, 42331492, 234469703]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">81.60589402838693</data>
+      <data key="d17">LINESTRING (24.9235976 60.1642447, 24.9237144 60.1642821, 24.9244237 60.1645271, 24.9247051 60.1646243, 24.9248108 60.1646621)</data>
+    </edge>
+    <edge source="1372376937" target="315387775" id="0">
+      <data key="d9">114554779</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Abrahaminkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">6.442495308023612</data>
+    </edge>
+    <edge source="1372376937" target="1372441170" id="0">
+      <data key="d9">[114554759, 114554794, 114554797, 114554802, 114554806, 114554776, 114554781, 114554783]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">190.97697535007492</data>
+      <data key="d17">LINESTRING (24.9291845 60.1642401, 24.9292843 60.1642741, 24.9293229 60.1642878, 24.9294708 60.1643401, 24.9296873 60.1644168, 24.9297146 60.1644265, 24.9297534 60.1644402, 24.9297942 60.1644547, 24.9298759 60.1644836, 24.9298982 60.1644915, 24.9304799 60.1646974, 24.9305437 60.16472, 24.9306129 60.1647445, 24.9310021 60.1648823, 24.9310509 60.1648996, 24.9311335 60.1649288, 24.9314668 60.1650468, 24.9318064 60.1651671, 24.9318522 60.1651833, 24.9319105 60.1652039, 24.9319989 60.1652347)</data>
+    </edge>
+    <edge source="1372376937" target="60004721" id="0">
+      <data key="d9">[132423236, 132423237, 114554759, 15090664, 150018108, 150018111]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">118.20441515221366</data>
+      <data key="d17">LINESTRING (24.9291845 60.1642401, 24.9290968 60.1642103, 24.9290562 60.1641963, 24.9289426 60.164157, 24.9286387 60.1640518, 24.9282399 60.1639137, 24.9280038 60.163832, 24.927846 60.1637774, 24.9277821 60.1637553, 24.9276771 60.163719, 24.9276121 60.1636965, 24.9275659 60.1636805, 24.9274293 60.1636339)</data>
+    </edge>
+    <edge source="1372376937" target="1372376956" id="0">
+      <data key="d9">[114554800, 114554779, 114554772]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Abrahaminkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">73.84553979736113</data>
+      <data key="d17">LINESTRING (24.9291845 60.1642401, 24.9291153 60.1642932, 24.9289097 60.1644405, 24.9285201 60.1647196, 24.9284892 60.1647417, 24.9284256 60.1647864)</data>
+    </edge>
+    <edge source="1372376956" target="1372376937" id="0">
+      <data key="d9">[114554800, 114554779, 114554772]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Abrahaminkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">73.84553979736114</data>
+      <data key="d17">LINESTRING (24.9284256 60.1647864, 24.9284892 60.1647417, 24.9285201 60.1647196, 24.9289097 60.1644405, 24.9291153 60.1642932, 24.9291845 60.1642401)</data>
+    </edge>
+    <edge source="1372376956" target="1372441183" id="0">
+      <data key="d9">126894678</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Eerikinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">190.15622363031156</data>
+      <data key="d17">LINESTRING (24.9284256 60.1647864, 24.9285073 60.1648152, 24.9303379 60.1654626, 24.9310983 60.1657316, 24.9311462 60.1657485, 24.9312273 60.1657772)</data>
+    </edge>
+    <edge source="1372376956" target="56116937" id="0">
+      <data key="d9">[126894680, 126894676, 126894678, 126894679]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Eerikinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">117.54836967398549</data>
+      <data key="d17">LINESTRING (24.9284256 60.1647864, 24.928332 60.1647534, 24.9281151 60.164676, 24.9280802 60.1646636, 24.9277717 60.1645535, 24.92741 60.1644244, 24.9272015 60.1643501, 24.9269401 60.1642569, 24.9268939 60.1642404, 24.9268497 60.1642246, 24.9266982 60.1641708)</data>
+    </edge>
+    <edge source="1372376963" target="314929251" id="0">
+      <data key="d9">30263585</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">7.6725380027039085</data>
+    </edge>
+    <edge source="1372376963" target="295322365" id="0">
+      <data key="d9">[372220272, 122958772, 928318774]</data>
+      <data key="d20">no</data>
+      <data key="d10">residential</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinrinne</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">53.63837925145074</data>
+      <data key="d17">LINESTRING (24.9264324 60.1653721, 24.9264828 60.1654724, 24.9265067 60.165518, 24.9266073 60.1657212, 24.926629 60.1657714, 24.9266523 60.1658417)</data>
+    </edge>
+    <edge source="1372425705" target="1007980689" id="0">
+      <data key="d9">15101963</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">22.602200205834393</data>
+      <data key="d17">LINESTRING (24.9236911 60.1623139, 24.9237893 60.1623456, 24.9240293 60.1624279)</data>
+    </edge>
+    <edge source="1372425705" target="103062861" id="0">
+      <data key="d9">44960714</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenranta</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">25.21000626358223</data>
+      <data key="d17">LINESTRING (24.9236911 60.1623139, 24.9236224 60.1623667, 24.9234908 60.1624677, 24.9234431 60.1625041)</data>
+    </edge>
+    <edge source="1372425705" target="175832743" id="0">
+      <data key="d9">[28546082, 126895740]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenranta</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">78.81754304749089</data>
+      <data key="d17">LINESTRING (24.9236911 60.1623139, 24.9237567 60.1622614, 24.9237744 60.1622468, 24.9238711 60.1621681, 24.9244926 60.1617282)</data>
+    </edge>
+    <edge source="1372425713" target="568147264" id="0">
+      <data key="d9">57839670</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">40</data>
+      <data key="d13">Itämerenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">20.413574389448296</data>
+    </edge>
+    <edge source="1372425713" target="529507771" id="0">
+      <data key="d9">[58077049, 42107699, 58077046]</data>
+      <data key="d10">primary</data>
+      <data key="d11">3</data>
+      <data key="d12">40</data>
+      <data key="d13">Mechelininkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">169.92192683336572</data>
+      <data key="d21">yes</data>
+      <data key="d17">LINESTRING (24.9210628 60.1635162, 24.9210842 60.1634384, 24.9211287 60.1633466, 24.9211842 60.1632814, 24.9217359 60.1628943, 24.9220833 60.1626471, 24.9225655 60.1623007, 24.9226654 60.1622295)</data>
+    </edge>
+    <edge source="1372425714" target="25238874" id="0">
+      <data key="d9">[78537378, 8169098, 29081876, 78537375]</data>
+      <data key="d10">primary</data>
+      <data key="d11">['2', '3']</data>
+      <data key="d12">40</data>
+      <data key="d13">Mechelininkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">85.74124339885859</data>
+      <data key="d17">LINESTRING (24.9209507 60.1644322, 24.9209535 60.1642708, 24.920956 60.1641233, 24.9209778 60.1639313, 24.9209971 60.1637932, 24.9210286 60.1636627)</data>
+    </edge>
+    <edge source="1372425714" target="1011525940" id="0">
+      <data key="d9">29066052</data>
+      <data key="d10">primary</data>
+      <data key="d18">yes</data>
+      <data key="d11">2</data>
+      <data key="d12">40</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">18.682777235543718</data>
+      <data key="d17">LINESTRING (24.9209507 60.1644322, 24.9210062 60.1644372, 24.9211087 60.1644472, 24.9212805 60.1644681)</data>
+    </edge>
+    <edge source="1372425724" target="1861896796" id="0">
+      <data key="d9">7840522</data>
+      <data key="d10">secondary</data>
+      <data key="d12">30</data>
+      <data key="d13">Hietalahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">8.68541377338103</data>
+      <data key="d17">LINESTRING (24.9256618 60.1649479, 24.9256496 60.1649569, 24.9256182 60.1649791, 24.9255718 60.1650119)</data>
+    </edge>
+    <edge source="1372425724" target="56116937" id="0">
+      <data key="d9">[42332678, 234469702, 30529623, 126894681, 126894682]</data>
+      <data key="d10">secondary</data>
+      <data key="d12">30</data>
+      <data key="d13">Hietalahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">103.82323914738913</data>
+      <data key="d11">2</data>
+      <data key="d17">LINESTRING (24.9256618 60.1649479, 24.9257271 60.1648987, 24.9257637 60.1648719, 24.92581 60.1648381, 24.9261099 60.1646188, 24.9261573 60.1645841, 24.9262425 60.1645231, 24.9262612 60.1645095, 24.9266083 60.1642576, 24.9266484 60.1642285, 24.9266982 60.1641708)</data>
+    </edge>
+    <edge source="1372425724" target="337264937" id="0">
+      <data key="d9">[175625203, 175625199]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">110.53323218387297</data>
+      <data key="d17">LINESTRING (24.9256618 60.1649479, 24.9257508 60.1649717, 24.9258406 60.165001, 24.9263551 60.165177, 24.9264374 60.1652027, 24.9265346 60.1652328, 24.9266077 60.1652549, 24.9271508 60.1654457, 24.9271845 60.1654575, 24.9273117 60.1655074)</data>
+    </edge>
+    <edge source="1372441170" target="60170471" id="0">
+      <data key="d9">[37293912, 37293913, 114554802]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">170.31225256051002</data>
+      <data key="d17">LINESTRING (24.9319989 60.1652347, 24.9320932 60.1652675, 24.9321501 60.1652875, 24.9327267 60.1654902, 24.9330048 60.165588, 24.9332197 60.1656635, 24.9332802 60.1656847, 24.9333066 60.165694, 24.933329 60.1657019, 24.9334294 60.1657371, 24.9336949 60.1658303, 24.9340603 60.1659586, 24.9343725 60.1660682, 24.9344249 60.1660866, 24.9345148 60.1661175)</data>
+    </edge>
+    <edge source="1372441170" target="1372376937" id="0">
+      <data key="d9">[114554759, 114554794, 114554797, 114554802, 114554806, 114554776, 114554781, 114554783]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">190.9769753500749</data>
+      <data key="d17">LINESTRING (24.9319989 60.1652347, 24.9319105 60.1652039, 24.9318522 60.1651833, 24.9318064 60.1651671, 24.9314668 60.1650468, 24.9311335 60.1649288, 24.9310509 60.1648996, 24.9310021 60.1648823, 24.9306129 60.1647445, 24.9305437 60.16472, 24.9304799 60.1646974, 24.9298982 60.1644915, 24.9298759 60.1644836, 24.9297942 60.1644547, 24.9297534 60.1644402, 24.9297146 60.1644265, 24.9296873 60.1644168, 24.9294708 60.1643401, 24.9293229 60.1642878, 24.9292843 60.1642741, 24.9291845 60.1642401)</data>
+    </edge>
+    <edge source="1372441170" target="1377610493" id="0">
+      <data key="d9">[114554764, 114554786, 1268135628, 114554766]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Albertinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">103.55691056141706</data>
+      <data key="d17">LINESTRING (24.9319989 60.1652347, 24.932061 60.1651906, 24.9322706 60.1650422, 24.9325727 60.1648282, 24.9325863 60.1648186, 24.9328218 60.1646518, 24.9329193 60.1645828, 24.933003 60.1645235, 24.9330734 60.1644721)</data>
+    </edge>
+    <edge source="1372441183" target="1372441170" id="0">
+      <data key="d9">[15223910, 315526578, 315526581, 186631607, 186631609]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Albertinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">73.8987012605259</data>
+      <data key="d17">LINESTRING (24.9312273 60.1657772, 24.9312922 60.1657299, 24.9313216 60.1657093, 24.9316022 60.1655129, 24.9317206 60.1654301, 24.9317374 60.1654184, 24.9318482 60.1653408, 24.931887 60.1653136, 24.9319374 60.1652784, 24.9319989 60.1652347)</data>
+    </edge>
+    <edge source="1372441183" target="1372441189" id="0">
+      <data key="d9">[186631611, 186631612, 126894678]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Eerikinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">83.61991255256861</data>
+      <data key="d17">LINESTRING (24.9312273 60.1657772, 24.9313151 60.1658088, 24.9313598 60.1658249, 24.9315824 60.165905, 24.9321637 60.1661144, 24.9322698 60.1661526, 24.932452 60.166218)</data>
+    </edge>
+    <edge source="1372441183" target="1372376956" id="0">
+      <data key="d9">126894678</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Eerikinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">190.15622363031153</data>
+      <data key="d17">LINESTRING (24.9312273 60.1657772, 24.9311462 60.1657485, 24.9310983 60.1657316, 24.9303379 60.1654626, 24.9285073 60.1648152, 24.9284256 60.1647864)</data>
+    </edge>
+    <edge source="1372441183" target="301360197" id="0">
+      <data key="d9">[315526579, 315526580, 205434518]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Albertinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">58.927672860712484</data>
+      <data key="d17">LINESTRING (24.9312273 60.1657772, 24.9311614 60.1658218, 24.9311226 60.1658496, 24.9310889 60.1658737, 24.9310376 60.1659104, 24.9306172 60.1662116)</data>
+    </edge>
+    <edge source="1372441189" target="1547012339" id="0">
+      <data key="d9">[122962417, 141320983]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">81.58823656751952</data>
+      <data key="d17">LINESTRING (24.932452 60.166218, 24.93236 60.1662536, 24.9318253 60.1663316, 24.9317431 60.1663431, 24.9310507 60.1664333)</data>
+    </edge>
+    <edge source="1372441189" target="1372441183" id="0">
+      <data key="d9">[186631611, 186631612, 126894678]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Eerikinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">83.61991255256861</data>
+      <data key="d17">LINESTRING (24.932452 60.166218, 24.9322698 60.1661526, 24.9321637 60.1661144, 24.9315824 60.165905, 24.9313598 60.1658249, 24.9313151 60.1658088, 24.9312273 60.1657772)</data>
+    </edge>
+    <edge source="1372441189" target="1377211667" id="0">
+      <data key="d9">[36729017, 1122952685, 36729013]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Eerikinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">87.33067138853015</data>
+      <data key="d11">2</data>
+      <data key="d17">LINESTRING (24.932452 60.166218, 24.93256 60.1662559, 24.9326054 60.1662717, 24.933135 60.1664608, 24.9332979 60.1665189, 24.9333128 60.1665242, 24.9336125 60.1666312, 24.9336512 60.166645, 24.9337346 60.1666759)</data>
+    </edge>
+    <edge source="1372441203" target="56115897" id="0">
+      <data key="d9">[101156265, 124116435, 124116437]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">84.55508679093978</data>
+      <data key="d17">LINESTRING (24.9257477 60.1671351, 24.9258713 60.1671182, 24.9264707 60.1670424, 24.9264859 60.1670404, 24.9265741 60.1670288, 24.9265937 60.1670262, 24.9269684 60.1669767, 24.9270832 60.1669615, 24.9272265 60.1669427)</data>
+    </edge>
+    <edge source="1372441203" target="1372461709" id="0">
+      <data key="d9">[124116434, 124116436, 124116437]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">72.38760889560362</data>
+      <data key="d17">LINESTRING (24.9257477 60.1671351, 24.9256349 60.1671488, 24.9248973 60.1672454, 24.9247174 60.167269, 24.9245952 60.167285, 24.924482 60.1673004)</data>
+    </edge>
+    <edge source="1372459287" target="1378064355" id="0">
+      <data key="d9">122963283</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Malminkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">11.729657736494943</data>
+    </edge>
+    <edge source="1372459287" target="13337833155" id="0">
+      <data key="d9">[37135576, 8035726]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Salomonkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">63.687731914111886</data>
+      <data key="d17">LINESTRING (24.9277803 60.1678418, 24.9278124 60.1678988, 24.9278669 60.1679688, 24.9279155 60.1680057, 24.9279642 60.1680309, 24.9284099 60.1681903, 24.9285099 60.1682256, 24.928551 60.1682406)</data>
+    </edge>
+    <edge source="1372459287" target="1371751521" id="0">
+      <data key="d9">[1312868099, 1312868100]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Malminkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">[False, True]</data>
+      <data key="d16">164.19355016307017</data>
+      <data key="d17">LINESTRING (24.9277803 60.1678418, 24.9278649 60.1678309, 24.9279569 60.167819, 24.9283166 60.1677726, 24.9286367 60.1677313, 24.9289336 60.167693, 24.9292209 60.1676559, 24.9298176 60.167579, 24.9300575 60.167548, 24.9303389 60.1675117, 24.930411 60.167551, 24.9304623 60.167579, 24.9304725 60.1675846, 24.9305579 60.1676312)</data>
+    </edge>
+    <edge source="1372461709" target="60070287" id="0">
+      <data key="d9">[7849281, 14623467]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">['Työmiehenkatu', 'Lastenkodinkatu']</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">216.24961413906993</data>
+      <data key="d17">LINESTRING (24.924482 60.1673004, 24.9244542 60.1672443, 24.9240198 60.1664171, 24.9238577 60.1661085, 24.9238254 60.1660482, 24.9239528 60.1660313, 24.9241687 60.1660026, 24.9242258 60.165995, 24.9250157 60.1658901, 24.9250889 60.1658801)</data>
+    </edge>
+    <edge source="1372461709" target="1372441203" id="0">
+      <data key="d9">[124116434, 124116436, 124116437]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">72.3876088956036</data>
+      <data key="d17">LINESTRING (24.924482 60.1673004, 24.9245952 60.167285, 24.9247174 60.167269, 24.9248973 60.1672454, 24.9256349 60.1671488, 24.9257477 60.1671351)</data>
+    </edge>
+    <edge source="1377208998" target="1377211666" id="0">
+      <data key="d9">[62212740, 132422343, 234001131, 332402672, 332402673]</data>
+      <data key="d10">primary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Lönnrotinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">49.34979187553236</data>
+      <data key="d19">10</data>
+      <data key="d17">LINESTRING (24.9386405 60.166412, 24.938538 60.166377, 24.9384111 60.1663337, 24.9382335 60.1662731, 24.9381212 60.1662348, 24.9380508 60.1662108, 24.938011 60.1661972, 24.9379056 60.1661604)</data>
+    </edge>
+    <edge source="1377209035" target="1377208998" id="0">
+      <data key="d9">[37260531, 37260532, 123525086]</data>
+      <data key="d10">residential</data>
+      <data key="d13">Lönnrotin puistikko</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">149.26375008422085</data>
+      <data key="d17">LINESTRING (24.9395251 60.1667185, 24.9394579 60.1667649, 24.9394194 60.1667914, 24.9391092 60.1670053, 24.9390464 60.1670488, 24.9386965 60.166924, 24.9386346 60.1669019, 24.9384667 60.166842, 24.9382402 60.1667578, 24.9381721 60.1667369, 24.9382361 60.1666925, 24.938529 60.1664893, 24.938564 60.1664651, 24.9385801 60.1664539, 24.9386405 60.166412)</data>
+    </edge>
+    <edge source="1377209035" target="1377208998" id="1">
+      <data key="d9">[332402672, 234001132, 234001133]</data>
+      <data key="d10">primary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Lönnrotinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">59.632584692591436</data>
+      <data key="d17">LINESTRING (24.9395251 60.1667185, 24.9394387 60.1666886, 24.938704 60.166434, 24.9386405 60.166412)</data>
+    </edge>
+    <edge source="1377211666" target="1377211668" id="0">
+      <data key="d9">[62200559, 1122952688, 128171761, 36729011, 36729012, 316713565]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Annankatu</data>
+      <data key="d19">10</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">102.67913982575327</data>
+      <data key="d17">LINESTRING (24.9379056 60.1661604, 24.9378376 60.1662095, 24.9378169 60.166225, 24.9377458 60.1662782, 24.9370688 60.1667553, 24.937048 60.16677, 24.9368962 60.166877, 24.9368431 60.1669175)</data>
+    </edge>
+    <edge source="1377211666" target="25291565" id="0">
+      <data key="d9">[21081120, 36729011, 316713564, 332402667]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Annankatu</data>
+      <data key="d19">['10', '8.9']</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">139.05768037144955</data>
+      <data key="d17">LINESTRING (24.9379056 60.1661604, 24.9379729 60.1661118, 24.9380186 60.1660792, 24.938112 60.1660127, 24.9392584 60.1651958, 24.9393282 60.165146, 24.939344 60.1651348)</data>
+    </edge>
+    <edge source="1377211666" target="25291591" id="0">
+      <data key="d9">[62212739, 81522820, 332402669, 332402670, 234002366]</data>
+      <data key="d10">primary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Lönnrotinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">156.81192754740033</data>
+      <data key="d17">LINESTRING (24.9379056 60.1661604, 24.9378178 60.1661296, 24.9377531 60.1661071, 24.9376107 60.1660575, 24.9367665 60.1657634, 24.9363811 60.1656291, 24.9362039 60.1655674, 24.9357892 60.1654228, 24.935722 60.1653994, 24.9356793 60.1653845, 24.935584 60.1653512)</data>
+    </edge>
+    <edge source="1377211667" target="1372441189" id="0">
+      <data key="d9">[36729017, 36729013, 1122952685]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Eerikinkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">87.33067138853015</data>
+      <data key="d11">2</data>
+      <data key="d17">LINESTRING (24.9337346 60.1666759, 24.9336512 60.166645, 24.9336125 60.1666312, 24.9333128 60.1665242, 24.9332979 60.1665189, 24.933135 60.1664608, 24.9326054 60.1662717, 24.93256 60.1662559, 24.932452 60.166218)</data>
+    </edge>
+    <edge source="1377211667" target="1371750094" id="0">
+      <data key="d9">[315443481, 233567130, 315443482, 81523598]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">['2', '1']</data>
+      <data key="d12">30</data>
+      <data key="d13">Fredrikinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">111.18438800916138</data>
+      <data key="d17">LINESTRING (24.9337346 60.1666759, 24.9336518 60.166737, 24.9333731 60.16693, 24.9331242 60.1671023, 24.9330583 60.1671466, 24.9328572 60.1672816, 24.9327188 60.1673745, 24.9326931 60.1673918, 24.9326315 60.1674332, 24.9325536 60.1674849)</data>
+    </edge>
+    <edge source="1377211668" target="60170471" id="0">
+      <data key="d9">[37293912, 29186154, 948969467]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">156.53001180637952</data>
+      <data key="d17">LINESTRING (24.9368431 60.1669175, 24.9367535 60.1668867, 24.9365018 60.1668002, 24.9361937 60.1666944, 24.9359203 60.1666004, 24.9357624 60.1665461, 24.9352471 60.1663691, 24.9350793 60.1663115, 24.9350234 60.1662929, 24.9346433 60.1661616, 24.9346018 60.1661474, 24.9345148 60.1661175)</data>
+    </edge>
+    <edge source="1377211668" target="1371750095" id="0">
+      <data key="d9">[36729010, 36726220]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Annankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">74.70479580340658</data>
+      <data key="d11">2</data>
+      <data key="d17">LINESTRING (24.9368431 60.1669175, 24.9367678 60.1669742, 24.9361468 60.1674204, 24.9360786 60.1674713)</data>
+    </edge>
+    <edge source="1377211668" target="60170470" id="0">
+      <data key="d9">[81796384, 80727847, 80727851, 80727852, 1122952687]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Kalevankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">159.02438661944177</data>
+      <data key="d17">LINESTRING (24.9368431 60.1669175, 24.9369482 60.1669536, 24.9376074 60.1671801, 24.9377216 60.1672194, 24.9379451 60.1672962, 24.9386959 60.1675542, 24.9390383 60.1676718, 24.9391226 60.1677008, 24.9392085 60.1677303)</data>
+    </edge>
+    <edge source="1377211668" target="1377211666" id="0">
+      <data key="d9">[62200559, 1122952688, 128171761, 36729011, 36729012, 316713565]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Annankatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">102.67913982575328</data>
+      <data key="d19">10</data>
+      <data key="d17">LINESTRING (24.9368431 60.1669175, 24.9368962 60.166877, 24.937048 60.16677, 24.9370688 60.1667553, 24.9377458 60.1662782, 24.9378169 60.166225, 24.9378376 60.1662095, 24.9379056 60.1661604)</data>
+    </edge>
+    <edge source="1377211669" target="25291564" id="0">
+      <data key="d9">[62212960, 76333545, 76333547, 36726223, 36726224, 233999572, 234000028]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Yrjönkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">138.13575300243883</data>
+      <data key="d11">2</data>
+      <data key="d17">LINESTRING (24.9402481 60.1669677, 24.9403107 60.1669211, 24.9404574 60.1668119, 24.9407399 60.1666125, 24.9413016 60.166216, 24.9414259 60.1661298, 24.9415594 60.1660343, 24.9415885 60.1660123, 24.941659 60.1659591, 24.9416738 60.1659479)</data>
+    </edge>
+    <edge source="1377211669" target="60170470" id="0">
+      <data key="d9">[62201410, 36726223, 310792148, 62213050, 62213052]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Yrjönkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">102.46036116867926</data>
+      <data key="d11">2</data>
+      <data key="d17">LINESTRING (24.9402481 60.1669677, 24.9401836 60.1670157, 24.940103 60.1670762, 24.9400433 60.1671197, 24.9398553 60.1672566, 24.9395436 60.1674838, 24.9393392 60.1676328, 24.9392639 60.1676904, 24.9392085 60.1677303)</data>
+    </edge>
+    <edge source="1377211669" target="1377209035" id="0">
+      <data key="d9">[62212736, 62212737, 234001133, 62212741]</data>
+      <data key="d10">primary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Lönnrotinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">48.6565219104798</data>
+      <data key="d17">LINESTRING (24.9402481 60.1669677, 24.9401589 60.1669367, 24.940119 60.1669237, 24.9398152 60.1668187, 24.9396436 60.1667594, 24.9395251 60.1667185)</data>
+    </edge>
+    <edge source="1377610493" target="25292473" id="0">
+      <data key="d9">[114554757, 81527786, 114554764, 114555279, 114555280, 114555281, 114555282, 316508912, 316508913, 34031133]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Albertinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">138.76005737069173</data>
+      <data key="d17">LINESTRING (24.9330734 60.1644721, 24.9331507 60.1644157, 24.9331737 60.1643992, 24.9333826 60.164248, 24.9335759 60.1641081, 24.9338106 60.1639381, 24.9338617 60.1639011, 24.9339506 60.163838, 24.9342313 60.1636387, 24.9343381 60.1635628, 24.9343718 60.1635389, 24.9344228 60.1635027, 24.9344842 60.163457, 24.9345002 60.1634458)</data>
+    </edge>
+    <edge source="1377610493" target="1372233754" id="0">
+      <data key="d9">[332399561, 81527193, 81527191]</data>
+      <data key="d10">primary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Lönnrotinkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">196.62088292634584</data>
+      <data key="d17">LINESTRING (24.9330734 60.1644721, 24.9329806 60.1644394, 24.9325857 60.1642993, 24.9324525 60.1642521, 24.9323444 60.1642137, 24.932122 60.1641348, 24.9316595 60.1639707, 24.9314158 60.1638842, 24.9313789 60.1638712, 24.9312073 60.1638103, 24.9309185 60.1637079, 24.9304145 60.1635289, 24.9301786 60.1634462)</data>
+    </edge>
+    <edge source="1378064355" target="1372459287" id="0">
+      <data key="d9">122963283</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Malminkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">11.729657736494943</data>
+    </edge>
+    <edge source="1378064355" target="303089524" id="0">
+      <data key="d9">[311975524, 314308165, 886664914, 122963284, 26998140]</data>
+      <data key="d10">living_street</data>
+      <data key="d13">Lapinrinne</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">98.5230063753812</data>
+      <data key="d17">LINESTRING (24.9275758 60.1678697, 24.9275454 60.1678166, 24.9275381 60.1678025, 24.9273503 60.1674383, 24.927304 60.1673559, 24.9272698 60.1672949, 24.9272435 60.1672473, 24.9271777 60.167128, 24.9271652 60.1671052, 24.9271395 60.1670587, 24.9271246 60.1670316, 24.9271148 60.1670139)</data>
+    </edge>
+    <edge source="1382320455" target="25216594" id="0">
+      <data key="d9">[372440328, 607816333, 23856782, 23856783]</data>
+      <data key="d10">primary</data>
+      <data key="d11">['2', '3', '4']</data>
+      <data key="d12">40</data>
+      <data key="d13">Mechelininkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">226.4523304901792</data>
+      <data key="d17">LINESTRING (24.9209659 60.1668202, 24.9209277 60.1667359, 24.9209125 60.1666533, 24.9209116 60.1665969, 24.9209281 60.1664693, 24.9210556 60.1656827, 24.9210728 60.16559, 24.9210884 60.1654865, 24.921127 60.1652584, 24.9211385 60.1651879, 24.9211451 60.1651278, 24.9211394 60.1650816, 24.9211138 60.165017, 24.9210804 60.1648839, 24.9210566 60.1647939)</data>
+    </edge>
+    <edge source="1382320455" target="319896278" id="0">
+      <data key="d9">963740349</data>
+      <data key="d10">unclassified</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdentie</data>
+      <data key="d14">False</data>
+      <data key="d15">False</data>
+      <data key="d16">12.097073724359966</data>
+      <data key="d17">LINESTRING (24.9209659 60.1668202, 24.9210412 60.1668109, 24.921098 60.1668038, 24.9211781 60.1667939)</data>
+    </edge>
+    <edge source="1547012339" target="1372441189" id="0">
+      <data key="d9">[122962417, 141320983]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdenkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">81.58823656751952</data>
+      <data key="d17">LINESTRING (24.9310507 60.1664333, 24.9317431 60.1663431, 24.9318253 60.1663316, 24.93236 60.1662536, 24.932452 60.166218)</data>
+    </edge>
+    <edge source="1547012339" target="56113314" id="0">
+      <data key="d9">141320984</data>
+      <data key="d10">residential</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">20.94445053666314</data>
+      <data key="d17">LINESTRING (24.9310507 60.1664333, 24.9308904 60.1664663, 24.9308307 60.1664762, 24.9306919 60.1664916)</data>
+    </edge>
+    <edge source="1861896796" target="319885318" id="0">
+      <data key="d9">7840522</data>
+      <data key="d10">secondary</data>
+      <data key="d12">30</data>
+      <data key="d13">Hietalahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">6.79762604860471</data>
+    </edge>
+    <edge source="1861896796" target="1372376963" id="0">
+      <data key="d9">607816318</data>
+      <data key="d20">no</data>
+      <data key="d10">unclassified</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">63.65172036483107</data>
+      <data key="d17">LINESTRING (24.9255718 60.1650119, 24.9256645 60.1650381, 24.9257507 60.1650644, 24.9261311 60.1651983, 24.9262587 60.1652464, 24.9263352 60.1652768, 24.9263854 60.1653059, 24.9264081 60.1653279, 24.9264324 60.1653721)</data>
+    </edge>
+    <edge source="1861896877" target="1372376956" id="0">
+      <data key="d9">[81527192, 144000314, 114554790]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Abrahaminkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">99.6239682641082</data>
+      <data key="d17">LINESTRING (24.9273905 60.1655195, 24.9274317 60.16549, 24.927508 60.1654384, 24.9278415 60.1651957, 24.9282774 60.1648904, 24.9283638 60.1648299, 24.9284256 60.1647864)</data>
+    </edge>
+    <edge source="1861896877" target="1861896879" id="0">
+      <data key="d9">175625218</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">7.111233416950734</data>
+      <data key="d17">LINESTRING (24.9273905 60.1655195, 24.9274364 60.1655428, 24.9274576 60.1655723)</data>
+    </edge>
+    <edge source="1861896879" target="724233128" id="0">
+      <data key="d9">[24568164, 231182442, 240775001, 240775002, 217847706]</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">171.63945671925052</data>
+      <data key="d17">LINESTRING (24.9274576 60.1655723, 24.9275489 60.1656107, 24.9275956 60.1656279, 24.9281883 60.1658286, 24.9286312 60.1659797, 24.9286591 60.1659875, 24.9287623 60.1660225, 24.9297865 60.1663822, 24.9298535 60.1664035, 24.9299001 60.1664174, 24.9299648 60.1664277, 24.9300219 60.1664345)</data>
+    </edge>
+    <edge source="1861896879" target="1861896890" id="0">
+      <data key="d9">175625234</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">14.005737420620662</data>
+      <data key="d17">LINESTRING (24.9274576 60.1655723, 24.9274581 60.1655904, 24.9274525 60.165604, 24.9274294 60.1656269, 24.9273785 60.1656486, 24.9273103 60.1656572)</data>
+    </edge>
+    <edge source="1861896883" target="1372376963" id="0">
+      <data key="d9">15218821</data>
+      <data key="d10">tertiary</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Ruoholahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">49.603983785433535</data>
+      <data key="d17">LINESTRING (24.9271774 60.1656193, 24.9270308 60.1655805, 24.926848 60.1655155, 24.9265998 60.165428, 24.9265122 60.1653966, 24.9264324 60.1653721)</data>
+    </edge>
+    <edge source="1861896883" target="337264937" id="0">
+      <data key="d9">175625230</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">17.433959270370305</data>
+      <data key="d17">LINESTRING (24.9271774 60.1656193, 24.9271655 60.1656061, 24.9271579 60.1655793, 24.9271793 60.1655437, 24.9272148 60.1655236, 24.9272314 60.1655179, 24.9273117 60.1655074)</data>
+    </edge>
+    <edge source="1861896890" target="1861896883" id="0">
+      <data key="d9">175625233</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">8.851583810410892</data>
+      <data key="d17">LINESTRING (24.9273103 60.1656572, 24.9272525 60.1656519, 24.9272079 60.1656381, 24.9271953 60.1656318, 24.9271774 60.1656193)</data>
+    </edge>
+    <edge source="2037356632" target="56113314" id="0">
+      <data key="d9">119613505</data>
+      <data key="d10">tertiary</data>
+      <data key="d18">roundabout</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">7.176410769989614</data>
+      <data key="d17">LINESTRING (24.9307012 60.1664286, 24.9307089 60.1664498, 24.9307058 60.1664712, 24.9306919 60.1664916)</data>
+    </edge>
+    <edge source="2037356632" target="1547012339" id="0">
+      <data key="d9">193218627</data>
+      <data key="d10">residential</data>
+      <data key="d11">1</data>
+      <data key="d12">30</data>
+      <data key="d13">Lapinlahdenkatu</data>
+      <data key="d14">True</data>
+      <data key="d15">False</data>
+      <data key="d16">19.462890836843577</data>
+      <data key="d17">LINESTRING (24.9307012 60.1664286, 24.9308115 60.1664217, 24.9308849 60.1664282, 24.9310507 60.1664333)</data>
+    </edge>
+    <edge source="3206878787" target="1372233754" id="0">
+      <data key="d9">[314642995, 81527190]</data>
+      <data key="d10">residential</data>
+      <data key="d11">2</data>
+      <data key="d12">30</data>
+      <data key="d13">Abrahaminkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">17.657505735962506</data>
+      <data key="d17">LINESTRING (24.9300861 60.1635937, 24.9301404 60.163555, 24.9301618 60.163532, 24.9301731 60.1634894, 24.9301786 60.1634462)</data>
+    </edge>
+    <edge source="3216400385" target="150983569" id="0">
+      <data key="d9">15240373</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Kansakoulukuja</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">38.73804025736224</data>
+      <data key="d17">LINESTRING (24.9340047 60.1675525, 24.9339332 60.1675668, 24.9338426 60.1676331, 24.9338253 60.1676456, 24.9336611 60.1677641, 24.933632 60.1677846, 24.933579 60.1678219)</data>
+    </edge>
+    <edge source="13337833155" target="1372459287" id="0">
+      <data key="d9">[37135576, 8035726]</data>
+      <data key="d10">residential</data>
+      <data key="d12">30</data>
+      <data key="d13">Salomonkatu</data>
+      <data key="d14">False</data>
+      <data key="d15">True</data>
+      <data key="d16">63.68773191411188</data>
+      <data key="d17">LINESTRING (24.928551 60.1682406, 24.9285099 60.1682256, 24.9284099 60.1681903, 24.9279642 60.1680309, 24.9279155 60.1680057, 24.9278669 60.1679688, 24.9278124 60.1678988, 24.9277803 60.1678418)</data>
+    </edge>
+    <data key="d0">2026-05-20 21:02:12</data>
+    <data key="d1">OSMnx 2.1.0</data>
+    <data key="d2">epsg:4326</data>
+    <data key="d3">True</data>
+  </graph>
+</graphml>
