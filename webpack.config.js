@@ -57,7 +57,18 @@ module.exports = (env, argv) => {
         devServer: {
             static: {
                 directory: path.join(__dirname, '/')
-            }
+            },
+            watchFiles: {
+                paths: ['src/**/*'],
+                options: {
+                    ignored: [
+                        '**/node_modules/**',
+                        '**/venv/**',
+                        '**/dist/**',
+                        '**/dash_sylvereye/**',
+                    ],
+                },
+            },
         },
         externals,
         module: {

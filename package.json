@@ -43,11 +43,11 @@
     "webpack-dev-server": "^5.2.4",
 
     "leaflet": "^1.9.4",
-    "pixi.js": "^5.3.3",
+    "pixi.js": "^7.4.3",
     "rbush": "^3.0.1",
     "react-leaflet": "^4.2.1",
     "chroma-js": "^2.1.0",
-    "leaflet-pixi-overlay": "^1.8.1",
+    "leaflet-pixi-overlay": "^1.9.5",
     "jsts": "^2.5.1"
   },
   "engines": {
