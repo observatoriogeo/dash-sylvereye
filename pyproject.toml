@@ -44,6 +44,7 @@ test = [
     "numpy",
     "pytest>=7.0",
     "selenium>=4.20",
+    "pillow",
 ]
 
 [build-system]

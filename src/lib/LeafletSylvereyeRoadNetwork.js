@@ -482,7 +482,7 @@ const LeafletSylvereyeRoadNetwork = ({
 			mainOverlay.redraw();
 		}
 
-	}, [show_arrows]);
+	}, [show_arrows, arrowsContainer, mainOverlay]);
 	// }, [show_arrows], ["show_arrows"], "useEffect: show/hide arrows");
 
 	////////////////////////////////////////////////////////////
@@ -774,7 +774,7 @@ const LeafletSylvereyeRoadNetwork = ({
 			mainOverlay.redraw();
 		}
 
-	}, [show_edges]);
+	}, [show_edges, edgesContainer, mainOverlay]);
 	// }, [show_edges], ["show_edges"], "useEffect: show/hide edges");
 
 	////////////////////////////////////////////////////////////
@@ -988,7 +988,7 @@ const LeafletSylvereyeRoadNetwork = ({
 			mainOverlay.redraw();
 		}
 
-	}, [show_nodes]);
+	}, [show_nodes, nodesContainer, mainOverlay]);
 	// }, [show_nodes], ["show_nodes"], "useEffect: show/hide nodes");
 
 	////////////////////////////////////////////////////////////
@@ -1294,7 +1294,7 @@ const LeafletSylvereyeRoadNetwork = ({
 			mainOverlay.redraw();
 		}
 
-	}, [show_markers]);
+	}, [show_markers, markersContainer, mainOverlay]);
 	// }, [show_markers], ["show_markers"], "useEffect: show/hide markers");
 
 	// zoom re-scaling of markers	
