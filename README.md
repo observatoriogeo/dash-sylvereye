@@ -54,6 +54,8 @@ uv run python examples/01_BasicVisualization.py
 
 Visit http://127.0.0.1:8050/ in your browser to see the visualization. The first example run downloads the road network for Kamppi (Helsinki) from OpenStreetMap and caches it to `examples/cache/kamppi.graphml`; subsequent runs are offline.
 
+The other scripts under `examples/` demonstrate further features: `02_BasicInteractivity.py` (node and edge click callbacks), `03_BasicCustomization.py` (SCALE-mode color and width gradients), `04_AddingMarkers.py` (zoom-aware markers + click callbacks), and `05_CustomColors.py` (per-element CUSTOM colors and diameters).
+
 ## Build instructions
 
 Building the JS bundle and regenerating the Python/R/Julia wrappers requires both Node and the `dev` Python extras:
