@@ -1,48 +1,99 @@
 // Author: Alberto Garcia-Robledo
 // Copyright (c) 2020 Centro de Investigación en Ciencias de Información Geoespacial, A.C.
 
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-import { Map as LeafletMap } from 'react-leaflet';
-import { TileLayer as LeafletTileLayer } from 'react-leaflet';
+import { MapContainer, TileLayer, useMap, useMapEvents } from 'react-leaflet';
 
-import '../../../node_modules/leaflet/dist/leaflet.css';
+import 'leaflet/dist/leaflet.css';
 
 import LeafletSylvereyeRoadNetwork from '../LeafletSylvereyeRoadNetwork';
-import { NodeColorMethod, NodeSizeMethod, NodeAlphaMethod, NodeVisibilityMethod, EdgeColorMethod, EdgeWidthMethod, EdgeAlphaMethod, EdgeVisibilityMethod, MarkerColorMethod, MarkerIconMethod, MarkerSizeMethod, MarkerAlphaMethod, MarkerVisibilityMethod } from '../LeafletSylvereyeRoadNetwork';
+import {
+    NodeColorMethod, NodeSizeMethod, NodeAlphaMethod, NodeVisibilityMethod,
+    EdgeColorMethod, EdgeWidthMethod, EdgeAlphaMethod, EdgeVisibilityMethod,
+    MarkerColorMethod, MarkerIconMethod, MarkerSizeMethod, MarkerAlphaMethod, MarkerVisibilityMethod,
+} from '../LeafletSylvereyeRoadNetwork';
 
-export default class SylvereyeRoadNetwork extends Component {
-    render() {
-        const nProps = Object.assign({}, this.props);
+const COORD_EPSILON = 1e-9;
 
-        nProps.onNodeClick = (e) => {
-            nProps.setProps({ clicked_node: e });
+// Child of MapContainer: bridges Leaflet map state with Dash props. Replaces
+// the onViewportChanged prop that react-leaflet 2 exposed on <Map>.
+const MapStateSync = ({ setProps, map_center, map_zoom }) => {
+    const map = useMap();
+
+    useMapEvents({
+        moveend: () => {
+            const c = map.getCenter();
+            setProps({ map_center: [c.lat, c.lng], map_zoom: map.getZoom() });
+        },
+        zoomend: () => {
+            const c = map.getCenter();
+            setProps({ map_center: [c.lat, c.lng], map_zoom: map.getZoom() });
+        },
+    });
+
+    // Apply programmatic map_center / map_zoom updates (from Dash callbacks)
+    // by calling setView. Skip when the map already matches to avoid an
+    // infinite moveend -> setProps -> useEffect loop.
+    useEffect(() => {
+        if (!Array.isArray(map_center) || typeof map_zoom !== 'number') {
+            return;
         }
-
-        nProps.onEdgeClick = (e) => {
-            nProps.setProps({ clicked_edge: e });
+        const cur = map.getCenter();
+        const sameCenter =
+            Math.abs(cur.lat - map_center[0]) < COORD_EPSILON &&
+            Math.abs(cur.lng - map_center[1]) < COORD_EPSILON;
+        const sameZoom = map.getZoom() === map_zoom;
+        if (!sameCenter || !sameZoom) {
+            map.setView(map_center, map_zoom);
         }
+    }, [map, map_center, map_zoom]);
 
-        nProps.onMarkerClick = (e) => {
-            nProps.setProps({ clicked_marker: e });
-        }
+    return null;
+};
 
-        nProps.onStateChange = (e) => {
-            nProps.setProps({ current_state: e });
-        }
+MapStateSync.propTypes = {
+    setProps: PropTypes.func,
+    map_center: PropTypes.array,
+    map_zoom: PropTypes.number,
+};
 
-        const onViewportChangedHandler = (e) => {
-            nProps.setProps({ map_zoom: e.zoom, map_center: e.center });
-        };
+const SylvereyeRoadNetwork = (props) => {
+    const setProps = props.setProps || (() => {});
 
-        // Render the leaflet component.
-        return <LeafletMap center={nProps.map_center} zoom={nProps.map_zoom} minZoom={nProps.map_min_zoom} maxZoom={nProps.map_max_zoom} style={nProps.map_style} onViewportChanged={onViewportChangedHandler}>
-            <LeafletTileLayer url={nProps.tile_layer_url} attribution={nProps.tile_layer_attribution} opacity={nProps.tile_layer_opacity} subdomains={nProps.tile_layer_subdomains} />
-            <LeafletSylvereyeRoadNetwork {...nProps} />
-        </LeafletMap>
-    }
-}
+    const handlers = {
+        onNodeClick: (e) => setProps({ clicked_node: e }),
+        onEdgeClick: (e) => setProps({ clicked_edge: e }),
+        onMarkerClick: (e) => setProps({ clicked_marker: e }),
+        onStateChange: (e) => setProps({ current_state: e }),
+    };
+
+    return (
+        <MapContainer
+            center={props.map_center}
+            zoom={props.map_zoom}
+            minZoom={props.map_min_zoom}
+            maxZoom={props.map_max_zoom}
+            style={props.map_style}
+        >
+            <TileLayer
+                url={props.tile_layer_url}
+                attribution={props.tile_layer_attribution}
+                opacity={props.tile_layer_opacity}
+                subdomains={props.tile_layer_subdomains}
+            />
+            <MapStateSync
+                setProps={setProps}
+                map_center={props.map_center}
+                map_zoom={props.map_zoom}
+            />
+            <LeafletSylvereyeRoadNetwork {...props} {...handlers} />
+        </MapContainer>
+    );
+};
+
+export default SylvereyeRoadNetwork;
 
 SylvereyeRoadNetwork.defaultProps = {
     edges_data: [],
@@ -181,17 +232,17 @@ SylvereyeRoadNetwork.propTypes = {
     setProps: PropTypes.func,
 
     /**
-     * Clicked node  
+     * Clicked node
      */
     clicked_node: PropTypes.object,
 
     /**
-     * Clicked edge  
+     * Clicked edge
      */
     clicked_edge: PropTypes.object,
 
     /**
-     * Clicked marker  
+     * Clicked marker
      */
     clicked_marker: PropTypes.object,
 
@@ -246,4 +297,3 @@ SylvereyeRoadNetwork.propTypes = {
     tile_layer_opacity: PropTypes.number
 
 };
-

@@ -2,7 +2,7 @@ import { useEffect, useState} from 'react';
 import L from 'leaflet';
 import * as PIXI from 'pixi.js';
 import 'leaflet-pixi-overlay';
-import { useLeafletMap } from 'use-leaflet';
+import { useMap } from 'react-leaflet';
 
 import Coordinate from 'jsts/org/locationtech/jts/geom/Coordinate.js';
 import GeometryFactory from 'jsts/org/locationtech/jts/geom/GeometryFactory.js';
@@ -157,7 +157,7 @@ const LeafletSylvereyeRoadNetwork = ({
 	const [markerDrawCounter, setMarkerDrawCounter] = useState(0); // for triggering marker drawing
 
 	const PIXILoader = PIXI.Loader.shared;
-	const map = useLeafletMap(); // map 	 
+	const map = useMap();
 	const pass_id = crypto.randomUUID().slice(0, 8); // for debugging
 
 	console.log(`[${pass_id}] Starting pass ============================`);
