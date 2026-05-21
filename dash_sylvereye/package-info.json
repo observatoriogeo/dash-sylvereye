@@ -1,7 +1,7 @@
 {
   "name": "dash_sylvereye",
-  "version": "0.0.1",
-  "description": "Dash Sylvereye component.",
+  "version": "0.3.0",
+  "description": "Dash Sylvereye is a Plotly Dash component library for producing interactive web-based visualizations of large primal road networks in Python.",
 
   "main": "build/index.js",
   "scripts": {
@@ -15,46 +15,43 @@
     "build:activated": "npm run build:js && npm run build:backends-activated"
   },
   "author": "Alberto Garcia-Robledo <alberto.garob@gmail.com>",
-  "license": "BSD",
-  "dependencies": {
-    "ramda": "^0.26.1"
-  },
+  "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.22.1",
-    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/eslint-parser": "^7.28.6",
     "@babel/preset-env": "^7.22.2",
     "@babel/preset-react": "^7.22.3",
+    "@eslint/js": "^9.39.4",
     "@plotly/dash-component-plugins": "^1.2.3",
     "@plotly/webpack-dash-dynamic-import": "^1.2.0",
-    "babel-eslint": "^10.1.0",
     "babel-loader": "^9.1.2",
     "copyfiles": "^2.1.1",
     "css-loader": "^6.8.1",
-    "eslint": "^6.0.1",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-react": "^7.14.2",
+    "eslint": "^9.39.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.6.0",
     "prop-types": "^15.8.1",
-    "react": "^16.8.6",
+    "react": "^18.3.1",
     "react-docgen": "^5.4.3",
-    "react-dom": "^16.8.6",
+    "react-dom": "^18.3.1",
     "style-loader": "^3.3.3",
-    "styled-jsx": "^3.2.1",
-    "webpack": "^5.84.1",
-    "webpack-cli": "^5.1.1",
-    "webpack-dev-server": "^4.15.0",
-    
-    "pixi.js": "^5.3.3",
+    "webpack": "^5.107.0",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.4",
+
+    "leaflet": "^1.9.4",
+    "pixi.js": "^7.4.3",
     "rbush": "^3.0.1",
-    "react-leaflet": "^2.6.3",
+    "react-leaflet": "^4.2.1",
     "chroma-js": "^2.1.0",
-    "leaflet-pixi-overlay": "^1.8.1",
-    "use-leaflet": "^1.6.1",
-    "jsts": "^2.5.1",
-    "random-string": "^0.2.0"
+    "leaflet-pixi-overlay": "^1.9.5",
+    "jsts": "^2.5.1"
   },
   "engines": {
-    "node": ">=8.11.0",
-    "npm": ">=6.1.0"
+    "node": ">=18.18.0",
+    "npm": ">=10.0.0"
   }
 }
