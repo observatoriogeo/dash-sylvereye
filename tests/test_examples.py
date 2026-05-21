@@ -22,6 +22,7 @@ EXAMPLES = [
     "examples/02_BasicInteractivity.py",
     "examples/03_BasicCustomization.py",
     "examples/04_AddingMarkers.py",
+    "examples/05_CustomColors.py",
     "usage.py",
 ]
 

@@ -73,14 +73,17 @@ def load_from_osmnx_graph(g):
     nodes_data = [
         {
             "lon": node[1]["x"],
-            "lat": node[1]["y"],            
+            "lat": node[1]["y"],
             "visible": True,
             "alpha": 1.0,
             "size": DEFAULT_NODE_OPTIONS["size_default"],
             "color": DEFAULT_NODE_OPTIONS["color_default"],
             "data": {
-                "osmid": node[1]["osmid"] if "osmid" in node[1].keys() else None,
-                "highway": node[1]["highway"] if "highway" in node[1].keys() else None,
+                # osmnx stores the node osmid as the graph key (node[0]).
+                # In osmnx 1 it was also duplicated under attrs["osmid"];
+                # in osmnx 2 only the graph key carries it.
+                "osmid": node[1].get("osmid", node[0]),
+                "highway": node[1].get("highway"),
                 "x": node[1]["x"],
                 "y": node[1]["y"]
             }
@@ -153,7 +156,8 @@ def load_from_osmnx_graphml(filen):
             "size": DEFAULT_NODE_OPTIONS["size_default"],
             "color": DEFAULT_NODE_OPTIONS["color_default"],
             "data": {
-                "osmid": node[1].get("osmid"),
+                # In osmnx 2 the node osmid lives only on the graph key (node[0]).
+                "osmid": node[1].get("osmid", node[0]),
                 "highway": node[1].get("highway"),
                 "x": float(node[1]["x"]),
                 "y": float(node[1]["y"])
