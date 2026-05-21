@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="website_logo_solid_background.png" width="375" height="275" title="Logo">
+  <img src="https://cdn.jsdelivr.net/gh/observatoriogeo/dash-sylvereye@main/website_logo_solid_background.png" width="375" height="275" title="Logo">
 </p>
 
 **Dash Sylvereye** is a [Plotly Dash](https://plotly.com/dash) component library for producing interactive web-based visualizations of large primal road networks in Python.
