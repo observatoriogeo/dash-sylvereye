@@ -62,6 +62,23 @@ const config = {
     ],
   ],
 
+  // Offline/static-site search. Builds a lunr-style index at build time
+  // and adds a search modal to the navbar. No Algolia account or runtime
+  // API keys; everything ships inside the static bundle. See:
+  //   https://github.com/easyops-cn/docusaurus-search-local
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en'],
+        docsRouteBasePath: '/docs',
+        indexBlog: false,
+        highlightSearchTermsOnTargetPage: true,
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
