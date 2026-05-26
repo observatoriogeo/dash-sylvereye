@@ -270,3 +270,6 @@ examples/cache/*
 !examples/cache/*.graphml
 
 .secrets
+
+# PyPI upload credentials. Local-only; never commit.
+.pypirc

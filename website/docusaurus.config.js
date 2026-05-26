@@ -49,9 +49,9 @@ const config = {
           // `lastVersion` here. Edits to `docs/` stay invisible until
           // they're snapshotted.
           includeCurrentVersion: false,
-          lastVersion: '0.4.0',
+          lastVersion: '0.4.1',
           versions: {
-            '0.4.0': {label: '0.4.0'},
+            '0.4.1': {label: '0.4.1'},
           },
         },
         blog: false,
