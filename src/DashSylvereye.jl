@@ -3,7 +3,7 @@ module DashSylvereye
 using Dash
 
 const resources_path = realpath(joinpath( @__DIR__, "..", "deps"))
-const version = "0.4.0"
+const version = "0.4.1"
 
 include("jl/sylvereyeroadnetwork.jl")
 

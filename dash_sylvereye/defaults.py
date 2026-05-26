@@ -22,7 +22,8 @@ DEFAULT_EDGE_OPTIONS = {
     "alpha_method": EdgeAlphaMethod.DEFAULT,
     "alpha_default": 1.0,
     "alpha_min": 0.0,
-    "visibility_method": EdgeVisibilityMethod.ALWAYS
+    "visibility_method": EdgeVisibilityMethod.ALWAYS,
+    "show_edge_hit_polygons": False
 }
 
 DEFAULT_MARKER_OPTIONS = {

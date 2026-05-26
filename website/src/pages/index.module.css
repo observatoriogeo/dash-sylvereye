@@ -1,0 +1,168 @@
+.heroBanner {
+  padding: 4rem 0 3rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+/* Solid shape-hugging white outline around the logo so it reads
+   against the colored hero background. Chained 0-blur drop-shadow
+   filters at offsets in 8 directions (4 cardinal + 4 diagonal) "dilate"
+   the PNG's alpha channel by ~3 px in every direction, producing a
+   crisp solid stroke that follows the logo's silhouette (not a halo,
+   not a circular badge, not a square box). Each drop-shadow uses the
+   previous result as input, so the shadows union into a single solid
+   outline. */
+.heroLogo {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 1.5rem;
+  filter:
+    drop-shadow(1px 0 0 #ffffff)
+    drop-shadow(-1px 0 0 #ffffff)
+    drop-shadow(0 1px 0 #ffffff)
+    drop-shadow(0 -1px 0 #ffffff)
+    drop-shadow(1px 1px 0 #ffffff)
+    drop-shadow(-1px 1px 0 #ffffff)
+    drop-shadow(1px -1px 0 #ffffff)
+    drop-shadow(-1px -1px 0 #ffffff);
+}
+
+.install {
+  max-width: 24rem;
+  margin: 1.5rem auto 2rem;
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Force white text + border on the outline buttons inside the hero,
+   since Infima's default outline-secondary text is dark and disappears
+   against the colored hero. Infima drives the text color through the
+   --ifm-button-color custom property, so the plain `color:` rule loses
+   to its cascade; we override both. */
+.heroBanner :global(.button--outline.button--secondary) {
+  --ifm-button-color: #ffffff;
+  color: #ffffff !important;
+  border-color: #ffffff;
+  background-color: transparent;
+}
+.heroBanner :global(.button--outline.button--secondary:hover) {
+  --ifm-button-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #ffffff !important;
+  border-color: #ffffff;
+}
+
+/* Feature rows: alternating light/dark with text + screenshot side-by-side. */
+.featureRow {
+  padding: 3.5rem 0;
+  background: var(--ifm-background-color);
+}
+
+.featureRowDark {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.featureRowInner {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.featureRowText {
+  flex: 1;
+  min-width: 280px;
+}
+
+.featureRowImage {
+  flex: 1.2;
+  min-width: 320px;
+  max-width: 100%;
+}
+
+.featureRowImage img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  display: block;
+}
+
+.featureRowTitle {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}
+
+/* Cite-the-paper panel, visually parallel to the feature-row dark
+   surface so it reads as content, not a CTA banner. */
+.cite {
+  padding: 4rem 1rem;
+  background: var(--ifm-color-emphasis-100);
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.citeInner {
+  max-width: 880px;
+  text-align: center;
+}
+
+.citeIntro {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.citeReference {
+  margin: 0 auto 0.5rem;
+  max-width: 720px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.citeDoi {
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.citeBibtex {
+  max-width: 720px;
+  margin: 0 auto 2rem;
+  text-align: left;
+}
+
+.cite .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Final get-started callout. */
+.callout {
+  padding: 4rem 1rem;
+  text-align: center;
+  background: var(--ifm-background-color);
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.calloutInstall {
+  max-width: 24rem;
+  margin: 1.5rem auto 2rem;
+  text-align: left;
+}

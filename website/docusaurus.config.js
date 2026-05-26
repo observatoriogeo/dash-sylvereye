@@ -39,6 +39,20 @@ const config = {
           path: 'docs',
           editUrl:
             'https://github.com/observatoriogeo/dash-sylvereye/edit/main/website/',
+          // Docs are versioned. Snapshotted releases live under
+          // `versioned_docs/version-<v>/`. The in-development `docs/`
+          // tree ("current" / "Next") is hidden from the dropdown via
+          // `includeCurrentVersion: false` — visitors only ever see
+          // released versions. To cut a new release, run:
+          //   npx docusaurus docs:version <newVersion>
+          // then add the entry to the `versions` map and bump
+          // `lastVersion` here. Edits to `docs/` stay invisible until
+          // they're snapshotted.
+          includeCurrentVersion: false,
+          lastVersion: '0.4.0',
+          versions: {
+            '0.4.0': {label: '0.4.0'},
+          },
         },
         blog: false,
         theme: {
@@ -61,25 +75,29 @@ const config = {
           {
             type: 'doc',
             docId: 'overview',
-            position: 'left',
+            position: 'right',
             label: 'Docs',
           },
           {
             type: 'doc',
             docId: 'example1',
-            position: 'left',
+            position: 'right',
             label: 'Examples',
           },
           {
             type: 'doc',
             docId: 'demo_visualization',
-            position: 'left',
+            position: 'right',
             label: 'Demo',
+          },
+          {
+            type: 'docsVersionDropdown',
+            position: 'left',
           },
           {
             href: 'https://doi.org/10.1109/ACCESS.2023.3327008',
             label: 'Paper',
-            position: 'left',
+            position: 'right',
           },
           {
             href: 'https://github.com/observatoriogeo/dash-sylvereye',
@@ -87,9 +105,14 @@ const config = {
             position: 'right',
           },
           {
+            href: 'https://pypi.org/project/dash-sylvereye/',
+            label: 'PyPI',
+            position: 'right',
+          },
+          {
             to: '/about',
             label: 'About',
-            position: 'left',
+            position: 'right',
           },
         ],
       },
@@ -101,7 +124,7 @@ const config = {
             items: [
               {label: 'Overview', to: '/docs/overview'},
               {label: 'Examples', to: '/docs/example1'},
-              {label: 'API', to: '/docs/component_parameters'},
+              {label: 'Reference', to: '/docs/component_parameters'},
               {label: 'Development', to: '/docs/build_instructions'},
             ],
           },
@@ -129,13 +152,6 @@ const config = {
             ],
           },
         ],
-        logo: {
-          alt: 'CentroGeo Logo',
-          src: 'img/CentroGeo-CMX_Logo-V.png',
-          href: 'https://www.centrogeo.org.mx/',
-          width: 156,
-          height: 125,
-        },
         copyright: `Copyright © ${new Date().getFullYear()} Centro de Investigación en Ciencias de Información Geoespacial, A.C.`,
       },
       colorMode: {

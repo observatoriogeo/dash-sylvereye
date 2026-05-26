@@ -1,0 +1,52 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+  width: 100%;
+}
+
+.feature {
+  margin-bottom: 1.5rem;
+}
+
+/* Equal-height slot above the title so the WebGL/Plotly brand icons line
+   up with the undraw illustration in the third card. */
+.featureIconWrap {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.featureImage {
+  height: 160px;
+  width: auto;
+  max-width: 80%;
+  display: block;
+}
+
+/* Per-logo aspect-ratio overrides so each brand mark sits comfortably
+   in the 160px-tall icon slot. The undraw illustration in the third
+   card uses the default .featureImage (height-driven, auto width).
+   The WebGL logo is wide (1442:602 ≈ 2.4:1), so we scale by width and
+   let height auto-compute. The Plotly mark is square. */
+.iconWebgl {
+  height: auto;
+  width: 240px;
+  max-width: 80%;
+}
+
+.iconPlotly {
+  height: 120px;
+  width: auto;
+}
+
+.iconOsm {
+  height: 130px;
+  width: auto;
+}
+
+.featureLink {
+  font-weight: 600;
+}

@@ -268,3 +268,5 @@ cache/
 !examples/cache/
 examples/cache/*
 !examples/cache/*.graphml
+
+.secrets

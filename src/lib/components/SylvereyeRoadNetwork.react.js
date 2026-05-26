@@ -66,7 +66,6 @@ const SylvereyeRoadNetwork = (props) => {
         onNodeClick: (e) => setProps({ clicked_node: e }),
         onEdgeClick: (e) => setProps({ clicked_edge: e }),
         onMarkerClick: (e) => setProps({ clicked_marker: e }),
-        onStateChange: (e) => setProps({ current_state: e }),
     };
 
     return (
@@ -102,6 +101,7 @@ SylvereyeRoadNetwork.defaultProps = {
     show_arrows: true,
     show_edges: true,
     show_nodes: true,
+    show_markers: true,
     clicked_node: null,
     clicked_edge: null,
     clicked_marker: null,
@@ -245,11 +245,6 @@ SylvereyeRoadNetwork.propTypes = {
      * Clicked marker
      */
     clicked_marker: PropTypes.object,
-
-    /**
-     * Current state
-     */
-    current_state: PropTypes.object,
 
     /**
      * Map center

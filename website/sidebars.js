@@ -19,7 +19,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'API',
+      label: 'Reference',
       items: [
         'component_parameters',
         'click_events',
@@ -35,6 +35,11 @@ const sidebars = {
       type: 'category',
       label: 'Development',
       items: ['build_instructions', 'software_stack'],
+    },
+    {
+      type: 'category',
+      label: 'About',
+      items: ['citation'],
     },
   ],
 };

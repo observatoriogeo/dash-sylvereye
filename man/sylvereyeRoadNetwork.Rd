@@ -11,15 +11,15 @@
 
 \usage{
 sylvereyeRoadNetwork(children=NULL, id=NULL, clicked_edge=NULL,
-clicked_marker=NULL, clicked_node=NULL, current_state=NULL,
-debug_options=NULL, edge_options=NULL, edges_data=NULL,
-map_center=NULL, map_max_zoom=NULL, map_min_zoom=NULL,
-map_style=NULL, map_zoom=NULL, marker_options=NULL,
-markers_data=NULL, node_options=NULL, nodes_data=NULL,
-pane=NULL, show_arrows=NULL, show_edges=NULL,
-show_markers=NULL, show_nodes=NULL,
-tile_layer_attribution=NULL, tile_layer_opacity=NULL,
-tile_layer_subdomains=NULL, tile_layer_url=NULL)
+clicked_marker=NULL, clicked_node=NULL, debug_options=NULL,
+edge_options=NULL, edges_data=NULL, map_center=NULL,
+map_max_zoom=NULL, map_min_zoom=NULL, map_style=NULL,
+map_zoom=NULL, marker_options=NULL, markers_data=NULL,
+node_options=NULL, nodes_data=NULL, pane=NULL,
+show_arrows=NULL, show_edges=NULL, show_markers=NULL,
+show_nodes=NULL, tile_layer_attribution=NULL,
+tile_layer_opacity=NULL, tile_layer_subdomains=NULL,
+tile_layer_url=NULL)
 }
 
 \arguments{
@@ -32,8 +32,6 @@ tile_layer_subdomains=NULL, tile_layer_url=NULL)
 \item{clicked_marker}{Named list. Clicked marker}
 
 \item{clicked_node}{Named list. Clicked node}
-
-\item{current_state}{Named list. Current state}
 
 \item{debug_options}{Named list. Debug options}
 

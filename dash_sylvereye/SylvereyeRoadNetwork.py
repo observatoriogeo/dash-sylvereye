@@ -36,9 +36,6 @@ Keyword arguments:
 - clicked_node (dict; optional):
     Clicked node.
 
-- current_state (dict; optional):
-    Current state.
-
 - debug_options (dict; default {}):
     Debug options.
 
@@ -84,7 +81,7 @@ Keyword arguments:
 - show_edges (boolean; default True):
     Show/hide edges.
 
-- show_markers (boolean; optional):
+- show_markers (boolean; default True):
     Show/hide markers.
 
 - show_nodes (boolean; default True):
@@ -126,7 +123,6 @@ Keyword arguments:
         clicked_node: typing.Optional[dict] = None,
         clicked_edge: typing.Optional[dict] = None,
         clicked_marker: typing.Optional[dict] = None,
-        current_state: typing.Optional[dict] = None,
         map_center: typing.Optional[typing.Sequence] = None,
         map_zoom: typing.Optional[NumberType] = None,
         map_min_zoom: typing.Optional[NumberType] = None,
@@ -138,9 +134,9 @@ Keyword arguments:
         tile_layer_opacity: typing.Optional[NumberType] = None,
         **kwargs
     ):
-        self._prop_names = ['children', 'id', 'clicked_edge', 'clicked_marker', 'clicked_node', 'current_state', 'debug_options', 'edge_options', 'edges_data', 'map_center', 'map_max_zoom', 'map_min_zoom', 'map_style', 'map_zoom', 'marker_options', 'markers_data', 'node_options', 'nodes_data', 'pane', 'show_arrows', 'show_edges', 'show_markers', 'show_nodes', 'tile_layer_attribution', 'tile_layer_opacity', 'tile_layer_subdomains', 'tile_layer_url']
+        self._prop_names = ['children', 'id', 'clicked_edge', 'clicked_marker', 'clicked_node', 'debug_options', 'edge_options', 'edges_data', 'map_center', 'map_max_zoom', 'map_min_zoom', 'map_style', 'map_zoom', 'marker_options', 'markers_data', 'node_options', 'nodes_data', 'pane', 'show_arrows', 'show_edges', 'show_markers', 'show_nodes', 'tile_layer_attribution', 'tile_layer_opacity', 'tile_layer_subdomains', 'tile_layer_url']
         self._valid_wildcard_attributes =            []
-        self.available_properties = ['children', 'id', 'clicked_edge', 'clicked_marker', 'clicked_node', 'current_state', 'debug_options', 'edge_options', 'edges_data', 'map_center', 'map_max_zoom', 'map_min_zoom', 'map_style', 'map_zoom', 'marker_options', 'markers_data', 'node_options', 'nodes_data', 'pane', 'show_arrows', 'show_edges', 'show_markers', 'show_nodes', 'tile_layer_attribution', 'tile_layer_opacity', 'tile_layer_subdomains', 'tile_layer_url']
+        self.available_properties = ['children', 'id', 'clicked_edge', 'clicked_marker', 'clicked_node', 'debug_options', 'edge_options', 'edges_data', 'map_center', 'map_max_zoom', 'map_min_zoom', 'map_style', 'map_zoom', 'marker_options', 'markers_data', 'node_options', 'nodes_data', 'pane', 'show_arrows', 'show_edges', 'show_markers', 'show_nodes', 'tile_layer_attribution', 'tile_layer_opacity', 'tile_layer_subdomains', 'tile_layer_url']
         self.available_wildcard_properties =            []
         _explicit_args = kwargs.pop('_explicit_args')
         _locals = locals()

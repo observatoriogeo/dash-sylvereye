@@ -6,18 +6,13 @@ sidebar_label: Basic visualization
 
 ## Example: Minimal application
 
-### Live visualization
+### Live demo
 
->**Note**
->
->The example below is a live visualization. Please wait until the Dash Sylvereye component finishes loading and drawing the road network.
+:::tip
+A live deployment of this example is hosted on the Observatorio Metropolitano dashboards.
 
-<iframe src="https://visualizacion.observatoriogeo.mx/sylvereye_examples/dashboard/sylvereye_examples/example-1" title="" style={{overflow:'hidden',height:'500px',width:'100%'}}></iframe>
-<br />
-<form action="https://visualizacion.observatoriogeo.mx/sylvereye_examples/dashboard/sylvereye_examples/example-1">
-    <input type="submit" value="View in full-window" style={{float: 'right'}}/>
-</form>
-<br />
+<a className="button button--primary button--lg" href="https://visualizacion.observatoriogeo.mx/sylvereye_examples/dashboard/sylvereye_examples/example-1" target="_blank" rel="noopener noreferrer">Open the live demo ↗</a>
+:::
 
 ### Description
 

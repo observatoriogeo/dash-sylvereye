@@ -16,7 +16,6 @@ Keyword arguments:
 - `clicked_edge` (Dict; optional): Clicked edge
 - `clicked_marker` (Dict; optional): Clicked marker
 - `clicked_node` (Dict; optional): Clicked node
-- `current_state` (Dict; optional): Current state
 - `debug_options` (Dict; optional): Debug options
 - `edge_options` (Dict; optional): Edge options
 - `edges_data` (Array; optional): Edges data
@@ -40,7 +39,7 @@ Keyword arguments:
 - `tile_layer_url` (String; optional): Tile layer URL
 """
 function sylvereyeroadnetwork(; kwargs...)
-        available_props = Symbol[:children, :id, :clicked_edge, :clicked_marker, :clicked_node, :current_state, :debug_options, :edge_options, :edges_data, :map_center, :map_max_zoom, :map_min_zoom, :map_style, :map_zoom, :marker_options, :markers_data, :node_options, :nodes_data, :pane, :show_arrows, :show_edges, :show_markers, :show_nodes, :tile_layer_attribution, :tile_layer_opacity, :tile_layer_subdomains, :tile_layer_url]
+        available_props = Symbol[:children, :id, :clicked_edge, :clicked_marker, :clicked_node, :debug_options, :edge_options, :edges_data, :map_center, :map_max_zoom, :map_min_zoom, :map_style, :map_zoom, :marker_options, :markers_data, :node_options, :nodes_data, :pane, :show_arrows, :show_edges, :show_markers, :show_nodes, :tile_layer_attribution, :tile_layer_opacity, :tile_layer_subdomains, :tile_layer_url]
         wild_props = Symbol[]
         return Component("sylvereyeroadnetwork", "SylvereyeRoadNetwork", "dash_sylvereye", available_props, wild_props; kwargs...)
 end
