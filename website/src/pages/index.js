@@ -56,7 +56,7 @@ function HomepageHeader() {
           </Link>
           {' '}and{' '}
           <Link href="https://www.linkedin.com/posts/plotly_dash-sylvereye-is-a-component-library-for-activity-7145797976215404545-uSN8">
-            on LinkedIn
+            on Plotly's LinkedIn
           </Link>
           , January 2024
         </p>
