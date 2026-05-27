@@ -50,9 +50,13 @@ function HomepageHeader() {
           </Link>
         </div>
         <p className={styles.heroBadge}>
-          Featured as{' '}
+          Featured by Plotly as{' '}
           <Link href="https://medium.com/plotly/dash-club-13-langchain-plotly-upcoming-webinar-dash-online-course-dash-langchain-challenge-6820b39caa08#5bf0">
-            Plotly Dash Club's Component of the Month
+            Dash Club Component of the Month
+          </Link>
+          {' '}and{' '}
+          <Link href="https://www.linkedin.com/posts/plotly_dash-sylvereye-is-a-component-library-for-activity-7145797976215404545-uSN8">
+            on LinkedIn
           </Link>
           , January 2024
         </p>
