@@ -7,6 +7,8 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import CodeBlock from '@theme/CodeBlock';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
 import styles from './index.module.css';
 
@@ -65,6 +67,30 @@ function FeatureRow({title, body, imagePath, dark}) {
         </div>
         <div className={styles.featureRowImage}>
           <img src={imgSrc} alt={title} />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function VideoShowcase() {
+  return (
+    <section className={styles.videoShowcase}>
+      <div className={clsx('container', styles.videoShowcaseInner)}>
+        <Heading as="h2" className={styles.videoShowcaseTitle}>
+          See it in action
+        </Heading>
+        <p className={styles.videoShowcaseIntro}>
+          A short walkthrough of Dash Sylvereye rendering an interactive
+          road-network dashboard in the browser.
+        </p>
+        <div className={styles.videoFrame}>
+          <LiteYouTubeEmbed
+            id="ovs8hJxJQjg"
+            title="Dash Sylvereye demo"
+            poster="maxresdefault"
+            webp
+          />
         </div>
       </div>
     </section>
@@ -162,6 +188,7 @@ export default function Home() {
     <Layout title={siteConfig.title} description={HOMEPAGE_DESCRIPTION}>
       <HomepageHeader />
       <main>
+        <VideoShowcase />
         <HomepageFeatures />
         <FeatureRow
           dark

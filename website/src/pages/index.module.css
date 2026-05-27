@@ -68,6 +68,39 @@
   border-color: #ffffff;
 }
 
+/* Video showcase: centered, constrained-width YouTube embed using
+   react-lite-youtube-embed (click-to-load facade, no third-party JS
+   until the user clicks). */
+.videoShowcase {
+  padding: 3.5rem 1rem;
+  background: var(--ifm-background-color);
+  text-align: center;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.videoShowcaseInner {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.videoShowcaseTitle {
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.videoShowcaseIntro {
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+}
+
+.videoFrame {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
 /* Feature rows: alternating light/dark with text + screenshot side-by-side. */
 .featureRow {
   padding: 3.5rem 0;
