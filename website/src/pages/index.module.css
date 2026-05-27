@@ -101,6 +101,26 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 
+/* Slim social-proof badge under the hero buttons. Translucent white so
+   it reads as a credibility cue rather than a CTA. */
+.heroBadge {
+  margin: 1.5rem auto 0;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.heroBadge a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.heroBadge a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 /* Feature rows: alternating light/dark with text + screenshot side-by-side. */
 .featureRow {
   padding: 3.5rem 0;

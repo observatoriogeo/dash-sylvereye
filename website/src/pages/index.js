@@ -49,6 +49,13 @@ function HomepageHeader() {
             GitHub
           </Link>
         </div>
+        <p className={styles.heroBadge}>
+          Featured as{' '}
+          <Link href="https://medium.com/plotly/dash-club-13-langchain-plotly-upcoming-webinar-dash-online-course-dash-langchain-challenge-6820b39caa08">
+            Plotly Dash Club's Component of the Month
+          </Link>
+          , January 2024
+        </p>
       </div>
     </header>
   );
