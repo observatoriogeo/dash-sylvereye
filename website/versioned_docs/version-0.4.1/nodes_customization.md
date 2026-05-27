@@ -1,6 +1,6 @@
 ---
 id: nodes_customization
-title: API
+title: Reference
 sidebar_label: Node options
 ---
 

@@ -14,7 +14,7 @@ If you use Dash Sylvereye in your research, please cite the original paper:
 
 ```bibtex
 @article{garciarobledo2023sylvereye,
-  author  = {Garcia-Robledo, Alberto and Zangiabady, Mahsa},
+  author  = {Garcia-Robledo, Alberto and Zangiabady, Mahboobeh},
   title   = {Dash {S}ylvereye: A {P}ython Library for Dashboard-Driven Visualization of Large Street Networks},
   journal = {IEEE Access},
   volume  = {11},

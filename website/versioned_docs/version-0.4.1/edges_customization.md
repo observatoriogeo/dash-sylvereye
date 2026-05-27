@@ -1,6 +1,6 @@
 ---
 id: edges_customization
-title: API
+title: Reference
 sidebar_label: Edge options
 ---
 

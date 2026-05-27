@@ -16,7 +16,7 @@ const FeatureList = [
         even on commodity hardware.
       </>
     ),
-    link: {to: '/docs/overview', label: 'How it works →'},
+    link: {to: '/docs/software_stack', label: 'How it works →'},
   },
   {
     title: 'Dashboard visualizations',

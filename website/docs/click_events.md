@@ -1,6 +1,6 @@
 ---
 id: click_events
-title: API
+title: Reference
 sidebar_label: Callback properties
 ---
 

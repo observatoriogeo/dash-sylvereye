@@ -1,6 +1,6 @@
 ---
 id: markers_customization
-title: API
+title: Reference
 sidebar_label: Marker options
 ---
 

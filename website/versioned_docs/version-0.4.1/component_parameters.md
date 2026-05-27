@@ -1,6 +1,6 @@
 ---
 id: component_parameters
-title: API
+title: Reference
 sidebar_label: Keyword arguments
 ---
 

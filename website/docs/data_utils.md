@@ -1,6 +1,6 @@
 ---
 id: data_utils
-title: API
+title: Reference
 sidebar_label: Utility functions
 ---
 

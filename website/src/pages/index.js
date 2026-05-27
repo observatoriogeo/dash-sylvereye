@@ -72,7 +72,7 @@ function FeatureRow({title, body, imagePath, dark}) {
 }
 
 const BIBTEX = `@article{garciarobledo2023sylvereye,
-  author  = {Garcia-Robledo, Alberto and Zangiabady, Mahsa},
+  author  = {Garcia-Robledo, Alberto and Zangiabady, Mahboobeh},
   title   = {Dash {S}ylvereye: A {P}ython Library for Dashboard-Driven Visualization of Large Street Networks},
   journal = {IEEE Access},
   volume  = {11},

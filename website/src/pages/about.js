@@ -59,7 +59,7 @@ export default function About() {
             <ul>
               <li>
                 <a href="https://albertogarob.mx/">Alberto García Robledo</a> (project lead),
-                CentroGeo, CONAHCYT
+                CentroGeo, SECIHTI
               </li>
               <li>Mahboobeh Zangiabady, University of Twente</li>
               <li>
