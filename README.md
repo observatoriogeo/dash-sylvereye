@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <em>Featured as <a href="https://medium.com/plotly/dash-club-13-langchain-plotly-upcoming-webinar-dash-online-course-dash-langchain-challenge-6820b39caa08">Plotly Dash Club's Component of the Month</a>, January 2024.</em>
+  <em>Featured as <a href="https://medium.com/plotly/dash-club-13-langchain-plotly-upcoming-webinar-dash-online-course-dash-langchain-challenge-6820b39caa08#5bf0">Plotly Dash Club's Component of the Month</a>, January 2024.</em>
 </p>
 
 <p align="center">
