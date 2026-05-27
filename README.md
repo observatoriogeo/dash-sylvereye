@@ -9,7 +9,17 @@
 </p>
 
 <p align="center">
+  <em>Featured as <a href="https://medium.com/plotly/dash-club-13-langchain-plotly-upcoming-webinar-dash-online-course-dash-langchain-challenge-6820b39caa08">Plotly Dash Club's Component of the Month</a>, January 2024.</em>
+</p>
+
+<p align="center">
   <b>WebGL-accelerated visualization of large primal road networks for Plotly Dash dashboards.</b>
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=ovs8hJxJQjg" title="Watch the Dash Sylvereye demo on YouTube">
+    <img src="https://img.youtube.com/vi/ovs8hJxJQjg/maxresdefault.jpg" width="640" alt="Watch the Dash Sylvereye demo on YouTube">
+  </a>
 </p>
 
 <p align="center">
