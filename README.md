@@ -245,4 +245,4 @@ Distributed under the [MIT License](LICENSE). No patents have been granted on, o
 ## Contact
 
 - Bug reports and feature requests: [GitHub Issues](https://github.com/observatoriogeo/dash-sylvereye/issues).
-- Academic and collaboration enquiries: [alberto.garob@gmail.com](mailto:alberto.garob@gmail.com).
+- Academic and collaboration enquiries: [algarcia@centrogeo.edu.mx](mailto:algarcia@centrogeo.edu.mx).
