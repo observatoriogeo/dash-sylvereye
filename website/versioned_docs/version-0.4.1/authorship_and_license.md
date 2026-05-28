@@ -69,8 +69,8 @@ Sylvereye is inalienable, imprescriptible, unwaivable, and unseizable.
 ## Copyright and license
 
 Copyright © 2021–present, Centro de Investigación en Ciencias de Información
-Geoespacial, A.C. (CentroGeo). All rights reserved except as expressly
-granted by the license below.
+Geoespacial, A.C. (CentroGeo) and Alberto García-Robledo. All rights reserved
+except as expressly granted by the license below.
 
 Dash Sylvereye is distributed under the **MIT License**
 (see [`LICENSE`](https://github.com/observatoriogeo/dash-sylvereye/blob/main/LICENSE)
