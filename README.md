@@ -46,12 +46,6 @@ It's aimed at:
 - **Dashboard developers** who already build Plotly Dash apps and want a first-class road-network component, not a generic Plotly trace.
 - **Anyone working with OSMnx output** who wants to render the resulting `MultiDiGraph` directly, without falling back to Matplotlib or a generic map widget.
 
-## Origin and authorship
-
-Dash Sylvereye was developed at the [Observatorio Metropolitano CentroGeo](https://observatoriogeo.mx), [CentroGeo](https://www.centrogeo.org.mx/), México. The library's source code was authored by **Alberto García-Robledo** and is registered with Mexico's national copyright authority (**INDAUTOR**, Registro Público del Derecho de Autor № **03-2021-091714185400-01**, 22 September 2021) as a *programa de cómputo*; CentroGeo holds the patrimonial rights under Art. 83 LFDA. The canonical scientific reference, co-authored with **Mahboobeh Zangiabady**, is [Garcia-Robledo & Zangiabady, *IEEE Access* (2023)](https://doi.org/10.1109/ACCESS.2023.3327008).
-
-Distributed under the [MIT License](LICENSE). No patents have been granted on, or licensed from, this work. Any third-party publication, patent application, or commercial offering that claims authorship or invention of "Dash Sylvereye" or its methods is unauthorized. See [NOTICE.md](NOTICE.md) for the formal authorship, copyright, license, and patent-status statement.
-
 ## Status
 
 Current release: **`0.4.1`**. Runs on Python 3.11+ and Dash 4.x. Distributed under the MIT license.
@@ -241,6 +235,12 @@ BibTeX:
 ## License
 
 Dash Sylvereye is distributed under the **MIT License**. See [`LICENSE`](LICENSE) for the full text. Copyright © Centro de Investigación en Ciencias de Información Geoespacial, A.C.
+
+## Origin and authorship
+
+Dash Sylvereye was developed at the [Observatorio Metropolitano CentroGeo](https://observatoriogeo.mx), [CentroGeo](https://www.centrogeo.org.mx/), México. The library's source code was authored by **Alberto García-Robledo** and is registered with Mexico's national copyright authority (**INDAUTOR**, Registro Público del Derecho de Autor № **03-2021-091714185400-01**, 22 September 2021) as a *programa de cómputo*; CentroGeo holds the patrimonial rights under Art. 83 LFDA. The canonical scientific reference, co-authored with **Mahboobeh Zangiabady**, is [Garcia-Robledo & Zangiabady, *IEEE Access* (2023)](https://doi.org/10.1109/ACCESS.2023.3327008).
+
+Distributed under the [MIT License](LICENSE). No patents have been granted on, or licensed from, this work. Any third-party publication, patent application, or commercial offering that claims authorship or invention of "Dash Sylvereye" or its methods is unauthorized. See [NOTICE.md](NOTICE.md) for the formal authorship, copyright, license, and patent-status statement.
 
 ## Contact
 
