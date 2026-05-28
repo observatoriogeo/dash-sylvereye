@@ -127,9 +127,10 @@ const config = {
             position: 'right',
           },
           {
-            to: '/about',
-            label: 'About',
+            type: 'doc',
+            docId: 'about',
             position: 'right',
+            label: 'About',
           },
         ],
       },
@@ -152,7 +153,7 @@ const config = {
               {label: 'Demo', to: '/docs/demo_visualization'},
               {label: 'Paper', href: 'https://doi.org/10.1109/ACCESS.2023.3327008'},
               {label: 'GitHub', href: 'https://github.com/observatoriogeo/dash-sylvereye'},
-              {label: 'About', to: '/about'},
+              {label: 'About', to: '/docs/about'},
             ],
           },
           {

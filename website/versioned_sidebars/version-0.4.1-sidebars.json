@@ -47,7 +47,9 @@
       "type": "category",
       "label": "About",
       "items": [
-        "citation"
+        "about",
+        "citation",
+        "authorship_and_license"
       ]
     }
   ]

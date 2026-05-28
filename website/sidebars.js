@@ -39,7 +39,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'About',
-      items: ['citation'],
+      items: ['about', 'citation', 'authorship_and_license'],
     },
   ],
 };
