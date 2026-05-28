@@ -14,9 +14,9 @@ in the source repository.
 **Dash Sylvereye** is a software library for the interactive visualization of
 large primal street networks in Plotly Dash applications.
 
-- Project home: <https://dashsylvereye.observatoriogeo.mx>
-- Source repository: <https://github.com/observatoriogeo/dash-sylvereye>
-- Python package: <https://pypi.org/project/dash-sylvereye/>
+- Project home: [dashsylvereye.observatoriogeo.mx](https://dashsylvereye.observatoriogeo.mx)
+- Source repository: [github.com/observatoriogeo/dash-sylvereye](https://github.com/observatoriogeo/dash-sylvereye)
+- Python package: [pypi.org/project/dash-sylvereye](https://pypi.org/project/dash-sylvereye/)
 - Canonical scientific publication:
 
   > A. Garcia-Robledo and M. Zangiabady,
