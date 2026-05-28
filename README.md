@@ -222,7 +222,7 @@ BibTeX:
 
 ```bibtex
 @article{garciarobledo2023sylvereye,
-  author  = {Garcia-Robledo, Alberto and Zangiabady, Mahsa},
+  author  = {Garcia-Robledo, Alberto and Zangiabady, Mahboobeh},
   title   = {Dash {S}ylvereye: A {P}ython Library for Dashboard-Driven Visualization of Large Street Networks},
   journal = {IEEE Access},
   volume  = {11},
@@ -234,7 +234,7 @@ BibTeX:
 
 ## License
 
-Dash Sylvereye is distributed under the **MIT License**. See [`LICENSE`](LICENSE) for the full text. Copyright © Centro de Investigación en Ciencias de Información Geoespacial, A.C.
+Dash Sylvereye is distributed under the **MIT License**. See [`LICENSE`](LICENSE) for the full text. Copyright © 2021-present Centro de Investigación en Ciencias de Información Geoespacial, A.C. (CentroGeo) and Alberto García-Robledo.
 
 ## Origin and authorship
 
